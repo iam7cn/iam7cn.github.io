@@ -1,2 +1,2 @@
-# iam7cn.github.io
+# hao.iam7.cn
 Website--ok
