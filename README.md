@@ -1,2 +1,2 @@
-# [[hao.iam7.cn]]
+# <hao.iam7.cn>
 Website--ok
