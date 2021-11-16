@@ -33,7 +33,7 @@ proxy-groups:
   - name: 👉 选择节点
     type: select
     use:
-      - Favorites
+      - node
   - name: 📲 电报消息
     type: select
     proxies:        
@@ -96,19 +96,19 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     use:
-      - Favorites
+      - node
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
   - name: 🔀 负载均衡
     type: load-balance
     use:
-      - Favorites
+      - node
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
   - name: 🔃 失败切换
     type: fallback
     use:
-      - Favorites
+      - node
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
   - name: 🌐 全球直连
@@ -117,9 +117,9 @@ proxy-groups:
       - DIRECT
 
 proxy-providers:  
-  Favorites:
+  node:
     type: http
-    url: "https://hao.iam7.cn/Clash/Profiles/sub.list"
+    url: "https://hao.iam7.cn/node/sub.list"
     path: ./proxy_provider/Favorites.yaml
     interval: 60
     health-check:
