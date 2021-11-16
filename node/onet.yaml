@@ -120,7 +120,7 @@ proxy-providers:
   node:
     type: http
     url: "https://hao.iam7.cn/node/sub.list"
-    path: ./proxy_provider/Favorites.yaml
+    path: ./rss/node.yaml
     interval: 60
     health-check:
       enable: true
