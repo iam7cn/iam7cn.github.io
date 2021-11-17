@@ -119,7 +119,7 @@ proxy-groups:
 proxy-providers:  
   Favorites:
     type: http
-    url: "https://hao.iam7.cn/Clash/Profiles/sub.list"
+    url: "https://hao.iam7.cn/node/sub.list"
     path: ./rss/Favorites.yaml
     interval: 60
     health-check:
