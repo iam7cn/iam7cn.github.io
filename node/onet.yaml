@@ -120,7 +120,7 @@ proxy-providers:
   Favorites:
     type: http
     url: "https://hao.iam7.cn/Clash/Profiles/sub.list"
-    path: ./proxy_provider/Favorites.yaml
+    path: ./rss/Favorites.yaml
     interval: 60
     health-check:
       enable: true
