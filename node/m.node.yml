@@ -20,8 +20,8 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 #hosts: 
-#  'hdatmos.club': 172.67.162.43  
-#  'free.iam7.top': 172.67.162.43
+#  'xxx.club': 172.67.162.43  
+
 
 proxies:
   
@@ -37,20 +37,20 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: select
     proxies:
-      - ♠️ 本地节点
-      - ♣️ 订阅节点      
+      - ♠️ 订阅节点
+      - ♣️ 抓取节点      
   - name: 👉 选择节点
     type: select
     use:
       - sub_local
       - sub_node
-  - name: ♠️ 本地节点
+  - name: ♠️ 订阅节点
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
     use:
       - sub_local    
-  - name: ♣️ 订阅节点
+  - name: ♣️ 抓取节点
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
