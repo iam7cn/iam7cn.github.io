@@ -42,20 +42,20 @@ proxy-groups:
   - name: 👉 选择节点
     type: select
     use:
-      - sub_local
       - sub_node
+      - sub_grab
   - name: ♠️ 订阅节点
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
     use:
-      - sub_local    
+      - sub_node    
   - name: ♣️ 抓取节点
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
     use:
-      - sub_node       
+      - sub_grab       
   - name: 📲 电报消息
     type: select
     proxies:        
@@ -118,15 +118,15 @@ proxy-groups:
   - name: 🔀 负载均衡
     type: load-balance
     use:
-      - sub_local
-      - sub_node 
+      - sub_node
+      - sub_grab 
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
   - name: 🔃 失败切换
     type: fallback
     use:
-      - sub_local
       - sub_node
+      - sub_grab
     url: 'http://www.gstatic.com/generate_204'
     interval: 120
   - name: 🌐 全球直连
@@ -135,19 +135,19 @@ proxy-groups:
       - DIRECT
       
 proxy-providers: 
-  sub_local:
+  sub_node:
     type: http
     url: "https://hao.iam7.cn/node/sub.list"
-    path: ./rss/sub_local.yaml
+    path: ./rss/sub_node.yaml
     interval: 60
     health-check:
       enable: true
       interval: 120
       url: http://www.gstatic.com/generate_204
-  sub_node:
+  sub_grab:
     type: http
     url: "https://free.iam7.top/clash/proxies?c=TW"
-    path: ./rss/sub_node.yaml
+    path: ./rss/sub_grab.yaml
     interval: 60
     health-check:
       enable: true
