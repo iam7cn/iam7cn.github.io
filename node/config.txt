@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG http://192.168.70.16:8000/confizg interval=864000 strict=false
+#!MANAGED-CONFIG https://hao.iam7.can/node/config.txt interval=864000 strict=false
 [General] 
 skip-proxy=127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local 
 loglevel=notify 
@@ -711,7 +711,7 @@ DOMAIN-SUFFIX,emarbox.com,🛑 广告拦截
 DOMAIN-SUFFIX,epsilon.com,🛑 广告拦截
 DOMAIN-SUFFIX,exosrv.com,🛑 广告拦截
 DOMAIN-SUFFIX,fancyapi.com,🛑 广告拦截
-DOMAIN-SUFFIX,feitian001.com,?? 广告拦截
+DOMAIN-SUFFIX,feitian001.com,🛑 广告拦截
 DOMAIN-SUFFIX,feixin2.com,🛑 广告拦截
 DOMAIN-SUFFIX,flashtalking.com,🛑 广告拦截
 DOMAIN-SUFFIX,fraudmetrix.cn,🛑 广告拦截
