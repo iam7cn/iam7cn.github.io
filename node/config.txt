@@ -91,7 +91,7 @@ abc.com = 1.2.3.4
 🎮 游戏平台=select,🌐 全球直连,🎯 全局选择
 🌐 全球直连=select,DIRECT
 ##🛑 广告拦截=select,REJECT
-🛑 广告拦截=select,policy-path=https://free.iam7.top/surge/proxies?c=TW, url=http://www.qualcomm.cn/generate_204, update-interval=3600, interval = 600s, tolerance = 100ms, timeout = 5s, evaluate-before-use = true
+🛑 广告拦截=select,policy-path=https://free.iam7.top/surge/proxies?c=TW
 
 [Rule] 
 DOMAIN-SUFFIX,t.me,📲 电报消息
