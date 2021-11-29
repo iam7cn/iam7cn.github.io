@@ -69,8 +69,8 @@ abc.com = 1.2.3.4
 🇫🇷 B-法国=https, fr.gotochinatown.net, 10910, 328206393@qq.com, 4c3ba552-174e-11ec-a8bf-f23c91cfbbc9, skip-cert-verify=true
 
 [Proxy Group] 
-🎯 全局选择=select,♻️ 自动选择,👉 选择节点,🇭🇰 香港节点,🇹🇼 台湾节点,🇯🇵 日本节点,🇺🇸 美国节点,🇳🇿 澳亚节点,🇬🇧 欧洲节点,🌐 全球直连,🛑 广告拦截
-👉 选择节点=select,🇭🇰 A-HKBGP,🇭🇰 B-HKBGP,🇭🇰 A-香港HKBN,🇭🇰 A-香港10G,🇭🇰 A-香港HKT,🇭🇰 B-香港HKBN,🇭🇰 B-香港10G,🇭🇰 B-香港HKT,🇹🇼 A-台湾高QoS,🇹🇼 A-台湾,🇹🇼 B-台湾,🇹🇼 B-台湾高QoS,🇯🇵 A-东京BGP,🇬🇧 A-London,🇷🇺 A-圣彼得堡,🇹🇷 A-伊斯坦布尔,🇮🇳 A-孟买,🇯🇵 A-日本大阪,🇳🇿 A-奥克兰,🇫🇷 A-巴黎,🇦🇺 A-悉尼,🇩🇪 A-慕尼黑,🇺🇸 A-圣荷西,🇺🇸 A-费利蒙,🇺🇸 A-西雅图,🇮🇳 A-印度,🇳🇿 A-新西兰,🇦🇺 A-澳大利亚,🇬🇧 A-英国,🇷🇺 A-俄罗斯,🇹🇷 A-土耳其,🇩🇪 A-德国,🇫🇷 A-法国,🇯🇵 B-东京BGP,🇯🇵 B-日本大阪,🇺🇸 B-圣荷西,🇺🇸 B-费利蒙,🇺🇸 B-西雅图,🇹🇷 B-伊斯坦布尔,🇮🇳 B-孟买,🇳🇿 B-奥克兰,🇦🇺 B-悉尼,🇬🇧 B-London,🇷🇺 B-圣彼得堡,🇩🇪 B-慕尼黑,🇫🇷 B-巴黎,🇮🇳 B-印度,🇳🇿 B-新西兰,🇦🇺 B-澳大利亚,🇬🇧 B-英国,🇷🇺 B-俄罗斯,🇹🇷 B-土耳其,🇩🇪 B-德国,🇫🇷 B-法国
+🎯 全局选择=select,♻️ 自动选择,👉 选择节点,🏄🏻‍♂️ 抓取节点,🇭🇰 香港节点,🇹🇼 台湾节点,🇯🇵 日本节点,🇺🇸 美国节点,🇳🇿 澳亚节点,🇬🇧 欧洲节点,🌐 全球直连,🛑 广告拦截
+👉 选择节点=select,🇭🇰 A-HKBGP,🇭🇰 B-HKBGP,🇭🇰 A-香港HKBN,🇭🇰 A-香港10G,🇭🇰 A-香港HKT,🇭🇰 B-香港HKBN,🇭🇰 B-香港10G,🇭🇰 B-香港HKT,🇹🇼 A-台湾高QoS,🇹🇼 A-台湾,🇹🇼 B-台湾,🇹🇼 B-台湾高QoS,🇯🇵 A-东京BGP,🇬🇧 A-London,🇷🇺 A-圣彼得堡,🇹🇷 A-伊斯坦布尔,🇮🇳 A-孟买,🇯🇵 A-日本大阪,🇳🇿 A-奥克兰,🇫🇷 A-巴黎,🇦🇺 A-悉尼,🇩🇪 A-慕尼黑,🇺🇸 A-圣荷西,🇺🇸 A-费利蒙,🇺🇸 A-西雅图,🇮🇳 A-印度,🇳🇿 A-新西兰,🇦🇺 A-澳大利亚,🇬🇧 A-英国,🇷🇺 A-俄罗斯,🇹🇷 A-土耳其,🇩🇪 A-德国,🇫🇷 A-法国,🇯🇵 B-东京BGP,🇯🇵 B-日本大阪,🇺🇸 B-圣荷西,🇺🇸 B-费利蒙,🇺🇸 B-西雅图,🇹🇷 B-伊斯坦布尔,🇮🇳 B-孟买,🇳🇿 B-奥克兰,🇦🇺 B-悉尼,🇬🇧 B-London,🇷🇺 B-圣彼得堡,🇩🇪 B-慕尼黑,🇫🇷 B-巴黎,🇮🇳 B-印度,🇳🇿 B-新西兰,🇦🇺 B-澳大利亚,🇬🇧 B-英国,🇷🇺 B-俄罗斯,🇹🇷 B-土耳其,🇩🇪 B-德国,🇫🇷 B-法国,🏄🏻‍♂️ 抓取节点
 ♻️ 自动选择=url-test,🇭🇰 A-HKBGP,🇭🇰 B-HKBGP,🇭🇰 A-香港HKBN,🇭🇰 A-香港10G,🇭🇰 A-香港HKT,🇭🇰 B-香港HKBN,🇭🇰 B-香港10G,🇭🇰 B-香港HKT,🇹🇼 A-台湾高QoS,🇹🇼 A-台湾,🇹🇼 B-台湾,🇹🇼 B-台湾高QoS,🇯🇵 A-东京BGP,🇬🇧 A-London,🇷🇺 A-圣彼得堡,🇹🇷 A-伊斯坦布尔,🇮🇳 A-孟买,🇯🇵 A-日本大阪,🇳🇿 A-奥克兰,🇫🇷 A-巴黎,🇦🇺 A-悉尼,🇩🇪 A-慕尼黑,🇺🇸 A-圣荷西,🇺🇸 A-费利蒙,🇺🇸 A-西雅图,🇮🇳 A-印度,🇳🇿 A-新西兰,🇦🇺 A-澳大利亚,🇬🇧 A-英国,🇷🇺 A-俄罗斯,🇹🇷 A-土耳其,🇩🇪 A-德国,🇫🇷 A-法国,🇯🇵 B-东京BGP,🇯🇵 B-日本大阪,🇺🇸 B-圣荷西,🇺🇸 B-费利蒙,🇺🇸 B-西雅图,🇹🇷 B-伊斯坦布尔,🇮🇳 B-孟买,🇳🇿 B-奥克兰,🇦🇺 B-悉尼,🇬🇧 B-London,🇷🇺 B-圣彼得堡,🇩🇪 B-慕尼黑,🇫🇷 B-巴黎,🇮🇳 B-印度,🇳🇿 B-新西兰,🇦🇺 B-澳大利亚,🇬🇧 B-英国,🇷🇺 B-俄罗斯,🇹🇷 B-土耳其,🇩🇪 B-德国,🇫🇷 B-法国, url=http://www.gstatic.com/generate_204, interval=3600, tolerance=100, timeout=5, hidden=true 
 🇭🇰 香港节点=url-test,🇭🇰 A-HKBGP,🇭🇰 B-HKBGP,🇭🇰 A-香港HKBN,🇭🇰 A-香港10G,🇭🇰 A-香港HKT,🇭🇰 B-香港HKBN,🇭🇰 B-香港10G,🇭🇰 B-香港HKT, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5 
 🇹🇼 台湾节点=url-test,🇹🇼 A-台湾,🇹🇼 A-台湾高QoS,🇹🇼 B-台湾,🇹🇼 B-台湾高QoS, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5 
@@ -78,6 +78,7 @@ abc.com = 1.2.3.4
 🇺🇸 美国节点=url-test,🇺🇸 A-圣荷西,🇺🇸 A-费利蒙,🇺🇸 A-西雅图,🇺🇸 B-圣荷西,🇺🇸 B-费利蒙,🇺🇸 B-西雅图, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5 
 🇳🇿 澳亚节点=url-test,🇮🇳 A-印度,🇮🇳 A-孟买,🇮🇳 B-印度,🇮🇳 B-孟买,🇳🇿 A-奥克兰,🇳🇿 A-新西兰,🇦🇺 A-澳大利亚,🇦🇺 A-悉尼,🇳🇿 B-新西兰,🇦🇺 B-澳大利亚,🇦🇺 B-悉尼, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5 
 🇬🇧 欧洲节点=url-test,🇬🇧 A-London,🇷🇺 A-圣彼得堡,🇹🇷 A-伊斯坦布尔,🇫🇷 A-巴黎,🇩🇪 A-慕尼黑,🇬🇧 A-英国,🇷🇺 A-俄罗斯,🇹🇷 A-土耳其,🇩🇪 A-德国,🇫🇷 A-法国,🇹🇷 B-伊斯坦布尔,🇳🇿 B-奥克兰,🇬🇧 B-London,🇷🇺 B-圣彼得堡,🇩🇪 B-慕尼黑,🇫🇷 B-巴黎,🇬🇧 B-英国,🇷🇺 B-俄罗斯,🇹🇷 B-土耳其,🇩🇪 B-德国,🇫🇷 B-法国, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+🏄🏻‍♂️ 抓取节点=url-test,policy-path=https://free.iam7.top/surge/proxies?c=TW, url=http://www.gstatic.com/generate_204, update-interval=3600, interval=600, tolerance=100, timeout=5
 📲 电报消息=select,🎯 全局选择,🌐 全球直连
 📹 油管视频=select,🎯 全局选择,🌐 全球直连
 🎥 奈飞视频=select,🎯 全局选择,🌐 全球直连
@@ -90,8 +91,8 @@ abc.com = 1.2.3.4
 Ⓜ️ 微软服务=select,🌐 全球直连,🎯 全局选择
 🎮 游戏平台=select,🌐 全球直连,🎯 全局选择
 🌐 全球直连=select,DIRECT
-##🛑 广告拦截=select,REJECT
-🛑 广告拦截=url-test,policy-path=https://free.iam7.top/surge/proxies?c=TW, url=http://www.gstatic.com/generate_204, update-interval=3600, interval=600, tolerance=100, timeout=5, evaluate-before-use=true
+🛑 广告拦截=select,REJECT
+
 
 [Rule] 
 DOMAIN-SUFFIX,t.me,📲 电报消息
