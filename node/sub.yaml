@@ -53,7 +53,6 @@
   - {name: 🇹🇷 B-土耳其, server: tr.gotochinatown.net, port: 10885, type: http, username: 328206393@qq.com, password: 4c3ba552-174e-11ec-a8bf-f23c91cfbbc9, tls: true}
   - {name: 🇩🇪 B-德国, server: de.gotochinatown.net, port: 10887, type: http, username: 328206393@qq.com, password: 4c3ba552-174e-11ec-a8bf-f23c91cfbbc9, tls: true}
   - {name: 🇫🇷 B-法国, server: fr.gotochinatown.net, port: 10910, type: http, username: 328206393@qq.com, password: 4c3ba552-174e-11ec-a8bf-f23c91cfbbc9, tls: true}
-  
   - {name: CA_492, server: 198.57.27.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: CA_443, server: 198.57.27.191, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇸🇬 Pool_SG_963, server: 217.197.161.166, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
