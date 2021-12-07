@@ -1,4 +1,4 @@
- proxies:
+﻿ proxies:
   - {name: 🇭🇰 A-香港HKBN, server: cm.stunnel.vip, port: 4700, type: http, username: yaojiayu246@gmail.com, password: 33a6e7b02dcc6f79ffae792369085774, tls: true}
   - {name: 🇭🇰 A-香港10G, server: cm-hk.stunnel.vip, port: 4800, type: http, username: yaojiayu246@gmail.com, password: 33a6e7b02dcc6f79ffae792369085774, tls: true}
   - {name: 🇭🇰 A-香港HKT, server: pccw.stunnel.vip, port: 4700, type: http, username: yaojiayu246@gmail.com, password: 33a6e7b02dcc6f79ffae792369085774, tls: true}
