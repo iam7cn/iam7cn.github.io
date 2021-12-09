@@ -19,8 +19,14 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 
-#hosts: 
-#  'xxx.club': 172.67.162.43  
+hosts: 
+  'z4a.net': 172.67.213.63
+  'hdatmos.club': 172.67.213.63
+  'free.kingfu.cf': 172.67.213.63
+  'free.iam7.top': 172.67.213.63
+  'pt.soulvoice.club': 172.67.213.63
+  'kp.m-team.cc': 172.67.213.63
+  'www.hddolby.com': 172.67.213.63  
 
 
 proxies:
