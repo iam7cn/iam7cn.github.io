@@ -53,22 +53,22 @@
   - {name: 🇹🇷 B-土耳其, server: tr.gotochinatown.net, port: 10885, type: http, username: 328206393@qq.com, password: 4c3ba552-174e-11ec-a8bf-f23c91cfbbc9, tls: true}
   - {name: 🇩🇪 B-德国, server: de.gotochinatown.net, port: 10887, type: http, username: 328206393@qq.com, password: 4c3ba552-174e-11ec-a8bf-f23c91cfbbc9, tls: true}
   - {name: 🇫🇷 B-法国, server: fr.gotochinatown.net, port: 10910, type: http, username: 328206393@qq.com, password: 4c3ba552-174e-11ec-a8bf-f23c91cfbbc9, tls: true}  
-  - {name: 🇨🇳 tr.gotochinatown.net:10885/#伊斯坦布爾, server: tr.gotochinatown.net, port: 10885, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇬🇧 uk.gotochinatown.net:10882/#倫敦, server: uk.gotochinatown.net, port: 10882, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇨🇳 tw.gotochinatown.net:10881/#台北, server: tw.gotochinatown.net, port: 10881, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇨🇳 jpl.gotochinatown.net:10888/#大阪, server: jpl.gotochinatown.net, port: 10888, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇨🇳 nz.gotochinatown.net:10920/#奧尅蘭, server: nz.gotochinatown.net, port: 10920, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇨🇳 in.gotochinatown.net:10884/#孟買, server: in.gotochinatown.net, port: 10884, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇫🇷 fr.gotochinatown.net:10910/#巴黎, server: fr.gotochinatown.net, port: 10910, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇦🇺 au.gotochinatown.net:10930/#悉尼, server: au.gotochinatown.net, port: 10930, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇨🇳 de.gotochinatown.net:10887/#慕尼黑, server: de.gotochinatown.net, port: 10887, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: jp.stunnel.vip:6300/#東京, server: jp.stunnel.vip, port: 6300, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇺🇲 us1.gotochinatown.net:10881/#聖何塞, server: us1.gotochinatown.net, port: 10881, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇨🇳 ru.gotochinatown.net:10883/#聖彼得堡, server: ru.gotochinatown.net, port: 10883, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇺🇲 us3.gotochinatown.net:10887/#西雅圖, server: us3.gotochinatown.net, port: 10887, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇺🇲 us2.gotochinatown.net:10882/#费利蒙, server: us2.gotochinatown.net, port: 10882, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇭🇰 cm.stunnel.vip:4700/#香港HKBN, server: cm.stunnel.vip, port: 4700, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
-  - {name: 🇭🇰 pccw.stunnel.vip:4700/#香港HKT, server: pccw.stunnel.vip, port: 4700, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇨🇳 伊斯坦布爾, server: tr.gotochinatown.net, port: 10885, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇬🇧 倫敦, server: uk.gotochinatown.net, port: 10882, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇨🇳 台北, server: tw.gotochinatown.net, port: 10881, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇨🇳 大阪, server: jpl.gotochinatown.net, port: 10888, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇨🇳 奧尅蘭, server: nz.gotochinatown.net, port: 10920, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇨🇳 孟買, server: in.gotochinatown.net, port: 10884, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇫🇷 巴黎, server: fr.gotochinatown.net, port: 10910, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇦🇺 悉尼, server: au.gotochinatown.net, port: 10930, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇨🇳 慕尼黑, server: de.gotochinatown.net, port: 10887, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇯🇵 東京, server: jp.stunnel.vip, port: 6300, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇺🇲 聖何塞, server: us1.gotochinatown.net, port: 10881, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇨🇳 聖彼得堡, server: ru.gotochinatown.net, port: 10883, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇺🇲 西雅圖, server: us3.gotochinatown.net, port: 10887, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇺🇲 费利蒙, server: us2.gotochinatown.net, port: 10882, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇭🇰 香港HKBN, server: cm.stunnel.vip, port: 4700, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
+  - {name: 🇭🇰 香港HKT, server: pccw.stunnel.vip, port: 4700, type: http, username: fengyarnom@163.com, password: b8ff993c42c4fca70ead056982922e6d, tls: true}
  
   - {name: 🇸🇬 SG_963, server: 217.197.161.166, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇸🇬 SG_1020, server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
