@@ -152,7 +152,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   sub_grab:
     type: http
-    url: "https://free.iam7.top/clash/proxies?c=TW"
+    url: "https://free.iam7.top/clash/proxies?c=HK,TW,KR,JP,IN,SG"
     path: ./rss/sub_grab.yaml
     interval: 60
     health-check:
