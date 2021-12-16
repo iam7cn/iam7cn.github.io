@@ -80,6 +80,14 @@
   - {name: 🇹🇷 C-土耳其, server: tr.gotochinatown.net, port: 10885, type: http, username: fengyarnom@163.com, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, tls: true}
   - {name: 🇩🇪 C-德国, server: de.gotochinatown.net, port: 10887, type: http, username: fengyarnom@163.com, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, tls: true}
   - {name: 🇫🇷 C-法国, server: fr.gotochinatown.net, port: 10910, type: http, username: fengyarnom@163.com, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, tls: true} 
+  
+  - {name: Relay_ |44.30Mb, server: 183.232.56.106, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_ |16.12Mb, server: 183.232.56.106, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_ |22.47Mb, server: 183.232.56.106, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_ |25.79Mb, server: 58.32.9.209, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_ |17.29Mb, server: 183.232.56.106, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_ |21.01Mb, server: 58.32.9.209, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_ | 7.77Mb, server: 58.32.9.209, port: 11501, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
   - {name: 🇮🇳 IN_747, server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇮🇳 IN_739, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇮🇳 IN_215, server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}  
