@@ -80,13 +80,8 @@
   - {name: 🇹🇷 C-土耳其, server: tr.gotochinatown.net, port: 10885, type: http, username: fengyarnom@163.com, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, tls: true}
   - {name: 🇩🇪 C-德国, server: de.gotochinatown.net, port: 10887, type: http, username: fengyarnom@163.com, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, tls: true}
   - {name: 🇫🇷 C-法国, server: fr.gotochinatown.net, port: 10910, type: http, username: fengyarnom@163.com, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, tls: true} 
-  - {name: 🇺🇲 US_1410 |19.10Mb, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: IN_482 |18.85Mb, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 60.94Mb, server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 44.20Mb, server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 US_926 | 9.46Mb, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3, udp: true}
-  - {name: 36.11Mb, server: 172.105.57.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: IN_494 |27.45Mb, server: 172.105.57.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇮🇳 IN_493, server: 172.105.57.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇮🇳 IN_494, server: 172.105.57.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 🇮🇳 IN_747, server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇮🇳 IN_739, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇮🇳 IN_215, server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}  
