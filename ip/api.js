@@ -72,18 +72,12 @@ let IP = {
             $$.getElementById('ip-ipipnet').innerHTML = `${data[0]} ${data[1]}`;
         });
     },
-    getSohuIP: () => {
-        var script = document.createElement('script');
-        script.src = 'https://pv.sohu.com/cityjson?ie=utf-8'
-        script.onload = () => {
-            if (typeof returnCitySN === 'undefined') {
-                console.log('Failed to load resource: pv.sohu.com')
-            } else {
-                $$.getElementById('ip-sohu').innerHTML = returnCitySN.cip;
-                IP.parseIPMoeip(returnCitySN.cip, 'ip-sohu-geo');
-            }
-        }
-        document.head.appendChild(script);
+    getSohuIP: () => {  
+        IP.get(`https://forge.speedtest.cn/api/location/info?z=${random}`, 'json')
+            .then(resp => {
+                $$.getElementById('ip-sohu').innerHTML = resp.data.ip;
+                $$.getElementById('ip-sohu-geo').innerHTML = `${resp.data.country} ${resp.data.city} ${resp.data.distinct} ${resp.data.isp}`;
+            })
     },
     getIpsbIP: () => {
         IP.get(`https://api.ip.sb/geoip?z=${random}`, 'json')
@@ -106,13 +100,13 @@ let IP = {
             })
     },
     getIpapiIP: () => {
-        IP.get(`https://ipapi.co/json?z=${random}`, 'json')
+        IP.get(`http://ip-api.com/json/?z=${random}`, 'json')
             .then(resp => {
-                $$.getElementById('ip-ipapi').innerHTML = resp.data.ip;
-                IP.parseIPIpapi(resp.data.ip, 'ip-ipapi-geo');
+                $$.getElementById('ip-ipapi').innerHTML = resp.data.query;
+                IP.parseIPIpapi(resp.data.query, 'ip-ipapi-geo');
             })
             .catch(e => {
-                console.log('Failed to load resource: ipapi.co')
+                console.log('Failed to load resource: ip-api.com')
             })
     }
 };
@@ -142,6 +136,11 @@ let HTTP = {
         HTTP.checker('www.baidu.com', 'http-baidu');
         HTTP.checker('s1.music.126.net/style', 'http-163');
         HTTP.checker('github.com', 'http-github');
+		HTTP.checker('www.google.com', 'http-google');
         HTTP.checker('www.youtube.com', 'http-youtube');
+		HTTP.checker('yt3.ggpht.com', 'http-youtube1');
+		HTTP.checker('github.githubassets.com', 'http-github1');
+		HTTP.checker('apps.bdimg.com', 'http-baidu1');
+		
     }
 };

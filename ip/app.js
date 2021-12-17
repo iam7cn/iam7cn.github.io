@@ -67,15 +67,15 @@ let IP = {
                 $$.getElementById('ip-ipipnet').innerHTML = `<p>${data[0]}</p><p class="sk-text-small">${data[1]}</p>`;
             });
     },  
-/* 	getIpmyIP: () => {
+ 	getIpmyIP: () => {
         IP.get(`https://api.myip.com`, 'json')
             .then(resp => {
                 $$.getElementById('ip-ipmy').innerHTML = resp.data.ip;
                 $$.getElementById('ip-ipmy-ipip').innerHTML = resp.data.country+` `+resp.data.cc;
             })
     }, 
-*/
 
+/* 
 	getIpmyIP: () => {
         IP.get(`http://ip.zxinc.org/info.php?type=json`, 'json')
             .then(resp => {
@@ -83,7 +83,7 @@ let IP = {
                 $$.getElementById('ip-ipmy-ipip').innerHTML = resp.data.country+` `+resp.data.local;
             })
     },	
-		
+*/	
 /*
     getTaobaoIP: (data) => {
         $$.getElementById('ip-taobao').innerHTML = data.ip;
