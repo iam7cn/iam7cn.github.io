@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//www.taobao.com">
+    <link rel="dns-prefetch" href="//ipv4.ip.sb">
+    <link rel="dns-prefetch" href="//myip.ipip.net">
+    <link rel="dns-prefetch" href="https://ipapi.co">
+    <link rel="dns-prefetch" href="//api.skk.moe">
+    <link rel="dns-prefetch" href="//dt.skk.moe">
+    <link rel="preconnect" href="https://www.taobao.com">
+    <link rel="preconnect" href="https://ipv4.ip.sb">
+    <link rel="preconnect" href="https://myip.ipip.net">
+    <link rel="preconnect" href="https://ipapi.co">
+    <link rel="preconnect" href="https://api.skk.moe">
+    <link rel="preconnect" href="https://dt.skk.moe">
+    <link rel="shortcut icon" type="image/ico" href="https://cdn.jsdelivr.net/npm/skx@0.0.1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+    <title>IP 地址查询</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suka.css@0.2.1">
+    <style>
+        .box {
+            padding: .75rem 1.25rem !important;
+        }
+
+        .ip-body {
+            min-height: 48px;
+        }
+
+        .http-body {
+            min-height: 24px;
+        }
+
+        #ip-ipify-ipapi {
+            line-height: 1;
+        }
+
+        .github-corner:hover .octo-arm {
+            animation: octocat-wave 560ms ease-in-out
+        }
+
+        @keyframes octocat-wave {
+
+            0%,
+            100% {
+                transform: rotate(0)
+            }
+
+            20%,
+            60% {
+                transform: rotate(-25deg)
+            }
+
+            40%,
+            80% {
+                transform: rotate(10deg)
+            }
+        }
+
+        @media (max-width:500px) {
+            .github-corner:hover .octo-arm {
+                animation: none
+            }
+
+            .github-corner .octo-arm {
+                animation: octocat-wave 560ms ease-in-out
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="section">
+            <h1 class="sk-text-center title">IP 地址查询</h1>
+
+            <div class="columns">
+<!--                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">内网 IP 地址</h2>
+                        <p class="sk-text-center sk-text-small">数据来自 WebRTC</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <p id="ip-webrtc"></p>
+                                <p id="ip-webrtc-cz88" class="sk-text-small"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+-->
+                
+                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">从国内查询</h2>
+                        <p class="sk-text-center sk-text-small">数据来自 IPIP.net</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <div id="ip-ipipnet">加载中...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+							
+				<div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">从国外查询</h2>
+                        <p class="sk-text-center sk-text-small">数据来自 纯真</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">							    
+							    <p id="ip-ipmy"></p>
+								<p id="ip-ipmy-net" class="sk-text-small">加载中...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+<!--
+                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">从国内查询</h2>
+                        <p class="sk-text-center sk-text-small">数据来自淘宝 + IPIP</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <p id="ip-taobao"></p>
+                                <p id="ip-taobao-ipip" class="sk-text-small"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+-->
+            
+
+ <!--                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">从国外查询</h2>
+                        <p class="sk-text-center sk-text-small">数据来自 IP.SB</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <p id="ip-ipsb"></p>
+                                <p id="ip-ipsb-geo" class="sk-text-small"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+
+                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">从国外查询</h2>
+                        <p class="sk-text-center sk-text-small">数据来自 IPAPI</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <p id="ip-ipapi"></p>
+                                <p id="ip-ipapi-geo" class="sk-text-small">加载中...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">从国外查询</h2>
+                        <p class="sk-text-center sk-text-small">数据来自 ipify + IPIP</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <p id="ip-ipify"></p>
+                                <p id="ip-ipify-ipip" class="sk-text-small">加载中...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="sk-text-center title">网站访问检查</h1>
+            <div class="columns is-mobile is-multiline">
+                <div class="column is-half-mobile">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">百度搜索</h2>
+                        <p class="sk-text-center sk-text-small">国内网站</p>
+                        <hr class="sk-my-2">
+                        <div class="http-body">
+                            <div class="sk-text-center">
+                                <p id="http-baidu">加载中...</p>
+								<p><a href="https://www.baidu.com/" target="_blank">点击访问</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half-mobile">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">网易云音乐</h2>
+                        <p class="sk-text-center sk-text-small">国内网站</p>
+                        <hr class="sk-my-2">
+                        <div class="http-body">
+                            <div class="sk-text-center">
+                                <p id="http-163">加载中...</p>
+								<p><a href="https://music.163.com/" target="_blank">点击访问</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half-mobile">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">GitHub</h2>
+                        <p class="sk-text-center sk-text-small">国外网站</p>
+                        <hr class="sk-my-2">
+                        <div class="http-body">
+                            <div class="sk-text-center">
+                                <p id="http-github">加载中...</p>
+								<p><a href="https://www.github.com/" target="_blank">点击访问</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="column is-half-mobile">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">Google</h2>
+                        <p class="sk-text-center sk-text-small">海外网站</p>
+                        <hr class="sk-my-2">
+                        <div class="http-body">
+                            <div class="sk-text-center">
+                                <p id="http-google">加载中...</p>
+								<p><a href="https://www.google.com/" target="_blank">点击访问</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half-mobile">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">YouTube</h2>
+                        <p class="sk-text-center sk-text-small">海外网站</p>
+                        <hr class="sk-my-2">
+                        <div class="http-body">
+                            <div class="sk-text-center">
+                                <p id="http-youtube">加载中...</p>
+								<p><a href="https://www.youtube.com/" target="_blank">点击访问</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="sk-text-center title">网速测试</h1>
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">Speedtest.Net</h2>
+                        <p class="sk-text-center sk-text-small">Powered by Ookla</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <p><a href="https://www.speedtest.net/" target="_blank">前往测试</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">Fast.Com</h2>
+                        <p class="sk-text-center sk-text-small">Powered by Netflix</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <p><a href="https://fast.com/" target="_blank">前往测试</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">Googlefiber</h2>
+                        <p class="sk-text-center sk-text-small">Powered by Google</p>
+                        <hr class="sk-my-2">
+                        <div class="ip-body">
+                            <div class="sk-text-center">
+                                <p><a href="http://speedtest.googlefiber.net/" target="_blank">前往测试</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="sk-text-center title">免费资源</h1>
+            <div class="columns is-mobile is-multiline">
+                <div class="column is-half-mobile">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">test</h2>
+                        <hr class="sk-my-2">
+                        <div class="http-body">
+                            <div class="sk-text-center">
+                                <p><a href="/" target="_blank">点击访问</a></p>
+								<div id="ip-ipsb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half-mobile">
+                    <div class="box">
+                        <h2 class="sk-text-center sk-text-bold subtitle sk-mb-1">test</h2>
+                        <hr class="sk-my-2">
+                        <div class="http-body">
+                            <div class="sk-text-center">
+                                <p><a href="/" target="_blank">点击访问</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+    <script>
+        window.ga_tid = "UA-122669675-5";
+        window.ga_url = "https://ga.giuem.com";
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@giuem/ga-proxy" async></script>
+</body>
+
+</html>
