@@ -99,7 +99,7 @@ let IP = {
                 console.log('Failed to load resource: api.ipify.org')
             })
     },
-    getIpapiIP: () => {
+    /* getIpapiIP: () => {
         IP.get(`http://ip-api.com/json/?z=${random}`, 'json')
             .then(resp => {
                 $$.getElementById('ip-ipapi').innerHTML = resp.data.query;
@@ -108,7 +108,19 @@ let IP = {
             .catch(e => {
                 console.log('Failed to load resource: ip-api.com')
             })
-    }
+    } */
+	
+	getIpapiIP: () => {  
+        IP.get(`http://ip-api.com/json/?z=${random}`, 'json')
+            .then(resp => {
+                $$.getElementById('ip-ipapi').innerHTML = resp.data.query;
+                $$.getElementById('ip-ipapi-geo').innerHTML = `${resp.data.country} ${resp.data.city} ${resp.data.regionName} ${resp.data.isp}`;
+            })
+    },
+	
+	
+	
+	
 };
 
 let HTTP = {
