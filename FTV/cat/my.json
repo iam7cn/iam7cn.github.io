@@ -13,7 +13,7 @@
 		{"key":"Jumi","name":"Jumi(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Jumi.json"},
 		{"key":"独播库","name":"独播库(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Duboku.json"},
 		{"key":"Sky4k","name":"Sky4k(P)[en]","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Sky4k.json"},
-		{"key": "红牛资源","name": "红牛资源(xml)","type": 0,"api": "https://www.hongniuzy1.com/inc/hnm3u8.php","playUrl": "https://www.tutukiki.com/m3u8/?url=","categories": ["伦理片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","欧美剧","国产剧","港澳剧","韩剧","综艺","动漫","动漫电影","台湾剧","泰剧","纪录片"]},
+		{"key": "芒果AV","name": "芒果AV(xml)","type": 0,"api": "https://www.mgav1.cc/api.php/provide/vod/at/xml/"},
 		{"key":"csp_appys_xiaogui_饭团影院","name":"饭团影院(M)","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_饭团影院"},
 		{"key":"csp_appys_xiaogui_星空影视","name":"星空影视(M)","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_星空影视"},
 		{"key":"csp_appys_xiaogui_天空影视","name":"天空影视(M)","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_天空影视"},
