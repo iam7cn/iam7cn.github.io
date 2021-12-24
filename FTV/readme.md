@@ -23,7 +23,7 @@
 
   [https://github.com/cuiocean/ZY-Player](https://github.com/cuiocean/ZY-Player)
   
-- ZY-Player-PC | 配置文件
+- ZY-Player-PC｜配置文件
 
   [https://hao.iam7.cn/FTV/ZY-Player/ZY-Player-PC.json](https://hao.iam7.cn/FTV/ZY-Player/ZY-Player-PC.json)
 
