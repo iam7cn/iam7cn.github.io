@@ -1,5 +1,5 @@
 #myCaTV-Main
-#https://hao.iam7.cn/FTV/CatvodTV/mytv.json
+#https://hao.iam7.cn/FTV/CatVodTV/mytv.json
 #20211228
 # Type 0-xml 1-json 2-爬虫源 3-自定义爬虫
 
@@ -10,8 +10,7 @@
         {
             "key": "csp_xpath_subb",
             "name": "素白白(XP)",
-            "type": 3,
-			
+            "type": 3,			
             "api": "csp_XPathSubb",
             "searchable": 1,
             "quickSearch": 1,
