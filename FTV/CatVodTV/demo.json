@@ -8,16 +8,6 @@
     "sites": [
         {
             "key": "csp_xpath_subb",
-            "name": "默认(感谢github作者catvod&Tangsan99999&lite-cucumber等)",
-            "type": 3,
-            "api": "csp_XPathSubb",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/subaibai.json"
-        },
-        {
-            "key": "csp_xpath_subb",
             "name": "素白白(XP)",
             "type": 3,
             "api": "csp_XPathSubb",
