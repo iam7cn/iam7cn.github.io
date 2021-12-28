@@ -1,0 +1,481 @@
+{
+  "spider": "https://github.com/catvod/CatVodTVSpider/raw/master/jar/custom_spider.jar",
+  "sites": [
+    {
+      "key": "劇迷",
+      "name": "劇迷",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://fongmi.github.io/tv/xpath/gimy.json"
+    },
+    {
+      "key": "南府",
+      "name": "南府",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://fongmi.github.io/tv/xpath/nfuxs.json"
+    },
+    {
+      "key": "唐人街",
+      "name": "唐人街",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://fongmi.github.io/tv/xpath/trj.json"
+    },
+    {
+      "key": "愛西西",
+      "name": "愛西西",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://fongmi.github.io/tv/xpath/aixixi.json"
+    },
+    {
+      "key": "楓林網",
+      "name": "楓林網",
+      "type": 3,
+      "api": "csp_Imaple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "千尋雲",
+      "name": "千尋雲",
+      "type": 1,
+      "api": "http://wy.dqyhg.cn/api.php/provide/vod/",
+      "playUrl": "",
+      "categories": [
+        "动漫",
+        "电影",
+        "连续剧",
+        "国产动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "综艺"
+      ]
+    },
+    {
+      "key": "快播雲",
+      "name": "快播雲",
+      "type": 1,
+      "api": "https://www.kuaibozy.com/api.php/provide/vod/",
+      "playUrl": "",
+      "categories": [
+        "动漫",
+        "国产剧",
+        "日韩剧",
+        "港台剧",
+        "欧美剧",
+        "泰剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "综艺"
+      ]
+    },
+    {
+      "key": "百度雲",
+      "name": "百度雲",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "playUrl": "",
+      "categories": [
+        "国产动漫",
+        "日本动漫",
+        "欧美动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "海外剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "犯罪片",
+        "纪录片",
+        "动漫电影",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "小七雲",
+      "name": "小七雲",
+      "type": 1,
+      "api": "http://w7tv.com/api.php/provide/vod/",
+      "playUrl": "",
+      "categories": [
+        "国产动漫",
+        "日本动漫",
+        "欧美动漫",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "奇幻科幻",
+        "暗黑犯罪",
+        "冒险动作",
+        "恐怖惊悚",
+        "剧情悬疑",
+        "日韩综艺",
+        "欧美综艺",
+        "港台综艺",
+        "内地综艺"
+      ]
+    },
+    {
+      "key": "水蜜桃",
+      "name": "水蜜桃",
+      "type": 1,
+      "api": "http://51smt4.xyz/api.php/provide/vod/",
+      "playUrl": "",
+      "categories": [],
+      "quickSearch": 0,
+      "searchable": 0
+    },
+    {
+      "key": "博天堂",
+      "name": "博天堂",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "quickSearch": 0,
+      "searchable": 0
+    },
+    {
+      "key": "狼少年",
+      "name": "狼少年",
+      "type": 0,
+      "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "quickSearch": 0,
+      "searchable": 0
+    },
+    {
+      "key": "JV名優",
+      "name": "JV名優",
+      "type": 0,
+      "api": "http://mygzycj.com/api.php?ac=list",
+      "playUrl": "",
+      "categories": [],
+      "quickSearch": 0,
+      "searchable": 0
+    },
+    {
+      "key": "速度源",
+      "name": "速度源",
+      "type": 0,
+      "api": "http://www.ggmmzy.com:9999/inc/xml",
+      "playUrl": "",
+      "categories": [],
+      "quickSearch": 0,
+      "searchable": 0
+    },
+    {
+      "key": "字幕網",
+      "name": "字幕網",
+      "type": 0,
+      "api": "http://zmcj88.com/sapi?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "quickSearch": 0,
+      "searchable": 0
+    }
+  ],
+  "lives": [],
+  "parses": [
+    {
+      "name": "純淨",
+      "url": "https://z1.m1907.cn/?jx="
+    },
+    {
+      "name": "默認",
+      "url": "http://api.u1o.net/?url="
+    },
+    {
+      "name": "Vod",
+      "url": "https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=",
+      "type": 1
+    },
+    {
+      "name": "Json並發",
+      "url": "Parallel",
+      "type": 2
+    },
+    {
+      "name": "Json輪詢",
+      "url": "Sequence",
+      "type": 2
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili"
+  ],
+  "ijk": [
+    {
+      "group": "軟解碼",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group": "硬解碼",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "xg.huataisangao.cn",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com"
+  ]
+}

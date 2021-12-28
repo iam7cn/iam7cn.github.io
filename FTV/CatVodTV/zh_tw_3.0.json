@@ -1,0 +1,390 @@
+{
+  "sites": [
+    {
+      "key": "csp_xpath_subb",
+      "name": "首頁12月25日精簡介面",
+      "type": 3,
+      "api": "csp_XPathSubb",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/subaibai.json"
+    },
+    { "key": "csp_YydsAli1", "name": "YYDS阿里(爬蟲)測試", "type": 3, "api": "csp_YydsAli1", "searchable": 1, "quickSearch": 0, "filterable": 0 },
+
+    {
+      "key": "番茄影視",
+      "name": "番茄影視",
+      "type": 0,
+      "api": "https://tvcj.arbd.cn/api.php/provide/vod/at/xml/",
+      "playUrl": "https://tv.arbd.cn/player/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "愛奇藝會員(官源)",
+      "name": "愛奇藝會員(官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/qiyi/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "騰訊視訊(官源)",
+      "name": "騰訊視訊（官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/qq/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "芒果TV會員(官源)",
+      "name": "芒果TV會員(官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/mgtv/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "搜狐視訊會員(官源)",
+      "name": "搜狐視訊會員(官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/sohu/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "優酷視訊會員(官源)",
+      "name": "優酷視訊會員(官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/youku/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "2345_spider",
+      "name": "2345影視(官源) ",
+      "type": 3,
+      "api": "csp_YS2345",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/2345.json"
+    },
+    {
+      "key": "360_spider",
+      "name": "360影視(官源)",
+      "type": 3,
+      "api": "csp_YS360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/360.json"
+    },
+    {
+      "key": "飛速",
+      "name": "FEISU影視",
+      "type": 0,
+      "api": "https://m3u8.feisuzyapi.com/vod/at/xml/",
+      "playUrl": "https://www.feisuplayer.com/m3u8/?url=",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
+    {
+      "key": "迅播",
+      "name": "迅播qgvod",
+      "type": 0,
+      "api": "https://www.qgvod.com/api.php/provide/vod/at/xml/",
+      "playUrl": "https://jx.renrenmi.cc/?url=",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "毒蜥蜴影視",
+      "name": "毒蜥蜴影視",
+      "type": 0,
+      "api": "https://www.duxiyi.com/api.php/provide/vod/at/xml/",
+      "playUrl": "https://jx.renrenmi.cc/?url=",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "我愛跟劇",
+      "name": "我愛跟劇",
+      "type": 0,
+      "api": "https://www.genmov.com/api.php/provide/vod/at/xml/",
+      "playUrl": "https://jx.renrenmi.cc/?url=",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
+    {
+      "key": "rrm_spider",
+      "name": "人人迷(免解）",
+      "type": 3,
+      "api": "csp_Rrm",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "B9C8093A210EADA1"
+    },
+
+    {
+      "key": "csp_xpath_jpyszl",
+      "name": "極品直鏈(XPath)",
+      "type": 3,
+      "api": "csp_XPathMac",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/jpys.json"
+    },
+    {
+      "key": "csp_appys_xiaogui_007影視",
+      "name": "007影視(M)",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "xiaogui_007影視"
+    },
+    {
+      "key": "csp_appys_xiaogui_555電影",
+      "name": "555電影(M)",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "xiaogui_555電影"
+    }
+  ],
+  "lives": [
+    {
+      "group": "NewTV",
+      "channels": [
+        {
+          "name": "NewTV熱播精選",
+          "urls": ["https://jiexi.8b5q.cn/player/jx.php?url=FQ:00924f01f35f3e7eaa705f0c5b7a113d12c0e82dcdc2e0470f5f024d8d9fdef0a2"]
+        }
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json併發",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json輪詢",
+      "type": 2,
+      "url": "Sequence"
+    },
+    { "name": "高清解析9", "type": 0, "url": "http://60jx.com/?url=" },
+    {
+      "name": "藍光視訊",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+    },
+    {
+      "name": "黃河影視",
+      "type": 1,
+      "url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="
+    },
+    {
+      "name": "Vip影院1",
+      "type": 1,
+      "url": "https://api.zakkpa.com:8888/analysis/json/?uid=39&my=bdfinvyBCDEJKUY089&url="
+    },
+
+    {
+      "name": "公主影視",
+      "type": 1,
+      "url": "https://jx.renrenmi.cc/?url="
+    }
+  ],
+  "flags": ["youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu", "bilibili"],
+  "ijk": [
+    {
+      "group": "軟解碼",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group": "硬解碼",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "ads": ["mimg.0c1q0l.cn", "www.googletagmanager.com", "www.google-analytics.com", "mc.usihnbcq.cn", "cms.qdwght.com"],
+  "wallpaper": "https://inews.gtimg.com/newsapp_ls/0/14293798348/0.jpg",
+  "spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider3.jar"
+}

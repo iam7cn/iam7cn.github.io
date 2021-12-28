@@ -4,7 +4,7 @@
 
 - 猫影视TV｜APP
   - [https://github.com/catvod/CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)
-  - App下载 [猫影视TV.v.2.0.6.apk](https://hao.iam7.cn/FTV/cat/猫影视TV.v.2.0.6.apk)
+  - App下载 [猫影视TV.v.2.0.6.apk](https://hao.iam7.cn/FTV/CatVodTV/猫影视TV.v.2.0.6.apk)
 
 - 猫影视TV｜接口相关
   - [https://github.com/catvod/CatVodTVSpider/tree/master/jar](https://github.com/catvod/CatVodTVSpider/tree/master/jar)
@@ -13,7 +13,7 @@
   - [https://netcut.cn/](https://netcut.cn/)
 - 猫影视TV｜接口
   - 设置 > 当前配置接口
-  - [https://hao.iam7.cn/FTV/cat/my.json](https://hao.iam7.cn/FTV/cat/my.json)
+  - [https://hao.iam7.cn/FTV/CatVodTV/my.json](https://hao.iam7.cn/FTV/CatVodTV/my.json)
 - 猫影视TV｜TG交流群
   - [https://t.me/catvodtv](https://t.me/catvodtv)
 
