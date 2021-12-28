@@ -8,6 +8,81 @@
 	"wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [
         {
+            "key": "sogou_spider",
+            "name": "搜狗影视(官源)",
+            "type": 3,
+            "api": "csp_YSSogou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/sogou.json"
+        },
+        {
+            "key": "360_spider",
+            "name": "360影视(官源)",
+            "type": 3,
+            "api": "csp_YS360",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/360.json"
+        },
+        {
+            "key": "2345_spider",
+            "name": "2345影视(XPath)",
+            "type": 3,
+            "api": "csp_YS2345",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/2345.json"
+        },
+		{
+			"key": "爱奇艺会员(官源)",
+			"name": "爱奇艺会员(官源)",
+			"type": 0,
+			"api": "http://api.000zy.com/provide/vod/from/qiyi/at/xml/",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
+			"key": "腾讯视频(官源)",
+			"name": "腾讯视频（官源)",
+			"type": 0,
+			"api": "http://api.000zy.com/provide/vod/from/qq/at/xml/",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
+			"key": "芒果TV会员(官源)",
+			"name": "芒果TV会员(官源)",
+			"type": 0,
+			"api": "http://api.000zy.com/provide/vod/from/mgtv/at/xml/",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
+			"key": "搜狐视频会员(官源)",
+			"name": "搜狐视频会员(官源)",
+			"type": 0,
+			"api": "http://api.000zy.com/provide/vod/from/sohu/at/xml/",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
+			"key": "优酷视频会员(官源)",
+			"name": "优酷视频会员(官源)",
+			"type": 0,
+			"api": "http://api.000zy.com/provide/vod/from/youku/at/xml/",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
             "key": "csp_xpath_subb",
             "name": "素白白(XP)",
             "type": 3,			
@@ -1059,37 +1134,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "v1_大熊影视"
-        },
-        {
-            "key": "sogou_spider",
-            "name": "搜狗影视(2021-12-08)",
-            "type": 3,
-            "api": "csp_YSSogou",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/sogou.json"
-        },
-        {
-            "key": "360_spider",
-            "name": "360影视(2021-12-08)",
-            "type": 3,
-            "api": "csp_YS360",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/360.json"
-        },
-        {
-            "key": "2345_spider",
-            "name": "2345影视(XPath)",
-            "type": 3,
-            "api": "csp_YS2345",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/2345.json"
-        },
+        },        
         {
             "key": "csp_appys_v1_白菜追剧",
             "name": "白菜追剧(M)",
