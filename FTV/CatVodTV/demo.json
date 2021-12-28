@@ -3,7 +3,7 @@
 #20211228
 
 {
-    "spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
+    "spider": "https://hao.iam7.cn/FTV/CatVodTV/jar/pglblb.txt",
 	"wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [
         {
