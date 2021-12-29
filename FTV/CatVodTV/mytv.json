@@ -67,7 +67,7 @@
         },
         {
             "key": "腾讯视频(官源1)",
-            "name": "腾讯视频（官源1)",
+            "name": "腾讯视频(官源1)",
             "type": 0,
             "api": "http://api.000zy.com/provide/vod/from/qq/at/xml/",
             "searchable": 1,
@@ -76,7 +76,7 @@
         },
 		{
             "key": "腾讯视频(官源2)",
-            "name": "腾讯视频（官源2)",
+            "name": "腾讯视频(官源2)",
             "type": 0,
             "api": "https://pianku.wang/api.php/provide/vod/from/qq/at/xml/",
             "searchable": 1,
@@ -155,6 +155,46 @@
             "quickSearch": 1,
             "filterable": 0
         },
+		{   
+		    "key":"Cokemv影视",
+		    "name":"Cokemv影视",
+			"type":3,
+			"api":"csp_Cokemv",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/cokemv.json"
+		},
+		{   
+		    "key":"独播库",
+		    "name":"独播库(P)",
+			"type":3,"api":
+			"csp_XPathMacFilter",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/Duboku.json"
+		},
+		{   
+		    "key":"Sky4k",
+		    "name":"Sky4k(P)",
+			"type":3,
+			"api":"csp_XPathMacFilter",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/Sky4k.json"
+		},
+		{
+            "key": "adys_spider",
+            "name": "爱迪影视(搜)",
+            "type": 3,
+            "api": "csp_Aidi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/aidi.json"
+        },
         {
             "key": "csp_xpath_subb",
             "name": "素白白(XP)",
@@ -163,7 +203,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/subaibai.json"
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/subaibai.json"
         },        
 		{
             "key": "csp_xpath_saohuotv",
@@ -173,7 +213,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/saohuotv2.json"
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/saohuotv2.json"
+        },
+		{
+            "key": "csp_xpath_nfmov",
+            "name": "萘菲影视(XPath)",
+            "type": 3,
+            "api": "csp_XPathNfMov",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/nfmovie.json"
         },
         {
             "key": "nfzjm_spider",
@@ -417,17 +467,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/auete.json"
-        },
-        {
-            "key": "adys_spider",
-            "name": "爱迪影视(搜)",
-            "type": 3,
-            "api": "csp_Aidi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/aidi.json"
-        },
+        },        
         {
             "key": "9ekk_spider_li",
             "name": "9亿看看(SP)",
@@ -1087,16 +1127,6 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "大师兄"
-        },
-        {
-            "key": "csp_xpath_nfmov",
-            "name": "萘菲影视(XPath)",
-            "type": 3,
-            "api": "csp_XPathNfMov",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/nfmovie.json"
         },
         {
             "key": "csp_appys_v1_奈非迷",
