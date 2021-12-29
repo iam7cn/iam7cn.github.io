@@ -46,6 +46,15 @@
             "quickSearch": 1,
             "filterable": 0
         },
+		{
+            "key": "爱奇艺(官源)",
+            "name": "爱奇艺(官源)",
+            "type": 0,
+            "api": "https://pianku.wang/api.php/provide/vod/from/qiyi/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
         {
             "key": "腾讯视频(官源)",
             "name": "腾讯视频（官源)",
@@ -1880,6 +1889,7 @@
         {"name":"瓜瓜优选","type": 2,"url": "Preference"},
         {"name":"Json轮询","type": 2,"url": "Sequence"},
         {"name":"瓜瓜免嗅","type": 2,"url": "Cucumber"},
+		{"name":"片库网","type": 1,"url": "https://www.newsaas.cn/jx/?url=","t": 201,"i": "check at 2021-12-29 11:43:35"},
         {"name":"看剧吧1","type": 1,"url": "https://svip.renrenmi.cc:2222/api/?key=fI3YQ3vxF5uREfNpDU&url=","t": 204,"i": "checkat2021-12-2018:43:35"},
         {"name":"影阅阁3","type": 1,"url": "https://svip.renrenmi.cc:2222/api/?key=82KErJogweliHPt7Yp&url=","t": 235,"i": "checkat2021-12-2018:44:00"},
         {"name":"艾特影视","type": 1,"url": "http://kelejiexi.aitee.cc/api/?key=Q5eOz72aSDAfZgbZit&url=","t": 522,"i": "checkat2021-12-2018:44:31"},
