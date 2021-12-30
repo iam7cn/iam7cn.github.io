@@ -41,6 +41,15 @@
             "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/2345.json"
         },
         {
+            "key": "8090资源网",
+            "name": "8090(全站资源)",
+            "type": 0,
+            "api": "https://pianku.wang/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0            
+        },
+		{
             "key": "片库网",
             "name": "片库网(全站资源)",
             "type": 0,
@@ -2039,6 +2048,13 @@
         {"name":"ckplayer解析","type": 1,"url": "https://www.ckplayer.vip/jiexi/?url="},
         {"name":"盘古解析","type": 1,"url": "https://www.pangujiexi.cc/jiexi.php?url="},
         {"name":"H8解析","type": 1,"url": "https://www.h8jx.com/jiexi.php?url="},
+        {"name":"618解析","type": 1,"url": "https://jx.618g.com/?url="},
+        {"name":"TN云播放","type": 1,"url": "https://www.33tn.cn/?url="},
+        {"name":"OK解析","type": 1,"url": "https://okjx.cc/?url="},
+        {"name":"M1907","type": 1,"url": "https://z1.m1907.cn/?jx="},
+        {"name":"B站解析","type": 1,"url": "https://jx.parwix.com:4433/player/?url="},
+        {"name":"诺讯智能","type": 1,"url": "https://www.nxflv.com/?url="},
+        {"name":"M2090","type": 1,"url": "https://m2090.com/?url="},
 		{"name":"01","type": 1,"url": "https://play.tkys.tv/?url="},
         {"name":"02","type": 1,"url": "https://jx.ysgc.xyz/?url="},
         {"name":"04","type": 1,"url": "http://dm.199cn.cn/vip/?url="},
