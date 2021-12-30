@@ -38,7 +38,7 @@
             "filterable": 1,
             "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/2345.json"
         },
-		{
+        {
             "key": "片库网",
             "name": "片库网(全站资源)",
             "type": 0,
@@ -56,7 +56,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		{
+        {
             "key": "爱奇艺(官源2)",
             "name": "爱奇艺(官源2)",
             "type": 0,
@@ -74,7 +74,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		{
+        {
             "key": "腾讯视频(官源2)",
             "name": "腾讯视频(官源2)",
             "type": 0,
@@ -92,7 +92,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		{
+        {
             "key": "芒果TV(官源2)",
             "name": "芒果TV(官源2)",
             "type": 0,
@@ -110,7 +110,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		{
+        {
             "key": "搜狐视频(官源2)",
             "name": "搜狐视频(官源2)",
             "type": 0,
@@ -128,7 +128,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		{
+        {
             "key": "优酷视频(官源2)",
             "name": "优酷视频(官源2)",
             "type": 0,
@@ -137,7 +137,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		{
+        {
             "key": "PPTV视频(官源1)",
             "name": "PPTV视频(官源1)",
             "type": 0,
@@ -146,7 +146,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		{
+        {
             "key": "哔哩资源(官源1)",
             "name": "哔哩资源(官源1)",
             "type": 0,
@@ -155,37 +155,37 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		{   
-		    "key":"Cokemv影视",
-		    "name":"Cokemv影视",
-			"type":3,
-			"api":"csp_Cokemv",
-			"searchable":1,
-			"quickSearch":1,
-			"filterable":1,
-			"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/cokemv.json"
-		},
-		{   
-		    "key":"独播库",
-		    "name":"独播库",
-			"type":3,"api":
-			"csp_XPathMacFilter",
-			"searchable":1,
-			"quickSearch":1,
-			"filterable":1,
-			"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/Duboku.json"
-		},
-		{   
-		    "key":"Sky4k",
-		    "name":"Sky4k(挂)",
-			"type":3,
-			"api":"csp_XPathMacFilter",
-			"searchable":1,
-			"quickSearch":1,
-			"filterable":1,
-			"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/Sky4k.json"
-		},
-		{
+        {   
+            "key":"Cokemv影视",
+            "name":"Cokemv影视",
+        	"type":3,
+        	"api":"csp_Cokemv",
+        	"searchable":1,
+        	"quickSearch":1,
+        	"filterable":1,
+        	"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/cokemv.json"
+        },
+        {   
+            "key":"独播库",
+            "name":"独播库",
+        	"type":3,"api":
+        	"csp_XPathMacFilter",
+        	"searchable":1,
+        	"quickSearch":1,
+        	"filterable":1,
+        	"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/Duboku.json"
+        },
+        {   
+            "key":"Sky4k",
+            "name":"Sky4k(挂)",
+        	"type":3,
+        	"api":"csp_XPathMacFilter",
+        	"searchable":1,
+        	"quickSearch":1,
+        	"filterable":1,
+        	"ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/Sky4k.json"
+        },
+        {
             "key": "adys_spider",
             "name": "爱迪影视",
             "type": 3,
@@ -205,7 +205,7 @@
             "filterable": 1,
             "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/subaibai.json"
         },        
-		{
+        {
             "key": "csp_xpath_saohuotv",
             "name": "骚火电影",
             "type": 3,
@@ -215,7 +215,7 @@
             "filterable": 1,
             "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/saohuotv2.json"
         },
-		{
+        {
             "key": "csp_xpath_nfmov",
             "name": "萘菲影视",
             "type": 3,
@@ -348,10 +348,10 @@
             "api": "https://www.dianyingn.cc/api.php/provide/vod/at/xml/",
             "playUrl": "",
             "categories": [
-			    "电影",
+        	    "电影",
                 "电视剧",
-				"综艺",
-				"动漫",
+                "综艺",
+                "动漫",
                 "动作片",
                 "喜剧片",
                 "爱情片",
@@ -360,14 +360,14 @@
                 "剧情片",
                 "战争片",                
                 "国产剧",
-                "港台剧",				
+                "港台剧",                
                 "日韩剧",
                 "欧美剧",
-				"纪录片",
-				"理论片", 
-				"泰剧"                
+                "纪录片",
+                "理论片", 
+                "泰剧"                
             ]
-        },		
+        },        
         {
             "key": "csp_xpath_age",
             "name": "AGE动漫(XP)",
@@ -388,7 +388,7 @@
             "filterable": 0,
             "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/dm84.json"
         },
-		{
+        {
             "key": "csp_xpath_555",
             "name": "555电影(XPath)",
             "type": 3,
@@ -408,7 +408,7 @@
             "filterable": 1,
             "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/cjtys.json"
         },
-		{
+        {
             "key": "jpys_spider",
             "name": "极品影视(SP)",
             "type": 3,
@@ -428,7 +428,7 @@
             "filterable": 1,
             "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/jpys.json"
         },
-		{
+        {
             "key": "Nfuxs",
             "name": "南府影视(P)",
             "type": 3,
@@ -438,7 +438,7 @@
             "filterable": 1,
             "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/Nfuxs.json"
         },
-		{
+        {
             "key": "csp_xpath_bde4",
             "name": "哔嘀影视(XPath)",
             "type": 3,
@@ -448,7 +448,7 @@
             "filterable": 1,
             "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/bde4.json"
         },
-		{
+        {
             "key": "n0ys_spider",
             "name": "90影视(SP)",
             "type": 3,
@@ -485,7 +485,7 @@
             "api": "https://taopianzy.com/home/cjapi/as/mc10/vod/xml/m3u8",
             "playUrl": ""
         },
-		{
+        {
             "key": "csp_xpath_tvci",
             "name": "大师兄(XP)",
             "type": 3,
@@ -495,7 +495,7 @@
             "filterable": 1,
             "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/tvci.json"
         },
-		{
+        {
             "key": "csp_xpath_lranc",
             "name": "天天影视",
             "type": 3,
@@ -505,7 +505,7 @@
             "filterable": 0,
             "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/lranc.json"
         },
-		{
+        {
             "key": "csp_xpath_meiju56",
             "name": "美剧网(XPMac)",
             "type": 3,
@@ -1983,7 +1983,7 @@
         {"name":"瓜瓜优选","type": 2,"url": "Preference"},
         {"name":"Json轮询","type": 2,"url": "Sequence"},
         {"name":"瓜瓜免嗅","type": 2,"url": "Cucumber"},
-		{"name":"片库网","type": 1,"url": "https://www.newsaas.cn/jx/?url=","t": 201,"i": "check at 2021-12-29 11:43:35"},
+        {"name":"片库网","type": 1,"url": "https://www.newsaas.cn/jx/?url=","t": 201,"i": "check at 2021-12-29 11:43:35"},
         {"name":"看剧吧1","type": 1,"url": "https://svip.renrenmi.cc:2222/api/?key=fI3YQ3vxF5uREfNpDU&url=","t": 204,"i": "checkat2021-12-2018:43:35"},
         {"name":"影阅阁3","type": 1,"url": "https://svip.renrenmi.cc:2222/api/?key=82KErJogweliHPt7Yp&url=","t": 235,"i": "checkat2021-12-2018:44:00"},
         {"name":"艾特影视","type": 1,"url": "http://kelejiexi.aitee.cc/api/?key=Q5eOz72aSDAfZgbZit&url=","t": 522,"i": "checkat2021-12-2018:44:31"},
@@ -2040,7 +2040,7 @@
         "pptv",
         "mgtv",
         "wasu",
-		"fun",
+        "fun",
         "bilibili"
     ],
     "ijk": [
