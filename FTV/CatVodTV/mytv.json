@@ -1,6 +1,7 @@
-#myCatTV-Main
-#https://hao.iam7.cn/FTV/CatVodTV/mytv.json
-#20211228
+# MyCatTV-Main Author:小柒
+#!MANAGED-CONFIG https://hao.iam7.cn/FTV/CatVodTV/mytv.json
+# Update:20211228
+
 # 点播 Type 0-xml 1-json 2-爬虫源 3-自定义爬虫
 # 解析 Type 0-普通 1-Json 2-多Json
 # searchable可搜索quickSearch可快速搜索filterable可筛选 0-不可以 1-可以
