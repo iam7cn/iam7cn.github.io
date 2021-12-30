@@ -225,6 +225,77 @@
             "filterable": 1,
             "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/nfmovie.json"
         },
+		{
+            "key": "csp_xpath_555",
+            "name": "555电影(P)",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/555.json"
+        },
+		{
+            "key": "csp_xpath_jpyszl",
+            "name": "极品直链(P)",
+            "type": 3,
+            "api": "csp_XPathMac",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/jpys.json"
+        },
+        {
+            "key": "Nfuxs",
+            "name": "南府影视",
+            "type": 3,
+            "api": "csp_XPathFilter",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/Nfuxs.json"
+        },
+        {
+            "key": "csp_xpath_bde4",
+            "name": "哔嘀影视",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/bde4.json"
+        },
+		{
+            "key": "VIP剧院",
+            "name": "VIP剧院(xml)",
+            "type": 0,
+            "api": "https://www.dianyingn.cc/api.php/provide/vod/at/xml/",
+            "playUrl": "",
+            "categories": [
+                "电影",
+                "电视剧",
+                "综艺",
+                "动漫",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",                
+                "国产剧",
+                "港台剧",                
+                "日韩剧",
+                "欧美剧",
+                "纪录片",
+                "理论片"
+				]
+        },
+		
+		
+		
+		
+		
         {
             "key": "nfzjm_spider",
             "name": "南府追剧(搜)",
@@ -340,34 +411,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "xiaogui_天空影视"
-        },
-        {
-            "key": "VIP剧院",
-            "name": "VIP剧院(xml)",
-            "type": 0,
-            "api": "https://www.dianyingn.cc/api.php/provide/vod/at/xml/",
-            "playUrl": "",
-            "categories": [
-                "电影",
-                "电视剧",
-                "综艺",
-                "动漫",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",                
-                "国产剧",
-                "港台剧",                
-                "日韩剧",
-                "欧美剧",
-                "纪录片",
-                "理论片", 
-                "泰剧"                
-            ]
-        },        
+        },                
         {
             "key": "csp_xpath_age",
             "name": "AGE动漫(XP)",
@@ -387,17 +431,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/dm84.json"
-        },
-        {
-            "key": "csp_xpath_555",
-            "name": "555电影(XPath)",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/555.json"
-        },
+        },        
         {
             "key": "csp_xpath_cjt",
             "name": "CJT影院(爬虫)",
@@ -417,37 +451,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/jipin.json"
-        },
-        {
-            "key": "csp_xpath_jpyszl",
-            "name": "极品直链(XPath)",
-            "type": 3,
-            "api": "csp_XPathMac",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/jpys.json"
-        },
-        {
-            "key": "Nfuxs",
-            "name": "南府影视(P)",
-            "type": 3,
-            "api": "csp_XPathFilter",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/Nfuxs.json"
-        },
-        {
-            "key": "csp_xpath_bde4",
-            "name": "哔嘀影视(XPath)",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/bde4.json"
-        },
+        },        
         {
             "key": "n0ys_spider",
             "name": "90影视(SP)",
