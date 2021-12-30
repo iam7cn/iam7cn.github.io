@@ -5,9 +5,9 @@
 # 点播 Type 0-xml 1-json 2-爬虫源 3-自定义爬虫
 # 解析 Type 0-普通 1-Json 2-多Json
 # searchable可搜索quickSearch可快速搜索filterable可筛选 0-不可以 1-可以
-# "spider":"https://hao.iam7.cn/FTV/CatVodTV/jar/pglblb.txt",
+
 {
-    "spider":"https://hao.iam7.cn/FTV/CatVodTV/xpath/main_spider.txt",
+    "spider":"https://hao.iam7.cn/FTV/CatVodTV/jar/pglblb.txt",
     "wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [
         {
@@ -2033,7 +2033,13 @@
         {"name":"麻瓜视频","type":1,"url":"https://www.t7g.cn/api/?key=11ZQE5nh363ZFdhrs9&url=","t":930,"i":"checkat2021-12-2018:43:40"},
         {"name":"林谷影视1","type":1,"url":"http://jf.lemiaoyun.cn/home/api?type=ys&uid=40190120&key=bklmnprxCJLOQSTVX0&url=","t":960,"i":"checkat2021-12-2018:44:10"},
         {"name":"影阅阁","type":1,"url":"http://api1.json.vin:4433/api/?key=WPDh6vf0aT0ahepWzW&url=","t":971,"i":"checkat2021-12-2018:43:52"},
-        {"name":"01","type": 1,"url": "https://play.tkys.tv/?url="},
+        {"name":"8090解析","type": 1,"url": "https://www.8090g.cn/?url="},
+        {"name":"解析啦","type": 1,"url": "https://api.jiexi.la/?url="},
+        {"name":"playm3u8解析","type": 1,"url": "https://www.playm3u8.cn/jiexi.php?url="},
+        {"name":"ckplayer解析","type": 1,"url": "https://www.ckplayer.vip/jiexi/?url="},
+        {"name":"盘古解析","type": 1,"url": "https://www.pangujiexi.cc/jiexi.php?url="},
+        {"name":"H8解析","type": 1,"url": "https://www.h8jx.com/jiexi.php?url="},
+		{"name":"01","type": 1,"url": "https://play.tkys.tv/?url="},
         {"name":"02","type": 1,"url": "https://jx.ysgc.xyz/?url="},
         {"name":"04","type": 1,"url": "http://dm.199cn.cn/vip/?url="},
         {"name":"05","type": 1,"url": "https://vip.2ktvb.com/player/?url="},
@@ -2051,6 +2057,8 @@
         "mgtv",
         "wasu",
         "fun",
+		"m1905",
+		"migu",
         "bilibili"
     ],
     "ijk": [
