@@ -372,7 +372,7 @@
             "key": "VIP剧院9",
             "name": "VIP剧院(xml9)",
             "type": 0,
-            "api": "https://www.dianyingn.cc/api.php/provide/vod/at/xml/",                        
+            "api": "https://www.dianyingn.cc/api.php/provide/vod/at/xml/"                        
         },
         {
             "key": "csp_xpath_age",
