@@ -41,109 +41,11 @@
             "filterable": 0            
         },
         {
-            "key": "爱奇艺(官源1)",
-            "name": "爱奇艺(官源1)",
+            "key": "三零资源网",
+            "name": "三零资源网(全站资源)",
             "type": 0,
-            "api": "http://api.000zy.com/provide/vod/from/qiyi/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "爱奇艺(官源2)",
-            "name": "爱奇艺(官源2)",
-            "type": 0,
-            "api": "https://pianku.wang/api.php/provide/vod/from/qiyi/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "腾讯视频(官源1)",
-            "name": "腾讯视频(官源1)",
-            "type": 0,
-            "api": "http://api.000zy.com/provide/vod/from/qq/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "腾讯视频(官源2)",
-            "name": "腾讯视频(官源2)",
-            "type": 0,
-            "api": "https://pianku.wang/api.php/provide/vod/from/qq/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "芒果TV(官源1)",
-            "name": "芒果TV(官源1)",
-            "type": 0,
-            "api": "http://api.000zy.com/provide/vod/from/mgtv/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "芒果TV(官源2)",
-            "name": "芒果TV(官源2)",
-            "type": 0,
-            "api": "https://pianku.wang/api.php/provide/vod/from/mgtv/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "搜狐视频(官源1)",
-            "name": "搜狐视频(官源1)",
-            "type": 0,
-            "api": "http://api.000zy.com/provide/vod/from/sohu/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "搜狐视频(官源2)",
-            "name": "搜狐视频(官源2)",
-            "type": 0,
-            "api": "https://pianku.wang/api.php/provide/vod/from/sohu/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "优酷视频(官源1)",
-            "name": "优酷视频(官源1)",
-            "type": 0,
-            "api": "http://api.000zy.com/provide/vod/from/youku/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "优酷视频(官源2)",
-            "name": "优酷视频(官源2)",
-            "type": 0,
-            "api": "https://pianku.wang/api.php/provide/vod/from/youku/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "PPTV视频(官源1)",
-            "name": "PPTV视频(官源1)",
-            "type": 0,
-            "api": "https://pianku.wang/api.php/provide/vod/from/pptv/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "哔哩资源(官源1)",
-            "name": "哔哩资源(官源1)",
-            "type": 0,
-            "api": "https://pianku.wang/api.php/provide/vod/from/bilibili/at/xml/",
+            "api": "http://api.000zy.com/provide/vod/at/xml/",
+            "playUrl": "https://m3u8.3jx.net/yunjx/?url=",			
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
