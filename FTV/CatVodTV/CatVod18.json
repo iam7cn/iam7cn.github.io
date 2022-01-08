@@ -10,22 +10,22 @@
     "spider":"https://hao.iam7.cn/FTV/CatVodTV/jar/custom_spider.jar?raw=true",
     "wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [
-	    {
+        {
             "key": "8090资源网",
             "name": "8090资源网(全站资源)",
             "type": 0,
             "api": "http://zy.yilans.net:8090/api.php/provide/vod/at/xml/",
-			"playUrl": "https://www.8090.la/8090/?url=",
+            "playUrl": "https://www.8090.la/8090/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0            
         },
-		{
+        {
             "key": "步步高顶尖资源网",
             "name": "步步高(全站资源)",
             "type": 0,
             "api": "http://api.yparse.com/api/share",
-			"playUrl": "https://yparse.jn1.cc/index.php?url=",
+            "playUrl": "https://yparse.jn1.cc/index.php?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0            
@@ -325,7 +325,7 @@
             "name": "百度资源(xml)",
             "type": 0,
             "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml/",
-			#备用Api https://cj.apibdzy.com/inc/api.php
+            #备用Api https://cj.apibdzy.com/inc/api.php
             "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
