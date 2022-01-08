@@ -129,13 +129,23 @@
         },
         {   
             "key":"Cokemv影视",
-            "name":"Cokemv影视",
+            "name":"Cokemv影视(P)",
             "type":3,
             "api":"csp_Cokemv",
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
             "ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/cokemv.json"
+        },
+		{   
+            "key":"adys_spider",
+            "name":"爱迪影视(P)",
+            "type":3,
+            "api":"csp_Aidi",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "ext":"https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/aidi.json"
         },
         {
             "key": "csp_xpath_nfmov",
@@ -186,13 +196,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/auete.json"
-        },
-        {
-            "key": "淘片资源",
-            "name": "淘片资源",
-            "type": 0,
-            "api": "https://taopianzy.com/home/cjapi/as/mc10/vod/xml/m3u8",
-            "playUrl": ""
         },
         {
             "key": "csp_xpath_lranc",
@@ -255,6 +258,13 @@
             "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/Jumi.json"
         },
         {
+            "key": "淘片资源",
+            "name": "淘片资源(xml)",
+            "type": 0,
+            "api": "https://taopianzy.com/home/cjapi/as/mc10/vod/xml/m3u8",
+            "playUrl": ""
+        },
+        {
             "key": "VIP剧院",
             "name": "VIP剧院(xml)",
             "type": 0,
@@ -291,7 +301,7 @@
         },
         {
             "key": "无尽资源",
-            "name": "无尽资源(xml)",
+            "name": "无尽资源1(xml)",
             "type": 0,
             "api": "https://api.wujinapi.com/api.php/provide/vod/from/wjm3u8/at/xml/",
             "playUrl": "https://jx.xhswglobal.com/dplayer/?url=",
@@ -331,6 +341,13 @@
             ]
         },
         {
+            "key": "无尽资源",
+            "name": "无尽资源2(xml)",
+            "type": 0,
+            "api": "https://wujinzy.com/api.php/provide/vod/at/xml",
+            "playUrl": "https://jx.xhswglobal.com/dplayer/?url="
+        },
+        {
             "key": "乐多资源1",
             "name": "乐多资源1(xml)",
             "type": 0,
@@ -357,13 +374,6 @@
             "type": 0,
             "api": "https://m3u8.xiangkanapi.com/provide/vod/at/xml",
             "playUrl": ""
-        },
-        {
-            "key": "无尽资源",
-            "name": "无尽资源(xml)",
-            "type": 0,
-            "api": "https://wujinzy.com/api.php/provide/vod/at/xml",
-            "playUrl": "https://jx.xhswglobal.com/dplayer/?url="
         },
         {
             "key": "csp_YydsAli1",
