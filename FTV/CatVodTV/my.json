@@ -145,6 +145,7 @@
 		{"key":"*色猫资源","name":"*色猫资源","type":0,"api":"https://api.maozyapi.com/inc/api.php"},
 		{"key":"*桃色资源","name":"*桃色资源","type":0,"api":"https://api.taoseapi.com/api.php/provide/vod/at/xml/"},
 		{"key":"*花椒资源","name":"*花椒资源","type":0,"api":"https://apihjzy.com/api.php/provide/vod/at/xml/"},
+		#备用口 https://cj.apihjzy.com/inc/api.php
 		{"key":"*探探资源","name":"*探探资源","type":0,"api":"https://apittzy.com/api.php/provide/vod/at/xml/"},
 		{"key":"*523资源","name":"*523资源","type":0,"api":"https://caiji.523zyw.com/inc/api.php"},
 		{"key":"*CK资源(VPN)","name":"*CK资源(VPN)","type":0,"api":"https://ckzy.me/api.php/provide/vod/at/xml/"},
