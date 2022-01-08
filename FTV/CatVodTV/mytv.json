@@ -13,7 +13,7 @@
         {
             "key": "sogou_spider",
             "name": "搜狗影视(官源)",
-            "type": 3,
+            "type": 1,
             "api": "csp_XPath",
             "searchable": 1,
             "quickSearch": 0,
