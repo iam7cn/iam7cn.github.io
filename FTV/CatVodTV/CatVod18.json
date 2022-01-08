@@ -1,6 +1,6 @@
 # MyCatTV-Main Author:小柒
-#!MANAGED-CONFIG https://hao.iam7.cn/FTV/CatVodTV/mytv.json
-# Update:20211228
+#!MANAGED-CONFIG https://hao.iam7.cn/FTV/CatVodTV/CatVod18.json
+# Update:20220108
 
 # 点播 Type 0-xml 1-json 2-爬虫源 3-自定义爬虫
 # 解析 Type 0-普通 1-Json 2-多Json
