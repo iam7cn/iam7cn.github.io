@@ -45,7 +45,7 @@
             "name": "三零资源网(全站资源)",
             "type": 0,
             "api": "http://api.000zy.com/provide/vod/at/xml/",
-            #"playUrl": "https://m3u8.3jx.net/yunjx/?url=",			
+            #"playUrl": "https://m3u8.3jx.net/yunjx/?url=",         
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
@@ -60,7 +60,7 @@
             "filterable":1,
             "ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/cokemv.json"
         },
-		{
+        {
             "key": "csp_xpath_subb",
             "name": "素白白(P)",
             "type": 3,            
@@ -1704,9 +1704,9 @@
         {"name":"饭后电影","type":1,"url":"http://47.100.138.210:91/home/api?type=ys&uid=1947441&key=eghijmopwyGQSTUW59&url=","t":274,"i":"checkat2021-12-2018:43:03"},
         {"name":"南府影视","type":1,"url":"http://play.szbodankyy.com/cnmb111/?url=","t":186,"i":"checkat2021-12-2819:44:36"},
         {"name":"快云影音","type":1,"url":"http://mxjx.ptygx.com/mxjson.php/?url=","t":732,"i":"checkat2021-12-2018:43:31"},
-		{"name":"无名氏","type": 1,"url": "https://api.zakkpa.com:8888/analysis/json/?uid=91&my=gjksuvCHIJLRS01268&url="},
-		{"name":"麻瓜视频","type": 1,"url": "https://api.parwix.com:4433/analysis/json/?uid=1735&my=cejkmnuvyBEFINR056&url="},
-		{"name":"久九影视","type": 1,"url": "https://json.hfyrw.com/mao.go?url="},
+        {"name":"无名氏","type": 1,"url": "https://api.zakkpa.com:8888/analysis/json/?uid=91&my=gjksuvCHIJLRS01268&url="},
+        {"name":"麻瓜视频","type": 1,"url": "https://api.parwix.com:4433/analysis/json/?uid=1735&my=cejkmnuvyBEFINR056&url="},
+        {"name":"久九影视","type": 1,"url": "https://json.hfyrw.com/mao.go?url="},
         {"name":"8090解析","type": 1,"url": "https://www.8090g.cn/?url="},
         {"name":"解析啦","type": 1,"url": "https://api.jiexi.la/?url="},
         {"name":"playm3u8解析","type": 1,"url": "https://www.playm3u8.cn/jiexi.php?url="},
