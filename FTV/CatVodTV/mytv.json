@@ -49,6 +49,15 @@
             "quickSearch": 1,
             "filterable": 0            
         },
+		{
+            "key": "2345资源网",
+            "name": "2345(全站资源)",
+            "type": 0,
+            "api": "https://tv.2345.com/sitemap/sitemap_2.xml",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0            
+        },
         {
             "key": "片库网",
             "name": "片库网(全站资源)",
