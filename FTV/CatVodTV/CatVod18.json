@@ -11,15 +11,6 @@
     "wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [
         {
-            "key": "8090资源网",
-            "name": "8090(全站资源)",
-            "type": 0,
-            "api": "https://pianku.wang/api.php/provide/vod/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0            
-        },
-		{
             "key": "片库网",
             "name": "片库网(全站资源)",
             "type": 0,
@@ -373,25 +364,6 @@
             "type": 0,
             "api": "https://wujinzy.com/api.php/provide/vod/at/xml",
             "playUrl": "https://jx.xhswglobal.com/dplayer/?url="
-        },
-        {
-            "key": "nfzjm_spider",
-            "name": "南府追剧(挂)",
-            "type": 3,
-            "api": "csp_Nfzjm",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_appys_v1_南府影视",
-            "name": "南府影视(挂)",
-            "type": 3,
-            "api": "csp_AppYs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "v1_南府影视"
         },
         {
             "key": "csp_YydsAli1",
