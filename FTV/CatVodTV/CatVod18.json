@@ -60,6 +60,16 @@
             "filterable":1,
             "ext":"https://hao.iam7.cn/FTV/CatVodTV/xpath/cokemv.json"
         },
+		{
+            "key": "csp_xpath_subb",
+            "name": "素白白(P)",
+            "type": 3,            
+            "api": "csp_XPathSubb",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/baisusu.json"
+        },
         {   
             "key":"adys_spider",
             "name":"爱迪影视(P)",
