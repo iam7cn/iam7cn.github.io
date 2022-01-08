@@ -24,7 +24,7 @@
             "key": "步步高顶尖资源网",
             "name": "步步高(全站资源)",
             "type": 0,
-            "api": "http://api.yparse.com/api/share",
+            "api": "http://api.yparse.com/api/m3u8",
             "playUrl": "https://yparse.jn1.cc/index.php?url=",
             "searchable": 1,
             "quickSearch": 1,
