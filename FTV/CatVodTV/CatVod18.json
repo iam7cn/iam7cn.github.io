@@ -53,7 +53,7 @@
         {   
             "key":"Cokemv影视",
             "name":"Cokemv影视(P)",
-            "type":3,
+            "type":1,
             "api":"csp_Cokemv",
             "searchable":1,
             "quickSearch":1,
