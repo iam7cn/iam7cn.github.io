@@ -11,10 +11,10 @@
     "wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [
     {
-        "key": "8090资源网",
-        "name": "8090资源网(全站资源)",
+        "key": "清欢资源站",
+        "name": "清欢资源站(A)",
         "type": 0,
-        "api": "http://zy.yilans.net:8090/api.php/provide/vod/at/xml/",
+        "api": "https://free.qinghuanzy.com/api.php/provide/vod/at/xml/",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 0
@@ -22,8 +22,8 @@
     {
         "key": "步步高顶尖资源网",
         "name": "步步高(全站资源)",
-        "type": 1,
-        "api": "https://api.yparse.com/json/share",
+        "type": 0,
+        "api": "https://api.yparse.com/api/share",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 0
@@ -38,10 +38,19 @@
         "filterable": 0
     },
     {
-        "key": "三零资源网",
-        "name": "三零资源网(全站资源)",
+        "key": "卧龙资源网",
+        "name": "卧龙资源网(A)",
         "type": 0,
-        "api": "http://api.000zy.com/provide/vod/at/xml/",
+        "api": "https://www.wolongzyw.com/api.php/provide/vod/at/xml/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0
+    },
+    {
+        "key": "萌果资源",
+        "name": "萌果资源(A)",
+        "type": 0,
+        "api": "http://api.appearoo.top/api.php/provide/vod/at/xml/",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 0
