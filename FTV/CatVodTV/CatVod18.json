@@ -708,6 +708,16 @@
         "quickSearch": 1,
         "filterable": 1
     },
+	{
+        "key": "1024资源",
+        "name": "1024资源(xml)",
+        "type": 0,
+        "api": "https://www.1024nf.com/api.php/provide/vod/at/xml/",
+        "playUrl": "",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
     {
         "key": "聆风资源",
         "name": "聆风资源(xml)",
