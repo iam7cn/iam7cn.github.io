@@ -32,7 +32,7 @@
         "key": "Cokemv影视",
         "name": "Cokemv影视(P)",
         "type": 3,
-        "api": "csp_Cokemv",
+        "api": "csp_Cokemv1",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
