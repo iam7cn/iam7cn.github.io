@@ -1,1 +1,2 @@
-https://hao.iam7.cn/node/sub
+https://proxy.yugogo.xyz/clash/proxies?filter=3
+https://free.kingfu.cf/clash/proxies?filter=3
