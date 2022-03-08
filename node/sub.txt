@@ -23,4 +23,12 @@ https://upan.tk/clash/proxies
 https://www.linbaoz.com/clash/proxies?filter=3
 https://proxies.bihai.cf/clash/proxies?filter=rp
 https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_yaml.yml
-
+http://42.194.196.226/clash/proxies
+https://klausvpn.posyao.com/clash/proxies
+http://118.31.77.3/clash/proxies
+https://ednovas.design/clash/proxies
+https://proxypool.ednovas.xyz/clash/proxies
+http://proxypool.jdhk.ga/clash/proxies
+https://dl.zjzj.xyz/clash/proxies
+https://pool.jinxnet.xyz/clash/proxies
+https://gfwglass.tk/clash/proxies
