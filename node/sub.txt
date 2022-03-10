@@ -32,3 +32,7 @@ http://proxypool.jdhk.ga/clash/proxies
 https://dl.zjzj.xyz/clash/proxies
 https://pool.jinxnet.xyz/clash/proxies
 https://gfwglass.tk/clash/proxies
+http://23.105.206.34:9999/clash/proxies
+https://www.joemt.tk/clash/proxies
+https://210.16.120.191/clash/proxies
+https://45.138.70.151/clash/proxies
