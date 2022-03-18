@@ -11,8 +11,68 @@
     "wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [
     {
+        "key": "csp_appysv2_追剧达人",
+        "name": "追剧推荐(M2)",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://vipmv.co/xgapp.php/v1/"
+    },
+    {
+        "key": "csp_appysv2_星空影视",
+        "name": "星空推荐(M2)",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://xkys.tv/xgapp.php/v1/"
+    },
+    {
+        "key": "csp_appysv2_天空影视",
+        "name": "天空推荐(M2)",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://tkys.tv/xgapp.php/v1/"
+    },
+    {
+        "key": "csp_appysv2_天空影视V2",
+        "name": "天空影视V2(M2)",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://www.tkys.tv/xgapp.php/v2/"
+    },
+    {
+        "key": "csp_xpath_if101",
+        "name": "if101(XPM)",
+        "type": 3,
+        "api": "csp_XPathMacFilter",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://mo-xiao.coding.net/p/c/d/c/git/raw/master/sub/xpath/if101.json"
+    },
+	{
+        "key": "auete_spider_li",
+        "name": "Auete影视(P)推荐",
+        "type": 3,
+        "api": "csp_Auete",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/auete.json"
+    },
+	{
         "key": "片库网",
-        "name": "片库网(全站资源)",
+        "name": "片库网(A)",
         "type": 0,
         "api": "https://pianku.wang/api.php/provide/vod/at/xml/",
         "searchable": 1,
@@ -27,7 +87,57 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 0
-    },    
+    }, 
+    {
+        "key": "csp_xpath_saohuo",
+        "name": "骚火",
+        "type": 3,
+        "api": "csp_XPath",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://serverless-100020851183.coding.net/p/pglblb/d/json/git/raw/master/00-%E9%AA%9A%E7%81%AB.json?download=false"
+    },
+    {
+        "key": "csp_xpath_lezhu",
+        "name": "乐猪",
+        "type": 3,
+        "api": "csp_XPathMac",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://serverless-100020851183.coding.net/p/pglblb/d/json/git/raw/master/01-%E4%B9%90%E7%8C%AAtv.json?download=false"
+    },
+    {
+        "key": "csp_xpath_jpys",
+        "name": "极品",
+        "type": 3,
+        "api": "csp_XPath",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://serverless-100020851183.coding.net/p/pglblb/d/json/git/raw/master/02-%E6%9E%81%E5%93%81%E6%9E%81%E9%93%BE_20220312.json?download=false"
+    },
+    {
+        "key": "csp_xpath_pianba",
+        "name": "片吧",
+        "type": 3,
+        "api": "csp_XPath",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://serverless-100020851183.coding.net/p/pglblb/d/json/git/raw/master/90-%E7%89%87%E5%90%A7?download=false"
+    },
+    {
+        "key": "csp_xpath_dsxys",
+        "name": "师兄",
+        "type": 3,
+        "api": "csp_XPath",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://serverless-100020851183.coding.net/p/pglblb/d/json/git/raw/master/03-_%E5%A4%A7%E5%B8%88%E5%85%84.json?download=false"
+    },	
     {
         "key": "Cokemv影视",
         "name": "Cokemv影视(P)",
@@ -97,17 +207,7 @@
         "quickSearch": 1,
         "filterable": 0,
         "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/dm84.json"
-    },
-    {
-        "key": "auete_spider_li",
-        "name": "Auete影视(P)",
-        "type": 3,
-        "api": "csp_Auete",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/auete.json"
-    },
+    },    
     {
         "key": "csp_xpath_lranc",
         "name": "天天影视(P)",
@@ -2085,7 +2185,7 @@
         {"name":"Json轮询","type": 2,"url": "Sequence"},
         {"name":"瓜瓜免嗅","type": 2,"url": "Cucumber"},
         {"name":"天空影院","type":1,"url":"https://17.yxq.email/e4a/?url=","t":732,"i":"checkat2021-12-20 18:43:31"},
-        {"name":"小柒影视1","type": 1,"url":"http://admin.vodjx.top/json.php?url=","t": 204,"i": "checkat2021-12-20 18:43:35"},
+        {"name":"小柒影视1","type": 1,"url":"https://jx.300ys.xyz/json/jh.php/?url=","t": 204,"i": "checkat2021-12-20 18:43:35"},
         {"name":"小柒影视2","type":1,"url":"http://1.12.218.245/1696263602.php/?url=","t":559,"i":"checkat2021-12-28 19:45:42"},
         {"name":"小柒影视3","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=998036&key=afhlnuvzDJLMOX3689&url=","t":618,"i":"checkat2021-12-28 19:45:43"},
         {"name":"小柒影视4","type": 1,"url":"https://jx.jisujiexi.vip/home/api?type=ys&uid=1021463&key=aflqstzCFGILXY1489&url=","t": 645,"i": "check at 2021-12-20 18:43:35"},
@@ -2119,6 +2219,14 @@
         {"name":"天天蓝光","type": 1,"url": "http://vip.cycy.xyz/?url="},
         {"name":"聆风解析","type": 1,"url": "https://www.tutukiki.com/m3u8/?url="},
         {"name":"MG解析","type": 1,"url": "https://mg.2g88.vip/?url="}, 
+		{"name":"零刻影院","type":1,"url":"http://ys.ling00.cn/json/?url=","ext":{"flag":["CL4K"]}},
+		{"name":"虎猫视频","type":1,"url":"https://humaosp.com/json.php?url=","ext":{"flag":["qq","腾讯"]}},
+		{"name":"粉象视界","type":1,"url":"http://api.vip123kan.vip/?url=","ext":{"flag":["qq","腾讯","mgtv","芒果","youku","优酷"]}},
+		{"name":"菜鸟追剧","type":1,"url":"https://apis.jxcxin.cn/api/jx?url=","ext":{"flag":["qq","腾讯","mgtv","芒果"]}},
+		{"name":"粉象视界1","type":1,"url":"https://json.pangujiexi.com:12345/json.php?url=","ext":{"flag":["youku","优酷","qq","腾讯","qiyi","爱奇艺","奇艺","mgtv","芒果"]}},
+		{"name":"300看世界","type":1,"url":"https://jx.300ys.xyz/json/jh.php/?url=","ext":{"flag":["youku","优酷","qiyi","爱奇艺","奇艺","renrenmi","qq","腾讯","letv","乐视"]}},
+		{"name":"300看世界","type":1,"url":"https://languangyingshiziyuan.1080zy.top/longteng.php/?url=","ext":{"flag":["ltnb"]}},
+		
         {"name":"Preference","type": 1,"url": "youku#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||qq#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||iqiyi#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||qiyi#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||letv#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||sohu#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||tudou#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||pptv#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||mgtv#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||wasu#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||fun#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||m1905#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||migu#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10||bilibili#小柒影视1$$小柒影视2$$小柒影视3$$小柒影视4$$小柒影视5$$小柒影视6$$小柒影视7$$小柒影视8$$小柒影视9$$小柒影视10"}
     ],
     "flags": [
@@ -2135,7 +2243,24 @@
         "fun",
         "m1905",
         "migu",
-        "bilibili"
+        "bilibili",
+		"duoduozy",
+		"longteng",
+		"renrenmi",
+		"优酷",
+		"芒果",
+		"腾讯",
+		"爱奇艺",
+		"奇艺",
+		"ltnb",
+		"rx",
+		"xueren",
+		"xfyun",
+		"ziqie",
+		"wuduzy",
+		"CL4K",
+		"xuanfeng",
+		"1920l"
     ],
     "ijk": [
         {"group":"软解码","options":[
