@@ -11,6 +11,16 @@
     "wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [    
 	{
+        "key": "csp_appys_CQ影视",
+        "name": "CQ影视(P)推荐",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "http://api.kunyu77.com/api.php/provide/"
+    },
+	{
         "key": "auete_spider_li",
         "name": "Auete影视(P)推荐",
         "type": 3,
