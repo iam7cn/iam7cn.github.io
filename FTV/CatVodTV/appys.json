@@ -1,6 +1,7 @@
 {
   "sites": {
-"星空影视":{"url":"https://xkys.tv/xgapp.php/v1/","jx":[]},
+"星空影视":{"url":"https://xkys.tv/xgapp.php/v1/","jx":""},
+"一拳动漫":{"url":"http://47.97.68.224/api.php/provide/vod/","jx":""},
 "天空影视":{"url":"https://tkys.tv/xgapp.php/v1/"},
 "CQ影视":{"url":"http://api.kunyu77.com/api.php/provide/"},
 "小鱼影视":{"url":"https://www.mczdyw.com/api.php/app/"},
@@ -190,3 +191,4 @@
   },
   "jx": []
 }
+
