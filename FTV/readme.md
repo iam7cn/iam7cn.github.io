@@ -17,25 +17,24 @@
   https://wds.ecsxs.com/212757.json
 
   http://c1n.cn/mao
-  https://pglblb-1307091970.cos.ap-guangzhou.myqcloud.com/88.json
-
-  https://pglblb-1307091970.cos.ap-guangzhou.myqcloud.com/maotv.txt
-
+  
   https://c1n.cn/2
-
+  
   http://gg.gg/898900
-
+  
   2105专用接口(图床加密接口)
   https://catb5.c1n.cn
 
+  https://maoys.c1n.cn
+  
   https://wklb.coding.net/p/c/d/bktx123/git/raw/master/cat.bmp?download=false
-
+  
   2.1.0V3版接口：
   加密接口：
   https://wklb.coding.net/p/c/d/bktx123/git/raw/master/cat.json
-
+  
   https://ak9.cc/9bHgex
-
+  
   明码接口
   https://pastebin.com/raw/7sqJfwpx（新增）
   https://mitv.coding.net/p/miys/d/miys/git/raw/master/m.json（新增if101、达达、剧白白）
@@ -44,16 +43,16 @@
   https://wds.ecsxs.com/213821.json
   https://wds.ecsxs.com/213679.json
   https://wds.ecsxs.com/213766.txt
-
+  
   11个最优质的「猫影视」片源接口备份打包：
   https://pan.quark.cn/s/2a51b32a941e
-
+  
   其中，cat，KG、164那3个接口含爱优腾酷芒官解源
-
+  
   低版本专用接口：
   https://c1n.cn/2
   http://c1n.cn/mao
-
+  
   其它备用片源（主要适合低版本）
   稳定源备用接口：
   https://wds.ecsxs.com/213013.json （比较全）
@@ -66,7 +65,7 @@
   https://tool.wotianna.com/mysjk.json
   https://wds.ecsxs.com/216537.json
   https://wds.ecsxs.com/216731.json
-
+  
 - 猫影视TV｜接口
   - 设置 > 当前配置接口
   - [https://hao.iam7.cn/FTV/CatVodTV/my.json](https://hao.iam7.cn/FTV/CatVodTV/my.json)
