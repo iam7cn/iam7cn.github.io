@@ -36,7 +36,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/2345.bmp"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/2345.bmp"
     },
     {
       "key": "sogou_spider",
@@ -46,7 +46,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/sougou.bmp"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/sougou.bmp"
     },
     {
       "key": "360_spider",
@@ -56,7 +56,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/360.bmp"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/360.bmp"
     },
     {
       "key": "epang_spider",
@@ -102,7 +102,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/Auete.bmp"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/Auete.bmp"
     },
     {
       "key": "buka_spider",
@@ -112,7 +112,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/zhenbuka.bmp"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/zhenbuka.bmp"
     },
     {
       "key": "ftys_spider",
@@ -122,7 +122,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/fantuan.bmp"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/fantuan.bmp"
     },
     {
       "key": "csp_xpath_nmys",
@@ -132,7 +132,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/nmys.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/nmys.json"
     },
     {
       "key": "csp_appysv2_杨桃",
@@ -152,7 +152,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/38.js"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/38.js"
     },
     {
       "key": "csp_xpath_01-专线01",
@@ -162,7 +162,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/01-%E4%B9%90%E7%8C%AAtv.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/01-%E4%B9%90%E7%8C%AAtv.js?download=false"
     },
     {
       "key": "csp_xpath_虎牙直播1",
@@ -172,7 +172,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/A30-U%E7%8C%AB%E8%99%8E%E7%89%99.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/A30-U%E7%8C%AB%E8%99%8E%E7%89%99.js?download=false"
     },
     {
       "key": "csp_xpath_酷奇MV",
@@ -182,7 +182,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/A32-%E9%85%B7%E5%A5%87MV.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/A32-%E9%85%B7%E5%A5%87MV.js?download=false"
     },
     {
       "key": "csp_xpath_异世界动漫",
@@ -192,7 +192,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/A32-%E5%BC%82%E4%B8%96%E7%95%8C%E5%8A%A8%E6%BC%AB.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/A32-%E5%BC%82%E4%B8%96%E7%95%8C%E5%8A%A8%E6%BC%AB.js?download=false"
     },
     {
       "key": "csp_Buka",
@@ -211,7 +211,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/cokemv.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/cokemv.json"
     },
     {
       "key": "嘛哩嘛哩",
@@ -247,7 +247,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/dmw.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/dmw.json"
     },
     {
       "key": "csp_Auete",
@@ -284,7 +284,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/xiaoqiang.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/xiaoqiang.json"
     },
     {
       "key": "csp_xpath_dandan",
@@ -294,7 +294,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/egg.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/egg.json"
     },
     {
       "key": "csp_appysv2_钟特影视",
@@ -344,7 +344,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/js/pianba.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/pianba.js?download=false"
     },
     {
       "key": "csp_xpath_猫群自维护源03",
@@ -354,7 +354,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/js/03-%E5%9C%A8%E7%BA%BF%E4%B9%8B%E5%AE%B6.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/03-%E5%9C%A8%E7%BA%BF%E4%B9%8B%E5%AE%B6.js?download=false"
     },
     {
       "key": "csp_xpath_猫群自维护源04",
@@ -364,7 +364,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/js/04-%E4%B9%85%E4%B9%85%E7%9C%8B%E7%89%87.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/04-%E4%B9%85%E4%B9%85%E7%9C%8B%E7%89%87.js?download=false"
     },
     {
       "key": "csp_xpath_猫群自维护源A03",
@@ -374,7 +374,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/js/18-%E8%9E%8D%E5%85%B4.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/18-%E8%9E%8D%E5%85%B4.js?download=false"
     },
     {
       "key": "csp_xpath_猫群自维护源09",
@@ -384,7 +384,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/js/09-%E4%BA%BA%E4%BA%BA.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/09-%E4%BA%BA%E4%BA%BA.js?download=false"
     },
     {
       "key": "csp_xpath_猫群自维护源21",
@@ -394,7 +394,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/js/21-%E6%A8%B1%E8%8A%B1%E5%8A%A8%E6%BC%AB.js?download=false"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/21-%E6%A8%B1%E8%8A%B1%E5%8A%A8%E6%BC%AB.js?download=false"
     },
     {
       "key": "csp_xpath_全能影视",
@@ -404,7 +404,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/qnys.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/qnys.json"
     },
     {
       "key": "csp_appysv2_秒看电影",
@@ -454,7 +454,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/lib.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/lib.json"
     },
     {
       "key": "csp_xpath_yanet",
@@ -464,7 +464,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/yanet.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/yanet.json"
     },
     {
       "key": "csp_xpath_ddg",
@@ -474,7 +474,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/dadagui.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/dadagui.json"
     },
     {
       "key": "csp_xpath_jbb",
@@ -484,7 +484,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/jubaibai.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/jubaibai.json"
     },
     {
       "key": "csp_xpath_lanmei",
@@ -494,7 +494,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/lanmei.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/lanmei.json"
     },
     {
       "key": "csp_xpath_789ba",
@@ -504,7 +504,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/789ba.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/789ba.json"
     },
     {
       "key": "csp_xpath_94sm",
@@ -514,7 +514,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/94sm.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/94sm.json"
     },
     {
       "key": "csp_xpath_dm84",
@@ -524,7 +524,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/dm84.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/dm84.json"
     },
     {
       "key": "Gimy",
@@ -534,7 +534,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/Gimy.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/Gimy.json"
     },
     {
       "key": "csp_xpath_lezhutv",
@@ -544,7 +544,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/lezhutv.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/lezhutv.json"
     },
     {
       "key": "csp_xpath_meiju56",
@@ -554,7 +554,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/meiju56.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/meiju56.json"
     },
     {
       "key": "csp_xpath_4kpianku",
@@ -564,7 +564,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/4kpianku.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/4kpianku.json"
     },
     {
       "key": "csp_xpath_agefans",
@@ -574,7 +574,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/agefans.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/agefans.json"
     },
     {
       "key": "csp_xpath_saohuotv2",
@@ -584,7 +584,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/saohuotv2.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/saohuotv2.json"
     },
     {
       "key": "csp_xpath_lranc",
@@ -594,7 +594,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/lranc.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/lranc.json"
     },
     {
       "key": "csp_xpath_jpys",
@@ -604,7 +604,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hao.iam7.cn/FTV/CatVodTV/xpath/jpys.json"
+      "ext": "https://hao.iam7.cn/FTV/CatVodTV/ext/jpys.json"
     },
     {
       "key": "csp_appysv2_追剧达人",
