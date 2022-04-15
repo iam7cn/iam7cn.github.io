@@ -12,7 +12,7 @@
     "sites": [    
 	{
       "key": "kmys_spider",
-      "name": "默认主页（公众号白侃天下）",
+      "name": "默认主页",
       "type": 3,
       "api": "csp_Kmys",
       "searchable": 1,
