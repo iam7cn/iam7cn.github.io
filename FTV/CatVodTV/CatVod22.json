@@ -4018,7 +4018,7 @@
         {"name":"抹茶猪1","type":1,"url":"https://jx.mczdyw.com/xg.php?url=","ext":{"flag":["mgtv","芒果","youku","优酷","qq","腾讯","bilibili","哔哩哔哩","哔哩","qiyi","爱奇艺","奇艺"]}},
         {"name":"三日影院","type":1,"url":"http://cs.91dmmm.cc/api/?key=WoCtDWXQ8Wbmk5v23Y&url=","ext":{"flag":["qq","腾讯"]}},		
         {"name":"8090解析","type": 1,"url": "https://www.8090g.cn/?url="},
-		{"name":"虾米解析","type": 1,"url": "https://jx.xmflv.com/?url="},		
+        {"name":"虾米解析","type": 1,"url": "https://jx.xmflv.com/?url="},		
         {"name":"解析啦","type": 1,"url": "https://api.jiexi.la/?url="},
         {"name":"playm3u8解析","type": 1,"url": "https://www.playm3u8.cn/jiexi.php?url="},
         {"name":"ckplayer解析","type": 1,"url": "https://www.ckplayer.vip/jiexi/?url="},
