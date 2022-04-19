@@ -7,7 +7,7 @@
 # searchable可搜索quickSearch可快速搜索filterable可筛选 0-不可以 1-可以
 
 {
-    "spider":"https://hao.iam7.cn/FTV/CatVodTV/jar/spider.bmp;md5;BD7805BE440AB3612119AF669DE40197",
+    "spider":"https://hao.iam7.cn/FTV/CatVodTV/jar/spider.bmp",
     "wallpaper":"https://hao.iam7.cn/FTV/CatVodTV/wrapper/wall.jpg",
     "sites": [    
 	{
