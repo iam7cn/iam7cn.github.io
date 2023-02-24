@@ -2,6 +2,11 @@
 https://free.iam7.tk/clash/proxies
 https://free.jingfu.cf/clash/proxies
 https://proxy.yugogo.xyz/clash/proxies
+https://proxypool.laowang.me/clash/proxies
+http://168.138.45.251/clash/proxies
+https://pc.adlionvm.tk/clash/proxies
+https://clash.myvm.cc/clash/proxies
+https://klausvpn.posyao.com/clash/proxies
 
 # github订阅
 # https://v2rayshare.com/f/freenode
