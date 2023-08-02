@@ -70,23 +70,7 @@ function ssGo() {
 
     let website = [
         "foxirj.com",
-        "www.appinn.com",
-        "blog.ruancang.net",
-        "ghxi.com",
-        "www.luochenzhimu.com",
-        "baideye.com",
-        "www.macyy.cn",
-        "www.lxapk.com",
-        "www.iplaysoft.com",
-        "www.torrentmac.net",
-        "www.yxssp.com",
-        "fy6b.com",
-        "www.sdifen.com",
-        "macpedia.xyz",
-        "softasm.com",
-        "igetintopc.com",
-        "www.sadeempc.com",
-        "haxnode.net",
+        "downloadly.net",        
         "www.crackingcity.com"
     ];
 
