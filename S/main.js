@@ -74,6 +74,7 @@ function ssGo() {
         "blog.ruancang.net",
         "www.ghxi.com",
         "x1g.la",
+        "www.mpyit.com",
         "www.luochenzhimu.com",
         "baideye.com",
         "www.macyy.cn",
