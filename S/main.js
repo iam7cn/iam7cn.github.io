@@ -70,7 +70,8 @@ function ssGo() {
 
     let website = [
         "foxirj.com",
-        "downloadly.net",        
+        "downloadly.net",
+        "portableappk.com",
         "www.crackingcity.com"
     ];
 
