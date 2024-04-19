@@ -1,6 +1,6 @@
 ## **关于本站**
 
-这是一个基于**[Jekyll](https://github.com/barryclark/jekyll-now)** 生成的静态站，托管在Github上。
+这是一个基于 [Jekyll](https://github.com/barryclark/jekyll-now) 生成的静态站，托管在Github上。
 
 ## 本站内容
 
