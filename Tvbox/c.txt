@@ -1,0 +1,37 @@
+//此多仓接口列表为收集网上接口便利整理而成，如有冒犯各位接口所属大神，请联系删除。By:shenweb
+{
+    "urls": [
+        {
+            "url": "https://notabug.org/qizhen15800/My9394/raw/master/%e4%b8%8d%e8%89%af%e5%b8%85.json",
+            "name": "💎不良帅线路"
+        }, 
+        {
+            "url": "http://我不是.摸鱼儿.top",
+            "name": "💎摸鱼线路"
+         },
+          {
+            "url":"https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+            "name": "💎高天流云"
+        },
+        {
+            "url": "http://meowtv.top/tv",
+            "name": "💎喵影视"
+        },           
+        {
+            "url": "https://www.macms.pro/box/3.json",
+            "name": "💎万达线路"
+        },        
+        {
+            "url": "https://szyyds.cn/tv/x.json",
+            "name": "💎小马线路"
+        },
+        {
+            "url": "https://gitee.com/tvkj/tw/raw/main/svip.json",
+            "name": "💎天微线路"
+        },
+        {
+            "url": "https://tv.lan2wan.top/candymuj.json",
+            "name": "💎看电影线路"
+        }
+    ]
+}
