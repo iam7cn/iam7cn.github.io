@@ -1,0 +1,33 @@
+//此多仓接口列表为收集网上接口便利整理而成，如有冒犯各位接口所属大神，请联系删除。By:shenweb
+{
+    "urls": [
+          {
+            "url":"https://yydf.540734621.xyz/QQ/yydf2024.json",
+            "name": "🏄️业余线路"
+        },
+          {
+            "url":"https://codeberg.org/Xym/ymz/raw/branch/main/夜猫子",
+            "name": "🏄️夜猫子线路"
+        }, 
+          {
+            "url":"http://sinopacifichk.com/box/56.txt",
+            "name": "🏄️太平洋线路"
+        },
+          {
+            "url":"https://jihulab.com/yw88075/tvbox/-/raw/main/dr/js.json",
+            "name": "🏄️心魔在线"
+        }, 	
+          {
+            "url":"https://ghproxy.com/https://raw.githubusercontent.com/2hacc/TVBox/main/tvbox.json",
+            "name": "🏄️二哈线路"
+        },
+          {
+            "url":"http://cdn.qiaoji8.com/tvbox.json",
+            "name": "🏄️巧技线路"
+        },
+          {
+            "url":"http://www.wya6.cn/tv/yc.json",
+            "name": "🏄️无意线路"
+        }		
+      ]  
+}
