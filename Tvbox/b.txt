@@ -3,47 +3,47 @@
     "urls": [
         {
             "url": "https://tv.xn--yhqu5zs87a.top",
-            "name": "🐹多多┃菜妮丝线路"
+            "name": "🐹菜妮丝线路"
         },
         {
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json",
-            "name": "🐹多多┃潇洒线路"
+            "name": "🐹潇洒线路"
         },
         {
             "url": "http://rihou.vip:55/天天开心",
-            "name": "🐹多多┃开心线路"
+            "name": "🐹开心线路"
         },  
         {
             "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json",
-            "name": "🐹多多┃D佬魔改"
+            "name": "🐹D佬魔改"
         },                                    
         {
             "url": "https://gitlab.com/guot55/bh/-/raw/main/pg/bh.json",
-            "name": "🐹多多┃月光线路"
+            "name": "🐹月光线路"
         },
         {
             "url": "http://o.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌",
-            "name": "🐹多多┃欧歌线路"
+            "name": "🐹欧歌线路"
         },      
         {
             "url": "http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0",
-            "name": "🐹多多┃吾爱线路"
+            "name": "🐹吾爱线路"
         },   
         {
             "url": "https://gitee.com/dongchenys/liu/raw/master/hb.json",
-            "name": "🐹多多┃东辰线路"
+            "name": "🐹东辰线路"
         },  
         {
             "url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-            "name": "🐹多多┃南风线路"
+            "name": "🐹南风线路"
         },       
         {
             "url": "http://8.210.232.168/xc.json",
-            "name": "🐹多多┃星辰线路"
+            "name": "🐹星辰线路"
         },          
         {
             "url": "http://dp.sxtv.top:88/img",
-            "name": "🐹多多┃神仙线路"
+            "name": "🐹神仙线路"
         }
     ]
 }
