@@ -91,8 +91,9 @@ function ssGo() {
         "www.sadeempc.com",
         "haxnode.net", 
         "www.dayanzai.me", 
-        "downloadly.net",
+        "downloadlynet.ir",
         "portableappk.com",
+        "www.uy5.net",        
         "www.crackingcity.com"
     ];
 
