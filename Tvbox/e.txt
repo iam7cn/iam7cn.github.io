@@ -1,0 +1,65 @@
+//此多仓接口列表为收集网上接口便利整理而成，如有冒犯各位接口所属大神，请联系删除。By:shenweb
+{
+    "urls": [	
+        {
+			"url": "https://gitee.com/mzrjk1/BHapp/raw/master/bhapp.json",
+			"name": "💗宝盒app"
+		},
+		{
+			"url": "https://gitee.com/bhapp/zs/raw/kl/feimao.json",
+			"name": "💗我是肥猫"
+		},
+		{
+			"url": "https://gitee.com/bhapp/zs/raw/xs/xiaosa.json",
+			"name": "💗我是摸鱼"
+		},
+		{
+			"url": "http://mzrjk.top/app.json",
+			"name": "💗备用宝盒"
+		},
+		{
+			"url": "http://bhapp.top/fty",
+			"name": "💗饭佬太硬"
+		},
+		{
+			"url": "http://mzrjk.top/app.json",
+			"name": "💗备用宝盒"
+		},		
+        {
+            "url": "https://gitee.com/okjack/okk/raw/master/op.txt",
+            "name": "🚀OK线路"
+        },  
+        {
+            "url": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json",
+            "name": "🚀PG线路"
+        },                                                                            
+        {
+            "url": "https://pastebin.com/raw/5NHaxyGR",
+            "name": "🚀道长线路"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+            "name": "🚀香雅情线路"
+        },  
+        {
+            "url": "http://tvbox.王二小放牛娃.xyz",
+            "name": "🚀放牛线路"
+        },	
+        {
+            "url": "https://100km.top/0",
+            "name": "🚀Ray线路"
+        },			
+        {
+            "url": "http://home.jundie.top:81/top98.json",
+            "name": "🚀俊佬线路"
+        },    
+        {
+            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
+            "name": "🚀老刘备线路"
+        },
+          {
+            "url":"http://rihou.cc:88/荷城茶秀",
+            "name": "🚀荷城线路"
+        }
+    ]
+}
