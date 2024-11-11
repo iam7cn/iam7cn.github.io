@@ -1,1 +1,6 @@
 http://sub.iam8.shop:25500/sub?target=clash&url=http://172.17.0.2:12580/clash/proxies
+
+
+http://sub.iam8.shop:6001/node1.php
+http://sub.iam8.shop:6001/node2.php
+http://sub.iam8.shop:6001/node3.php
