@@ -24,21 +24,21 @@ ver_file="/tmp/.frp_ver.sh"
 str_install_shell="https://hao.iam7.cn/frps/install-zh.sh"
 shell_update(){
     fun_clangcn "clear"
-    echo "Check updates for shell..."
+    echo "检查脚本更新..."
     remote_shell_version=`wget --no-check-certificate -qO- ${str_install_shell} | sed -n '/'^version'/p' | cut -d\" -f2`
     if [ ! -z ${remote_shell_version} ]; then
         if [[ "${version}" != "${remote_shell_version}" ]];then
-            echo -e "${COLOR_GREEN}Found a new version,update now!!!${COLOR_END}"
+            echo -e "${COLOR_GREEN}发现新版本，立即更新!!!${COLOR_END}"
             echo
-            echo -n "Update shell ..."
+            echo -n "更新脚本中 ..."
             if ! wget --no-check-certificate -qO $0 ${str_install_shell}; then
-                echo -e " [${COLOR_RED}failed${COLOR_END}]"
+                echo -e " [${COLOR_RED}更新失败${COLOR_END}]"
                 echo
                 exit 1
             else
-                echo -e " [${COLOR_GREEN}OK${COLOR_END}]"
+                echo -e " [${COLOR_GREEN}更新成功${COLOR_END}]"
                 echo
-                echo -e "${COLOR_GREEN}Please Re-run${COLOR_END} ${COLOR_PINK}$0 ${clang_action}${COLOR_END}"
+                echo -e "${COLOR_GREEN}请重新运行${COLOR_END} ${COLOR_PINK}$0 ${clang_action}${COLOR_END}"
                 echo
                 exit 1
             fi
@@ -73,7 +73,7 @@ fun_set_text_color(){
 rootness(){
     if [[ $EUID -ne 0 ]]; then
         fun_clangcn
-        echo "Error:This script must be run as root!" 1>&2
+        echo "错误：此脚本必须以 root 身份运行!" 1>&2
         exit 1
     fi
 }
@@ -97,7 +97,7 @@ checkos(){
     elif grep -Eqi "Fedora" /etc/issue || grep -Eq "Fedora" /etc/*-release; then
         OS=Fedora
     else
-        echo "Not support OS, Please reinstall OS and retry!"
+        echo "不支持的操作系统，请重新安装操作系统并重试!"
         exit 1
     fi
 }
@@ -135,12 +135,12 @@ check_os_bit() {
         mips64el)    Is_64bit='y'; ARCHS="mips64le";;
         mipsel)      Is_64bit='n'; ARCHS="mipsle"; FRPS_VER="$FRPS_VER_32BIT";;
         riscv64)     Is_64bit='y'; ARCHS="riscv64";;
-        *)           echo "Unknown architecture";;
+        *)           echo "未知的架构";;
     esac
 }
 check_centosversion(){
 if centosversion 5; then
-    echo "Not support CentOS 5.x, please change to CentOS 6,7 or Debian or Ubuntu or Fedora and try again."
+    echo "不支持 CentOS 5.x，请更换为 CentOS 6,7 或 Debian 或 Ubuntu 或 Fedora 后重试."
     exit 1
 fi
 }
@@ -162,7 +162,7 @@ pre_install_packs(){
     netstat --version >/dev/null 2>&1
     netstat_flag=$?
     if [[ ${wget_flag} -gt 1 ]] || [[ ${killall_flag} -gt 1 ]] || [[ ${netstat_flag} -gt 6 ]];then
-        echo -e "${COLOR_GREEN} Install support packs...${COLOR_END}"
+        echo -e "${COLOR_GREEN} 安装支持包...${COLOR_END}"
         if [ "${OS}" == 'CentOS' ]; then
             yum install -y wget psmisc net-tools
         else
@@ -181,10 +181,10 @@ fun_randstr(){
 fun_getServer(){
     def_server_url="github"
     echo ""
-    echo -e "Please select ${program_name} download url:"
+    echo -e "请选择 ${program_name} 下载地址:"
     echo -e "[1].gitee"
-    echo -e "[2].github (default)"
-    read -e -p "Enter your choice (1, 2 or exit. default [${def_server_url}]): " set_server_url
+    echo -e "[2].github (默认)"
+    read -e -p "输入您的选择 (1, 2 或退出. 默认 [${def_server_url}]): " set_server_url
     [ -z "${set_server_url}" ] && set_server_url="${def_server_url}"
     case "${set_server_url}" in
         1|[Ga][Ii][Tt][Ee][Ee])
@@ -203,27 +203,27 @@ fun_getServer(){
             ;;
     esac
     echo    "-----------------------------------"
-    echo -e "       Your select: ${COLOR_YELOW}${set_server_url}${COLOR_END}    "
+    echo -e "       您的选择: ${COLOR_YELOW}${set_server_url}${COLOR_END}    "
     echo    "-----------------------------------"
 }
 fun_getVer(){
-    echo -e "Loading network version for ${program_name}, please wait..."
+    echo -e "正在加载网络版本 for ${program_name}, 请稍等..."
     case $choice in
         1)  LATEST_RELEASE=$(curl -s ${gitee_latest_version_api} | grep -oP '"tag_name":"\Kv[^"]+' | cut -c2-);;
         2)  LATEST_RELEASE=$(curl -s ${github_latest_version_api} | grep '"tag_name":' | cut -d '"' -f 4 | cut -c 2-);;
     esac
     if [[ ! -z "$LATEST_RELEASE" ]]; then
         FRPS_VER="$LATEST_RELEASE"
-        echo "FRPS_VER set to: $FRPS_VER"
+        echo "FRPS_VER 设置为: $FRPS_VER"
     else
-        echo "Failed to retrieve the latest version."
+        echo "无法检索最新版本."
     fi
     program_latest_filename="frp_${FRPS_VER}_linux_${ARCHS}.tar.gz"
     program_latest_file_url="${program_download_url}/v${FRPS_VER}/${program_latest_filename}"
     if [ -z "${program_latest_filename}" ]; then
-        echo -e "${COLOR_RED}Load network version failed!!!${COLOR_END}"
+        echo -e "${COLOR_RED}加载网络版本失败!!!${COLOR_END}"
     else
-        echo -e "${program_name} Latest release file ${COLOR_GREEN}${program_latest_filename}${COLOR_END}"
+        echo -e "${program_name} 最新发布文件 ${COLOR_GREEN}${program_latest_filename}${COLOR_END}"
     fi
 }
 fun_download_file(){
@@ -262,14 +262,14 @@ fun_check_port(){
         checkServerPort=`netstat -ntulp | grep "\b:${strCheckPort}\b"`
         if [ -n "${checkServerPort}" ]; then
             echo ""
-            echo -e "${COLOR_RED}Error:${COLOR_END} Port ${COLOR_GREEN}${strCheckPort}${COLOR_END} is ${COLOR_PINK}used${COLOR_END},view relevant port:"
+            echo -e "${COLOR_RED}错误:${COLOR_END} 端口 ${COLOR_GREEN}${strCheckPort}${COLOR_END} 已被 ${COLOR_PINK}使用${COLOR_END},查看相关端口:"
             netstat -ntulp | grep "\b:${strCheckPort}\b"
             fun_input_${port_flag}_port
         else
             input_port="${strCheckPort}"
         fi
     else
-        echo "Input error! Please input correct numbers."
+        echo "输入错误！请输入正确的数字."
         fun_input_${port_flag}_port
     fi
 }
@@ -284,7 +284,7 @@ fun_check_number(){
     if [ ${strCheckNum} -ge 1 ] && [ ${strCheckNum} -le ${strMaxNum} ]; then
         input_number="${strCheckNum}"
     else
-        echo "Input error! Please input correct numbers."
+        echo "输入错误！请输入正确的数字."
         fun_input_${num_flag}
     fi
 }
@@ -427,7 +427,7 @@ pre_install_clang(){
         echo    "3: error"
         echo    "4: debug"    
         echo    "-------------------------"
-        read -e -p "Enter your choice (1, 2, 3, 4 or exit. default [1]): " str_log_level
+        read -e -p "输入您的选择 (1, 2, 3, 4 或退出. 默认 [1]): " str_log_level
         case "${str_log_level}" in
             1|[Ii][Nn][Ff][Oo])
                 str_log_level="info"
@@ -458,7 +458,7 @@ pre_install_clang(){
         echo    "1: enable (default)"
         echo    "2: disable"
         echo "-------------------------"
-        read -e -p "输入您的选择 (1, 2 or exit. default [1]): " str_log_file
+        read -e -p "输入您的选择 (1, 2 or 或退出. 默认 [1]): " str_log_file
         case "${str_log_file}" in
             1|[yY]|[yY][eE][sS]|[oO][nN]|[tT][rR][uU][eE]|[eE][nN][aA][bB][lL][eE])
                 str_log_file="./frps.log"
@@ -482,7 +482,7 @@ pre_install_clang(){
         echo    "1: enable (default)"
         echo    "2: disable"
         echo "-------------------------"         
-        read -e -p "Enter your choice (1, 2 or exit. default [1]): " str_tcp_mux
+        read -e -p "输入您的选择 (1, 2 或退出. 默认 [1]): " str_tcp_mux
         case "${str_tcp_mux}" in
             1|[yY]|[yY][eE][sS]|[oO][nN]|[tT][rR][uU][eE]|[eE][nN][aA][bB][lL][eE])
                 set_tcp_mux="true"
@@ -503,7 +503,7 @@ pre_install_clang(){
         echo    "1: enable (default)"
         echo    "2: disable"
         echo "-------------------------"  
-        read -e -p "请输入您的选择 (1, 2 or exit. default [1]): " str_kcp
+        read -e -p "请输入您的选择 (1, 2 or 或退出. 默认 [1]): " str_kcp
         case "${str_kcp}" in
             1|[yY]|[yY][eE][sS]|[oO][nN]|[tT][rR][uU][eE]|[eE][nN][aA][bB][lL][eE])
                 set_kcp="true"
@@ -521,22 +521,22 @@ pre_install_clang(){
         echo -e "kcp 支持: ${COLOR_YELOW}${set_kcp}${COLOR_END}"
         echo -e ""
 
-        echo "============== Check your input =============="
-        echo -e "You Server IP      : ${COLOR_GREEN}${defIP}${COLOR_END}"
-        echo -e "Bind port          : ${COLOR_GREEN}${set_bind_port}${COLOR_END}"
-        echo -e "kcp support        : ${COLOR_GREEN}${set_kcp}${COLOR_END}"
-        echo -e "vhost http port    : ${COLOR_GREEN}${set_vhost_http_port}${COLOR_END}"
-        echo -e "vhost https port   : ${COLOR_GREEN}${set_vhost_https_port}${COLOR_END}"
-        echo -e "Dashboard port     : ${COLOR_GREEN}${set_dashboard_port}${COLOR_END}"
-        echo -e "Dashboard user     : ${COLOR_GREEN}${set_dashboard_user}${COLOR_END}"
-        echo -e "Dashboard password : ${COLOR_GREEN}${set_dashboard_pwd}${COLOR_END}"
-        echo -e "token              : ${COLOR_GREEN}${set_token}${COLOR_END}"
-        echo -e "subdomain_host     : ${COLOR_GREEN}${set_subdomain_host}${COLOR_END}"
+        echo "============== 检查您的输入 =============="
+        echo -e "您的服务器 IP      : ${COLOR_GREEN}${defIP}${COLOR_END}"
+        echo -e "绑定端口           : ${COLOR_GREEN}${set_bind_port}${COLOR_END}"
+        echo -e "kcp 支持           : ${COLOR_GREEN}${set_kcp}${COLOR_END}"
+        echo -e "vhost http 端口    : ${COLOR_GREEN}${set_vhost_http_port}${COLOR_END}"
+        echo -e "vhost https 端口   : ${COLOR_GREEN}${set_vhost_https_port}${COLOR_END}"
+        echo -e "管理端口           : ${COLOR_GREEN}${set_dashboard_port}${COLOR_END}"
+        echo -e "管理用户名         : ${COLOR_GREEN}${set_dashboard_user}${COLOR_END}"
+        echo -e "管理密码           : ${COLOR_GREEN}${set_dashboard_pwd}${COLOR_END}"
+        echo -e "令牌               : ${COLOR_GREEN}${set_token}${COLOR_END}"
+        echo -e "子域名             : ${COLOR_GREEN}${set_subdomain_host}${COLOR_END}"
         echo -e "tcp_mux            : ${COLOR_GREEN}${set_tcp_mux}${COLOR_END}"
-        echo -e "Max Pool count     : ${COLOR_GREEN}${set_max_pool_count}${COLOR_END}"
-        echo -e "Log level          : ${COLOR_GREEN}${str_log_level}${COLOR_END}"
-        echo -e "Log max days       : ${COLOR_GREEN}${set_log_max_days}${COLOR_END}"
-        echo -e "Log file           : ${COLOR_GREEN}${str_log_file_flag}${COLOR_END}"
+        echo -e "最大池计数         : ${COLOR_GREEN}${set_max_pool_count}${COLOR_END}"
+        echo -e "日志级别           : ${COLOR_GREEN}${str_log_level}${COLOR_END}"
+        echo -e "日志记录最大天数   : ${COLOR_GREEN}${set_log_max_days}${COLOR_END}"
+        echo -e "日志文件           : ${COLOR_GREEN}${str_log_file_flag}${COLOR_END}"
         echo "=============================================="
         echo ""
         echo "按任意键开始...或按 Ctrl+c 取消"
@@ -549,9 +549,9 @@ pre_install_clang(){
 install_program_server_clang(){
     [ ! -d ${str_program_dir} ] && mkdir -p ${str_program_dir}
     cd ${str_program_dir}
-    echo "${program_name} install path:$PWD"
+    echo "${program_name} 安装路径:$PWD"
 
-    echo -n "config file for ${program_name} ..."
+    echo -n "配置文件 ${program_name} ..."
 # Config file
 if [[ "${set_kcp}" == "false" ]]; then
 cat > ${str_program_dir}/${program_config_file}<<-EOF
@@ -624,23 +624,23 @@ max_pool_count = ${set_max_pool_count}
 tcp_mux = ${set_tcp_mux}
 EOF
 fi
-    echo " done"
+    echo " 完成"
 
-    echo -n "download ${program_name} ..."
+    echo -n "下载 ${program_name} ..."
     rm -f ${str_program_dir}/${program_name} ${program_init}
     fun_download_file
-    echo " done"
-    echo -n "download ${program_init}..."
+    echo " 完成"
+    echo -n "下载 ${program_init}..."
     if [ ! -s ${program_init} ]; then
         if ! wget  -q ${FRPS_INIT} -O ${program_init}; then
-            echo -e " ${COLOR_RED}failed${COLOR_END}"
+            echo -e " ${COLOR_RED}失败${COLOR_END}"
             exit 1
         fi
     fi
     [ ! -x ${program_init} ] && chmod +x ${program_init}
-    echo " done"
+    echo " 完成"
 
-    echo -n "setting ${program_name} boot..."
+    echo -n "设置 ${program_name} 启动..."
     [ ! -x ${program_init} ] && chmod +x ${program_init}
     if [ "${OS}" == 'CentOS' ]; then
         chmod +x ${program_init}
@@ -649,7 +649,7 @@ fi
         chmod +x ${program_init}
         update-rc.d -f ${program_name} defaults
     fi
-    echo " done"
+    echo " 完成"
     [ -s ${program_init} ] && ln -s ${program_init} /usr/bin/${program_name}
     ${program_init} start
     fun_clangcn
@@ -657,30 +657,30 @@ fi
     echo ""
     echo "恭喜您, ${program_name} 安装成功!"
     echo "================================================"
-    echo -e "You Server IP      : ${COLOR_GREEN}${defIP}${COLOR_END}"
-    echo -e "Bind port          : ${COLOR_GREEN}${set_bind_port}${COLOR_END}"
-    echo -e "KCP support        : ${COLOR_GREEN}${set_kcp}${COLOR_END}"
-    echo -e "vhost http port    : ${COLOR_GREEN}${set_vhost_http_port}${COLOR_END}"
-    echo -e "vhost https port   : ${COLOR_GREEN}${set_vhost_https_port}${COLOR_END}"
-    echo -e "Dashboard port     : ${COLOR_GREEN}${set_dashboard_port}${COLOR_END}"
-    echo -e "token              : ${COLOR_GREEN}${set_token}${COLOR_END}"
-    echo -e "subdomain_host     : ${COLOR_GREEN}${set_subdomain_host}${COLOR_END}"
+    echo -e "您的服务器 IP      : ${COLOR_GREEN}${defIP}${COLOR_END}"
+    echo -e "绑定端口           : ${COLOR_GREEN}${set_bind_port}${COLOR_END}"
+    echo -e "kcp 支持           : ${COLOR_GREEN}${set_kcp}${COLOR_END}"
+    echo -e "vhost http 端口    : ${COLOR_GREEN}${set_vhost_http_port}${COLOR_END}"
+    echo -e "vhost https 端口   : ${COLOR_GREEN}${set_vhost_https_port}${COLOR_END}"
+    echo -e "管理端口           : ${COLOR_GREEN}${set_dashboard_port}${COLOR_END}"
+    echo -e "令牌               : ${COLOR_GREEN}${set_token}${COLOR_END}"
+    echo -e "子域名             : ${COLOR_GREEN}${set_subdomain_host}${COLOR_END}"
     echo -e "tcp_mux            : ${COLOR_GREEN}${set_tcp_mux}${COLOR_END}"
-    echo -e "Max Pool count     : ${COLOR_GREEN}${set_max_pool_count}${COLOR_END}"
-    echo -e "Log level          : ${COLOR_GREEN}${str_log_level}${COLOR_END}"
-    echo -e "Log max days       : ${COLOR_GREEN}${set_log_max_days}${COLOR_END}"
-    echo -e "Log file           : ${COLOR_GREEN}${str_log_file_flag}${COLOR_END}"
+    echo -e "最大池计数         : ${COLOR_GREEN}${set_max_pool_count}${COLOR_END}"
+    echo -e "日志级别           : ${COLOR_GREEN}${str_log_level}${COLOR_END}"
+    echo -e "日志记录最大天数   : ${COLOR_GREEN}${set_log_max_days}${COLOR_END}"
+    echo -e "日志文件           : ${COLOR_GREEN}${str_log_file_flag}${COLOR_END}"
     echo "================================================"
-    echo -e "${program_name} Dashboard     : ${COLOR_GREEN}http://${set_subdomain_host}:${set_dashboard_port}/${COLOR_END}"
-    echo -e "Dashboard user     : ${COLOR_GREEN}${set_dashboard_user}${COLOR_END}"
-    echo -e "Dashboard password : ${COLOR_GREEN}${set_dashboard_pwd}${COLOR_END}"
+    echo -e "${program_name} 管理地址     : ${COLOR_GREEN}http://${set_subdomain_host}:${set_dashboard_port}/${COLOR_END}"
+    echo -e "管理用户名     : ${COLOR_GREEN}${set_dashboard_user}${COLOR_END}"
+    echo -e "管理密码       : ${COLOR_GREEN}${set_dashboard_pwd}${COLOR_END}"
     echo "================================================"
     echo ""
-    echo -e "${program_name} status manage : ${COLOR_PINKBACK_WHITEFONT}${program_name}${COLOR_END} {${COLOR_GREEN}start|stop|restart|status|config|version${COLOR_END}}"
-    echo -e "Example:"
-    echo -e "  start: ${COLOR_PINK}${program_name}${COLOR_END} ${COLOR_GREEN}start${COLOR_END}"
-    echo -e "   stop: ${COLOR_PINK}${program_name}${COLOR_END} ${COLOR_GREEN}stop${COLOR_END}"
-    echo -e "restart: ${COLOR_PINK}${program_name}${COLOR_END} ${COLOR_GREEN}restart${COLOR_END}"
+    echo -e "${program_name} 状态管理 : ${COLOR_PINKBACK_WHITEFONT}${program_name}${COLOR_END} {${COLOR_GREEN}start|stop|restart|status|config|version${COLOR_END}}"
+    echo -e "例子:"
+    echo -e "   启动: ${COLOR_PINK}${program_name}${COLOR_END} ${COLOR_GREEN}start${COLOR_END}"
+    echo -e "   停止: ${COLOR_PINK}${program_name}${COLOR_END} ${COLOR_GREEN}stop${COLOR_END}"
+    echo -e "   重启: ${COLOR_PINK}${program_name}${COLOR_END} ${COLOR_GREEN}restart${COLOR_END}"
     exit 0
 }
 ############################### configure ##################################
@@ -688,7 +688,7 @@ configure_program_server_clang(){
     if [ -s ${str_program_dir}/${program_config_file} ]; then
         vi ${str_program_dir}/${program_config_file}
     else
-        echo "${program_name} configuration file not found!"
+        echo "${program_name} 未找到配置文件!"
         exit 1
     fi
 }
@@ -696,14 +696,14 @@ configure_program_server_clang(){
 uninstall_program_server_clang(){
     fun_clangcn
     if [ -s ${program_init} ] || [ -s ${str_program_dir}/${program_name} ] ; then
-        echo "============== Uninstall ${program_name} =============="
+        echo "============== 卸载 ${program_name} =============="
         str_uninstall="n"
-        echo -n -e "${COLOR_YELOW}You want to uninstall?${COLOR_END}"
+        echo -n -e "${COLOR_YELOW}您想卸载?${COLOR_END}"
         read -e -p "[Y/N]:" str_uninstall
         case "${str_uninstall}" in
         [yY]|[yY][eE][sS])
         echo ""
-        echo "You select [Yes], press any key to continue."
+        echo "您选择 [Yes], 按任意键继续."
         str_uninstall="y"
         char=`get_char`
         ;;
@@ -712,7 +712,7 @@ uninstall_program_server_clang(){
         str_uninstall="n"
         esac
         if [ "${str_uninstall}" == 'n' ]; then
-            echo "You select [No],shell exit!"
+            echo "您选择 [No],退出脚本!"
         else
             checkos
             ${program_init} stop
@@ -723,17 +723,17 @@ uninstall_program_server_clang(){
             fi
             rm -f ${program_init} /var/run/${program_name}.pid /usr/bin/${program_name}
             rm -fr ${str_program_dir}
-            echo "${program_name} uninstall success!"
+            echo "${program_name} 卸载成功!"
         fi
     else
-        echo "${program_name} Not install!"
+        echo "${program_name} 沒有安裝!"
     fi
     exit 0
 }
 ############################### update ##################################
 update_config_clang(){
     if [ ! -r "${str_program_dir}/${program_config_file}" ]; then
-        echo "config file ${str_program_dir}/${program_config_file} not found."
+        echo "配置文件 ${str_program_dir}/${program_config_file} 未找到."
     else
         search_dashboard_user=`grep "dashboard_user" ${str_program_dir}/${program_config_file}`
         search_dashboard_pwd=`grep "dashboard_pwd" ${str_program_dir}/${program_config_file}`
@@ -742,30 +742,30 @@ update_config_clang(){
         search_token=`grep "privilege_token" ${str_program_dir}/${program_config_file}`
         search_allow_ports=`grep "privilege_allow_ports" ${str_program_dir}/${program_config_file}`
         if [ -z "${search_dashboard_user}" ] || [ -z "${search_dashboard_pwd}" ] || [ -z "${search_kcp_bind_port}" ] || [ -z "${search_tcp_mux}" ] || [ ! -z "${search_token}" ] || [ ! -z "${search_allow_ports}" ];then
-            echo -e "${COLOR_GREEN}Configuration files need to be updated, now setting:${COLOR_END}"
+            echo -e "${COLOR_GREEN}配置文件需要更新，现在设置:${COLOR_END}"
             echo ""
             if [ ! -z "${search_token}" ];then
                 sed -i "s/privilege_token/token/" ${str_program_dir}/${program_config_file}
             fi
             if [ -z "${search_dashboard_user}" ] && [ -z "${search_dashboard_pwd}" ];then
                 def_dashboard_user_update="admin"
-                read -e -p "Please input dashboard_user (Default: ${def_dashboard_user_update}):" set_dashboard_user_update
+                read -e -p "请输入 dashboard 用户名 (默认: ${def_dashboard_user_update}):" set_dashboard_user_update
                 [ -z "${set_dashboard_user_update}" ] && set_dashboard_user_update="${def_dashboard_user_update}"
                 echo "${program_name} dashboard_user: ${set_dashboard_user_update}"
                 echo ""
                 def_dashboard_pwd_update=`fun_randstr 8`
-                read -e -p "Please input dashboard_pwd (Default: ${def_dashboard_pwd_update}):" set_dashboard_pwd_update
+                read -e -p "请输入 dashboard_pwd (默认: ${def_dashboard_pwd_update}):" set_dashboard_pwd_update
                 [ -z "${set_dashboard_pwd_update}" ] && set_dashboard_pwd_update="${def_dashboard_pwd_update}"
                 echo "${program_name} dashboard_pwd: ${set_dashboard_pwd_update}"
                 echo ""
                 sed -i "/dashboard_port =.*/a\dashboard_user = ${set_dashboard_user_update}\ndashboard_pwd = ${set_dashboard_pwd_update}\n" ${str_program_dir}/${program_config_file}
             fi
             if [ -z "${search_kcp_bind_port}" ];then 
-                echo -e "${COLOR_GREEN}Please select kcp support${COLOR_END}"
+                echo -e "${COLOR_GREEN}请选择kcp支持${COLOR_END}"
                 echo "1: enable (default)"
                 echo "2: disable"
                 echo "-------------------------"  
-                read -e -p "Enter your choice (1, 2 or exit. default [1]): " str_kcp
+                read -e -p "输入您的选择 (1, 2 or exit. default [1]): " str_kcp
                 case "${str_kcp}" in
                     1|[yY]|[yY][eE][sS]|[oO][nN]|[tT][rR][uU][eE]|[eE][nN][aA][bB][lL][eE])
                         set_kcp="true"
@@ -789,11 +789,11 @@ update_config_clang(){
                 fi
             fi
             if [ -z "${search_tcp_mux}" ];then
-                echo "# Please select tcp_mux "
+                echo "# 请选择 tcp_mux "
                 echo "1: enable (default)"
                 echo "2: disable"
                 echo "-------------------------"  
-                read -e -p "Enter your choice (1, 2 or exit. default [1]): " str_tcp_mux
+                read -e -p "输入您的选择 (1, 2 or exit. default [1]): " str_tcp_mux
                 case "${str_tcp_mux}" in
                     1|[yY]|[yY][eE][sS]|[oO][nN]|[tT][rR][uU][eE]|[eE][nN][aA][bB][lL][eE])
                         set_tcp_mux="true"
@@ -823,16 +823,16 @@ update_config_clang(){
         verify_token=`grep "privilege_token" ${str_program_dir}/${program_config_file}`
         verify_allow_ports=`grep "privilege_allow_ports" ${str_program_dir}/${program_config_file}`
         if [ ! -z "${verify_dashboard_user}" ] && [ ! -z "${verify_dashboard_pwd}" ] && [ ! -z "${verify_kcp_bind_port}" ] && [ ! -z "${verify_tcp_mux}" ] && [ -z "${verify_token}" ] && [ -z "${verify_allow_ports}" ];then
-            echo -e "${COLOR_GREEN}update configuration file successfully!!!${COLOR_END}"
+            echo -e "${COLOR_GREEN}成功更新配置文件!!!${COLOR_END}"
         else
-            echo -e "${COLOR_RED}update configuration file error!!!${COLOR_END}"
+            echo -e "${COLOR_RED}更新配置文件错误!!!${COLOR_END}"
         fi
     fi
 }
 update_program_server_clang(){
     fun_clangcn "clear"
     if [ -s ${program_init} ] || [ -s ${str_program_dir}/${program_name} ] ; then
-        echo "============== Update ${program_name} =============="
+        echo "============== 更新 ${program_name} =============="
         update_config_clang
         checkos
         check_centosversion
@@ -843,24 +843,24 @@ update_program_server_clang(){
         install_shell=${strPath}
         if [ ! -z ${remote_init_version} ];then
             if [[ "${local_init_version}" != "${remote_init_version}" ]];then
-                echo "========== Update ${program_name} ${program_init} =========="
+                echo "========== 更新 ${program_name} ${program_init} =========="
                 if ! wget  ${FRPS_INIT} -O ${program_init}; then
-                    echo "Failed to download ${program_name}.init file!"
+                    echo "无法下载 ${program_name}.init 文件!"
                     exit 1
                 else
-                    echo -e "${COLOR_GREEN}${program_init} Update successfully !!!${COLOR_END}"
+                    echo -e "${COLOR_GREEN}${program_init} 更新成功 !!!${COLOR_END}"
                 fi
             fi
         fi
         [ ! -d ${str_program_dir} ] && mkdir -p ${str_program_dir}
-        echo -e "Loading network version for ${program_name}, please wait..."
+        echo -e "正在加载 ${program_name}的网络版本，请等待..."
      fun_getServer
         fun_getVer >/dev/null 2>&1
         local_program_version=`${str_program_dir}/${program_name} --version`
-        echo -e "${COLOR_GREEN}${program_name}  local version ${local_program_version}${COLOR_END}"
-        echo -e "${COLOR_GREEN}${program_name} remote version ${FRPS_VER}${COLOR_END}"
+        echo -e "${COLOR_GREEN}${program_name}  本地版本 ${local_program_version}${COLOR_END}"
+        echo -e "${COLOR_GREEN}${program_name} 远程版本 ${FRPS_VER}${COLOR_END}"
         if [[ "${local_program_version}" != "${FRPS_VER}" ]];then
-            echo -e "${COLOR_GREEN}Found a new version,update now!!!${COLOR_END}"
+            echo -e "${COLOR_GREEN}发现新版本，立即更新!!!${COLOR_END}"
             ${program_init} stop
             sleep 1
             rm -f /usr/bin/${program_name} ${str_program_dir}/${program_name}
@@ -875,13 +875,13 @@ update_program_server_clang(){
             [ -s ${program_init} ] && ln -s ${program_init} /usr/bin/${program_name}
             [ ! -x ${program_init} ] && chmod 755 ${program_init}
             ${program_init} start
-            echo "${program_name} version `${str_program_dir}/${program_name} --version`"
-            echo "${program_name} update success!"
+            echo "${program_name} 版本 `${str_program_dir}/${program_name} --版本`"
+            echo "${program_name} 更新成功!"
         else
-                echo -e "no need to update !!!${COLOR_END}"
+                echo -e "无需更新 !!!${COLOR_END}"
         fi
     else
-        echo "${program_name} Not install!"
+        echo "${program_name} 沒有安裝!"
     fi
     exit 0
 }
@@ -912,8 +912,8 @@ update)
     ;;
 *)
     fun_clangcn
-    echo "Arguments error! [${action} ]"
-    echo "Usage: `basename $0` {install|uninstall|update|config}"
+    echo "参数错误! [${action} ]"
+    echo "用法: `basename $0` {install|uninstall|update|config}"
     RET_VAL=1
     ;;
 esac
