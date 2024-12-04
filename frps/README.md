@@ -17,18 +17,18 @@ Server
 ### Install
 
 ```Bash
-wget --no-check-certificate https://hao.iam7.cn/frps/install-frps.sh -O ./install-frps.sh
-chmod 700 ./install-frps.sh
-./install-frps.sh install
+wget --no-check-certificate https://hao.iam7.cn/frps/install-zh.sh -O ./install-zh.sh
+chmod 700 ./install-zh.sh
+./install-zh.sh install
 ```
 
 ### UnInstall
 ```Bash
-    ./install-frps.sh uninstall
+    ./install-zh.sh uninstall
 ```
 ### Update
 ```Bash
-    ./install-frps.sh update
+    ./install-zh.sh update
 ```
 ### 服务器管理
 ```Bash
