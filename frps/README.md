@@ -24,11 +24,11 @@ chmod 700 ./install-zh.sh
 
 ### UnInstall
 ```Bash
-    ./install-zh.sh uninstall
+  ./install-zh.sh uninstall
 ```
 ### Update
 ```Bash
-    ./install-zh.sh update
+  ./install-zh.sh update
 ```
 ### 服务器管理
 ```Bash
