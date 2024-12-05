@@ -35,4 +35,33 @@ chmod 700 ./install-zh.sh
     Usage: /etc/init.d/frps {start|stop|restart|status|config|version}
 ```
 
+### frpc.toml配置
+```
+serverAddr = "x.x.x.x"
+serverPort = 7000
+auth.token = "abcdefjh*****"
+
+[[proxies]]
+name = "web"
+type = "http"
+localIP = "127.0.0.1"
+localPort = 80
+customDomains = ["www.example.com"]
+
+[[proxies]]
+name = "ssh"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 6000
+
+[[proxies]]
+name = "dns"
+type = "udp"
+localIP = "8.8.8.8"
+localPort = 53
+remotePort = 6000
+```
+
+
 ** 感谢Clangcn提供一键脚本
