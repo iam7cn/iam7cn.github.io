@@ -40,8 +40,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./libs/jar/XYQH.jar",
-            "ext": "./libs/xyq/素白白.json"
+            "jar": "./jar/XYQH.jar",
+            "ext": "./json/素白白.json"
         }
     ],
     "parses": [
