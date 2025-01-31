@@ -32,6 +32,120 @@
             "quickSearch": 0,
             "changeable": 0
         },
+		{
+      "key": "csp_SuBaiBai",
+      "name": "🏳️┃素白┃影视",
+      "type": 3,
+      "api": "csp_SuBaiBai",
+      "ext": "http://subaibai.com",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Nongm",
+      "name": "🌾️┃农民┃影视",
+      "type": 3,
+      "api": "csp_Nongm",
+      "ext": "https://wwgz.cn",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Lkdy",
+      "name": "🏔️┃来看┃影视",
+      "type": 3,
+      "api": "csp_Lkdy",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Lggys",
+      "name": "💗️┃攻阁┃影视",
+      "type": 3,
+      "api": "csp_Lggys",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Tvyb",
+      "name": "☁️┃云播┃影视",
+      "type": 3,
+      "api": "csp_Tvyb",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Kanke",
+      "name": "🛳️┃看客┃影视",
+      "type": 3,
+      "api": "csp_Kanke",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Qiyou",
+      "name": "🥝┃奇优┃影视",
+      "type": 3,
+      "api": "csp_Qiyou",
+      "ext": "http://www.dyxz2.com/",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "荐片",
+      "name": "🎬┃荐片┃影视",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "playerType": "2",
+      "ext": "http://api2.rinhome.com",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Fantuan",
+      "name": "🍙┃饭团┃影视",
+      "type": 3,
+      "api": "csp_Fantuan",
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+      "ext": "https://www.fantuan.vip",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Quanwk",
+      "name": "👀┃全看┃影视",
+      "type": 3,
+      "api": "csp_Quanwk",
+      "ext": "https://www.91qkw.com",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_J",
+      "name": "🌎┃饺子┃外剧",
+      "type": 3,
+      "api": "csp_Jiaozi",
+      "playerType": 2,
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },    
+    {
+      "key": "csp_SaoHuo",
+      "name": "🔥┃火火┃影视",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "playerType": 2,
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "csp_Gz360",
+      "name": "🍉┃瓜子┃影视",
+      "type": 3,
+      "api": "csp_Gz360",
+      "playerType": 2,
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
+    {
+      "key": "厂长",
+      "name": "🏭┃厂长┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.czzyvideo.com",
+	  "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+    },
         {
             "key": "csp_XYQ素白白",
             "name": "⛈┃素白白┃影视",
