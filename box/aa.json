@@ -37,7 +37,7 @@
             "name": "📺︎┃电视┃点播",
             "playerType": 1,
             "type": 3,
-            "api": "./libs/zb.min.js",
+            "api": "./lib/zb.min.js",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
