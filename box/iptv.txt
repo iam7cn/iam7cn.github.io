@@ -1,4 +1,4 @@
-== 央视台 ==
+央视台,#genre#
 CCTV-1FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228318/1/index.m3u8?fmt=ts2hls
 CCTV-1FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230713/1/index.m3u8?fmt=ts2hls
 CCTV-1FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236438/1/index.m3u8?fmt=ts2hls
@@ -44,7 +44,7 @@ CCTV-16FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232705/1
 CCTV-17HD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229762/1/index.m3u8?fmt=ts2hls
 CCTV-高尔夫FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232630/1/index.m3u8?fmt=ts2hls
 CCTV-4K,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/1/index.m3u8?fmt=ts2hls
-== 卫视台 ==
+卫视台,#genre#
 浙江卫视FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228324/1/index.m3u8?fmt=ts2hls
 江苏卫视FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228351/1/index.m3u8?fmt=ts2hls
 江苏卫视FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230698/1/index.m3u8?fmt=ts2hls
@@ -88,7 +88,7 @@ CCTV-4K,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/1/in
 四川卫视FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231298/1/index.m3u8?fmt=ts2hls
 海南卫视FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232687/1/index.m3u8?fmt=ts2hls
 云南卫视HD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232675/1/index.m3u8?fmt=ts2hls
-== 特色频道 ==
+特色频道,#genre#
 y+FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229999/1/index.m3u8?fmt=ts2hls
 Ihot爱浪漫FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230005/1/index.m3u8?fmt=ts2hls
 Ihot爱院线FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230019/1/index.m3u8?fmt=ts2hls
@@ -107,7 +107,7 @@ Ihot爱奇谈FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/322123
 游戏风云FHD,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229320/1/index.m3u8?fmt=ts2hls
 求索纪录4K,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232776/1/index.m3u8?fmt=ts2hls
 欢笑剧场4K,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230782/1/index.m3u8?fmt=ts2hls
-== 本地台 ==
+本地台,#genre#
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江钱江都市,http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 浙江经济生活,http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
