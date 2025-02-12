@@ -6,8 +6,16 @@
     "logo": "http://ceshi.xn--z7x900a.com/panda/0262.png",
     "lives": [
         {
-            "name": "Ray",
+            "name": "iam7cn",
             "type": 0,
+            "url": "./iptv.txt",
+            "playerType": 1,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+	{
+            "name": "Ray",
+            "type": 1,
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
             "playerType": 1,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
