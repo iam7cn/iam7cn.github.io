@@ -161,6 +161,14 @@ Ihot爱奇谈,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/322123560
 游戏风云,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229320/1/index.m3u8?fmt=ts2hls
 求索纪录4K,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232776/1/index.m3u8?fmt=ts2hls
 欢笑剧场4K,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230782/1/index.m3u8?fmt=ts2hls
+港台频道,#genre#
+凤凰中文,http://nas.iam7.cn:6001/IPTV/fhx.php?from=web&id=fhzw
+凤凰中文,http://nas.iam7.cn:6001/IPTV/fhx.php?from=app&id=fhzw
+凤凰资讯,http://nas.iam7.cn:6001/IPTV/fhx.php?from=web&id=fhzx
+凤凰资讯,http://nas.iam7.cn:6001/IPTV/fhx.php?from=app&id=fhzx
+凤凰香港,http://nas.iam7.cn:6001/IPTV/fhx.php?from=web&id=fhhk
+凤凰香港,http://nas.iam7.cn:6001/IPTV/fhx.php?from=app&id=fhhk
+中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/477695.m3u8
 少儿教育,#genre#
 卡酷动画,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228375/42613213.smil/index.m3u8?fmt=ts2hls
 优漫卡通,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228378/42613464.smil/index.m3u8?fmt=ts2hls
