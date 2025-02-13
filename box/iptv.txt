@@ -172,4 +172,5 @@ Ihot爱奇谈,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/322123560
 中国教育1台,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228285/42329224.smil/index.m3u8?fmt=ts2hls
 中国教育2台,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233746/482524877.smil/index.m3u8?fmt=ts2hls
 中国教育4台,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230334/index.m3u8?fmt=ts2hls
+上海教育台,http://nas.iam7.cn:6001/IPTV/setv.php
 山东教育卫视,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236210/index.m3u8?fmt=ts2hls
