@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>小柒M3U转换工具</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            height: calc(100vh - 50px);
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            height: 100vh;
+    margin: 0;
+    background-size: 200% 200%;
+    background-image: linear-gradient(45deg, #373b44 0%, #4286f4 55%, #373b44 100%);
+    animation: Gradient 12s ease infinite;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+        h1 {
+            text-shadow: 2px 2px 4px #000000;
+        }
+    /* 设置全局的字体和背景颜色 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+    }
+
+    /* 设置logo的样式 */
+    .logo {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+    }
+
+    /* 设置导航栏的样式 */
+    /*.navbar {*/
+    /*  display: flex;*/
+    /*  align-items: center;*/
+    /*  justify-content: space-between;*/
+    /*  background-color: #333;*/
+    /*  color: white;*/
+    /*  padding: 10px;*/
+    /*}*/
+
+    /* 设置页面标题的样式 */
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* 设置页面主体的样式 */
+    .container {
+      max-width: 1000px; /* 修改页面主体的最大宽度为1000px */
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* 设置文件输入框的样式 */
+    .file-input {
+      margin-bottom: 20px;
+    }
+
+    /* 设置按钮容器的样式 */
+    .button-container {
+      text-align: left; /* 修改按钮容器的对齐方式为左对齐 */
+      margin-top: 20px;
+    }
+
+    /* 设置按钮的样式 */
+    .button {
+      font-size: 16px;
+      padding: 10px 20px;
+      margin-right: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    /* 设置按钮的悬停效果 */
+    .button:hover {
+      transform: scale(1.1);
+    }
+
+    /* 设置预览区域的样式 */
+    .preview-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    /* 设置预览列的样式 */
+    .preview-column {
+      flex: 1;
+      margin-right: 5px; /* 修改预览列的右边距为5px */
+    }
+
+    /* 设置预览标题的样式 */
+    .preview-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* 设置预览内容的样式 */
+    .preview-content {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 500px; /* 设置宽度为500像素 */
+      height: 300px; /* 修改预览内容的高度为300px */
+      overflow: auto;
+      white-space: pre-wrap;
+      background-color: #fff;
+      color: #333;
+    }
+  </style>
+  <script>
+    function convertToM3U() {
+      var txtPreview = document.getElementById("previewBefore");
+      var m3uPreview = document.getElementById("previewAfter");
+    
+      var lines = txtPreview.value.split("\n");
+      var m3uContent = "#EXTM3U x-tvg-url=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n";
+      var tempUrls = [];
+    
+      lines.forEach(function (line) {
+        if (line.trim() !== "") {
+          var channelName = line.split(",")[0].trim();
+          var channelUrl = line.split(",")[1].trim();
+    
+          if (!tempUrls.includes(channelUrl)) {
+            m3uContent += "#EXTINF:-1," + channelName + "\n";
+            m3uContent += channelUrl + "\n";
+            tempUrls.push(channelUrl);
+          }
+        }
+      });
+    
+      m3uPreview.value = m3uContent;
+    
+      // 将转换后的内容存储到convertedData变量中
+      convertedData = m3uContent;
+    }
+
+    function convertToTXT() {
+      var m3uPreview = document.getElementById("previewBefore");
+      var txtPreview = document.getElementById("previewAfter");
+    
+      var lines = m3uPreview.value.split("\n");
+      var txtContent = "";
+    
+      for (var i = 0; i < lines.length; i++) {
+        var line = lines[i].trim();
+    
+        if (line.startsWith("#EXTINF")) {
+          var name = line.split(",")[1].trim();
+          var url = lines[i + 1].trim();
+    
+          txtContent += name + "," + url + "\n";
+        }
+      }
+    
+      // 在转换后的第一行添加固定字符
+      txtContent = "兮兮,#genre#\n" + txtContent;
+    
+      txtPreview.value = txtContent;
+    
+      // 将转换后的内容存储到convertedData变量中
+      convertedData = txtContent;
+    }
+
+    function updatePreview(inputId, previewId) {
+      var fileInput = document.getElementById(inputId);
+      var file = fileInput.files[0];
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        var contents = e.target.result;
+        var preview = document.getElementById(previewId);
+        preview.value = contents;
+      };
+
+      reader.readAsText(file);
+    }
+
+    // JavaScript
+function exportConvertedFile() {
+  // 假设已经完成了文件转换并将结果存储在变量convertedData中
+
+  // 创建一个Blob对象，用于保存转换后的文件内容
+  const blob = new Blob([convertedData], { type: 'text/plain' });
+
+  // 创建一个临时URL，用于生成下载链接
+  const url = URL.createObjectURL(blob);
+
+  // 创建一个虚拟的下载链接并模拟点击
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = '小柒.txt'; // 设置下载文件的名称
+  link.click();
+
+  // 释放创建的临时URL资源
+  URL.revokeObjectURL(url);
+}
+  </script>
+</head>
+<body>
+  <!-- 添加一个logo和一个导航栏 -->
+  <!--<div class="navbar">-->
+    <!--<a href="https://www.lysvc.cc/archives/category/%e5%bd%b1%e8%a7%86%e8%b5%84%e6%ba%90/iptv%e7%9b%b4%e6%92%ad%e6%ba%90" class="logo">-->
+      <!--<img src="https://www.lysvc.cc/wp-content/uploads/2023/11/449db18e6bcfb39.png" alt="狸云" class="logo">-->
+    <!--</a>-->
+    <!--<div class="title">M3U/TXT格式互转换工具</div>-->
+  <!--</div>-->
+  <!-- 添加一个页面主体 -->
+  <h1>M3U/TXT格式互转换工具</h1>
+  <div class="container">
+<!-- 在这里添加新的链接 -->
+         <div class="center-link">
+         <!-- <p><a href="https://fuchenyouzai.github.io/-/">全国IPTV分享 </a></p>-->
+            </div>
+    <!-- 添加一个文件输入框 -->
+    <div class="file-input">
+      <input type="file" id="fileInput" accept=".txt,.m3u" onchange="updatePreview('fileInput', 'previewBefore')">
+    </div>
+    <!-- 添加一个预览区域 -->
+    <div class="preview-container">
+      <div class="preview-column">
+        <div class="preview-title">小柒转换前预览</div>
+        <textarea id="previewBefore" class="preview-content"></textarea>
+      </div>
+      <div class="preview-column">
+        <div class="preview-title">小柒转换后预览</div>
+        <textarea id="previewAfter" class="preview-content"></textarea>
+      </div>
+    </div>
+    <!-- 添加一个按钮容器 -->
+    <div class="button-container">
+      <button class="button" onclick="convertToM3U()">小柒转换为M3U</button>
+      <button class="button" onclick="convertToTXT()">小柒转换为TXT</button>
+      <button class="button" onclick="exportConvertedFile()">小柒导出已转换文件</button> 
+  </div>
+  </div>
+</body>
+</html>
