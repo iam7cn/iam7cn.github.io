@@ -14,6 +14,14 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
 	{
+            "name": "ZJCMCC",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/ilxp/iptv/refs/heads/main/zjm.txt",
+            "playerType": 1,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },   
+	{
             "name": "Ray",
             "type": 1,
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
