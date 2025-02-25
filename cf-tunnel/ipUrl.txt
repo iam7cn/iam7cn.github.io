@@ -3,6 +3,6 @@ https://iam7cn.github.io/cf-tunnel/ipHK.txt@proxyip.hk.fxxk.dedyn.io
 https://iam7cn.github.io/cf-tunnel/ipUS.txt@proxyip.fxxk.dedyn.io
 https://iam7cn.github.io/cf-tunnel/ipali.txt@proxyip.aliyun.fxxk.dedyn.io
 https://iam7cn.github.io/cf-tunnel/ipSG.txt@proxyip.sg.fxxk.dedyn.io
-https://iam7cn.github.io/cf-tunnel/ipv4.csv
+https://iam7cn.github.io/cf-tunnel/www.txt
 
 
