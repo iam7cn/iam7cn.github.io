@@ -1,4 +1,14 @@
 ## 443系反代域名  &nbsp;  可以通过工具网站解析获得反代IP
+- us.cmliu.cloudns.org.cdn.cloudflare.net &nbsp;  `IP落地区域: 美国 `
+- jp.cmliu.cloudns.org.cdn.cloudflare.net &nbsp;  `IP落地区域: 日本  `
+- sg.cmliu.cloudns.org.cdn.cloudflare.net &nbsp;  `IP落地区域: 新加坡 `
+- hk.cmliu.cloudns.org.cdn.cloudflare.net &nbsp;  `IP落地区域: 香港 `
+- tw.cmliu.cloudns.org.cdn.cloudflare.net &nbsp;  `IP落地区域: 台湾 `
+- kr.cmliu.cloudns.org.cdn.cloudflare.net &nbsp;  `IP落地区域: 韩国 `
+
+
+
+
 - proxyip.fxxk.dedyn.io   &nbsp;  `IP落地区域: 美国 维护频率: 12小时/次`
 - proxyip.sg.fxxk.dedyn.io  &nbsp;  `IP落地区域: 新加坡 维护频率: 12小时/次`
 - proxyip.jp.fxxk.dedyn.io  &nbsp;  `IP落地区域: 日本 维护频率: 12小时/次`
