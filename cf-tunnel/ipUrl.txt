@@ -4,5 +4,4 @@ https://iam7cn.github.io/cf-tunnel/ipUS.txt@proxyip.fxxk.dedyn.io
 https://iam7cn.github.io/cf-tunnel/ipali.txt@proxyip.aliyun.fxxk.dedyn.io
 https://iam7cn.github.io/cf-tunnel/ipSG.txt@proxyip.sg.fxxk.dedyn.io
 https://iam7cn.github.io/cf-tunnel/www.txt
-
-
+https://ipdb.api.030101.xyz/?type=bestproxy&country=true
