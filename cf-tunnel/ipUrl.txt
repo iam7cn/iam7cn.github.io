@@ -2,6 +2,7 @@ https://iam7cn.github.io/cf-tunnel/ipJP.txt@141.147.163.68
 https://iam7cn.github.io/cf-tunnel/ipHK.txt@proxyip.hk.fxxk.dedyn.io
 https://iam7cn.github.io/cf-tunnel/ipUS.txt@proxyip.fxxk.dedyn.io
 https://iam7cn.github.io/cf-tunnel/ipali.txt@proxyip.aliyun.fxxk.dedyn.io
-https://iam7cn.github.io/cf-tunnel/ipSG.txt@104.248.145.216
+https://iam7cn.github.io/cf-tunnel/ipSG.txt@sg.cmliu.cloudns.org.cdn.cloudflare.net
+# https://iam7cn.github.io/cf-tunnel/ipSG.txt@104.248.145.216
 https://iam7cn.github.io/cf-tunnel/www.txt
 https://ipdb.api.030101.xyz/?type=bestproxy&country=true
