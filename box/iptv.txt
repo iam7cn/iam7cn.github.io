@@ -16,14 +16,14 @@
 浙江少儿频道,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
 浙江国际频道,http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 浙江之江纪录,http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-嘉善新闻综合,http://nas.iam7.cn:6001/IPTV/jstv.php
-嘉兴文化影视,http://nas.iam7.cn:6001/IPTV/jxtv.php?id=jxwh
+嘉善新闻综合,http://nas.iam7.cn:6001/IPTV/jsitv.php
+嘉兴文化影视,http://nas.iam7.cn:6001/IPTV/jxitv.php?id=jxwh
 嘉兴文化影视,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235447/1/index.m3u8?fmt=ts2hls
 嘉兴文化影视,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236592/1/index.m3u8?fmt=ts2hls
-嘉兴新闻综合,http://nas.iam7.cn:6001/IPTV/jxtv.php?id=jxxw
+嘉兴新闻综合,http://nas.iam7.cn:6001/IPTV/jxitv.php?id=jxxw
 嘉兴新闻综合,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235458/1/index.m3u8?fmt=ts2hls
 嘉兴新闻综合,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236594/1/index.m3u8?fmt=ts2hls
-嘉兴公共频道,http://nas.iam7.cn:6001/IPTV/jxtv.php?id=jxgg
+嘉兴公共频道,http://nas.iam7.cn:6001/IPTV/jxitv.php?id=jxgg
 嘉兴公共频道,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236553/1/index.m3u8?fmt=ts2hls
 嘉兴公共频道,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235460/1/index.m3u8?fmt=ts2hls
 
