@@ -1,6 +1,5 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 #EXTINF:-1,本地台
-#genre#
 #EXTINF:-1,浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1,浙江钱江都市
