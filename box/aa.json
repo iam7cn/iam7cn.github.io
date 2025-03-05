@@ -10,7 +10,7 @@
             "type": 0,
             "url": "./iptv.m3u",
             "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "epg": "http://epg.51zmt.top:8000/api/i/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
 	{
@@ -18,7 +18,7 @@
             "type": 0,
             "url": "https://raw.githubusercontent.com/ilxp/iptv/refs/heads/main/zjm.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "epg": "http://epg.51zmt.top:8000/api/i/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },   
 	{
@@ -26,7 +26,7 @@
             "type": 1,
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "epg": "http://epg.51zmt.top:8000/api/i/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
