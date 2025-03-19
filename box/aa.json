@@ -8,7 +8,7 @@
         {
             "name": "iam7cn",
             "type": 0,
-            "url": "./iptv.m3u",
+            "url": "./iptv.txt",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/i/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
