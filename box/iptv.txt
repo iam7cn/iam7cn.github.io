@@ -28,6 +28,7 @@
 嘉兴公共频道,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235460/1/index.m3u8?fmt=ts2hls
 
 央视台,#genre#
+CCTV-1,http://nas.iam7.cn:6001/IPTV/migu.php?id=cctv1
 CCTV-1,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228318/1/index.m3u8?fmt=ts2hls
 CCTV-1,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230713/1/index.m3u8?fmt=ts2hls
 CCTV-1,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236438/1/index.m3u8?fmt=ts2hls
