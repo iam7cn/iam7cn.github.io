@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多站点搜索工具</title>
+    <style>
+        /* 基础样式 */
+        .toTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background: #007bff;
+            color: white;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            display: none; /* 默认隐藏 */
+        }
+        .deleteAll {
+            display: none;
+            margin-left: 10px;
+            padding: 5px 10px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .header.issearch {
+            padding: 10px;
+            background: #f8f9fa;
+        }
+        #ssInput.issearch {
+            padding: 8px;
+            border: 2px solid #007bff;
+            border-radius: 4px;
+            width: 300px;
+        }
+        .iterm-box {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+        }
+        .iterm-box a {
+            text-decoration: none;
+            color: #333;
+        }
+        .iterm-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        .iterm-info {
+            font-size: 12px;
+            color: #666;
+            display: flex;
+            gap: 10px;
+        }
+        .loading {
+            padding: 20px;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <input type="text" id="ssInput" placeholder="请输入搜索关键词" onkeydown="onkeydownEnter(event)">
+        <button onclick="ssGo()">搜索</button>
+        <button class="deleteAll" onclick="clickDelete()">清空</button>
+    </div>
+    <div id="content"></div>
+    <div class="toTop">↑</div>
+
+    <script>
+        // 1. 获取滚动位置（兼容多浏览器）
+        function getScroll() {
+            return {
+                x: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+                y: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+            };
+        }
+
+        // 2. 回到顶部按钮逻辑
+        window.onscroll = function () {
+            const toTop = document.querySelector(".toTop");
+            // 优化：仅修改display属性，不覆盖整个style
+            toTop.style.display = getScroll().y > 10 ? "flex" : "none";
+        };
+        // 点击回到顶部（解耦事件绑定，避免重复绑定）
+        document.querySelector(".toTop").onclick = function () {
+            // 平滑滚动（增强体验）
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+
+        // 3. 回车触发搜索（修复event参数传递+废弃API）
+        function onkeydownEnter(event) {
+            // 兼容keyCode和key（keyCode已废弃）
+            if (event.key === 'Enter' || event.keyCode === 13) {
+                event.preventDefault(); // 阻止默认回车行为（如表单提交）
+                ssGo();
+            }
+        }
+
+        // 4. 清空搜索结果（简化DOM操作）
+        function clickDelete() {
+            const content = document.querySelector("#content");
+            content.innerHTML = ""; // 直接清空内容，无需删除重建节点
+            
+            const deleteAll = document.querySelector(".deleteAll");
+            const header = document.querySelector(".header");
+            const ssInput = document.querySelector("#ssInput");
+            
+            deleteAll.style.display = "none";
+            header.className = "header"; // 重置类名
+            ssInput.className = "";
+            ssInput.value = "";
+            ssInput.focus(); // 清空后聚焦输入框（增强体验）
+        }
+
+        // 5. 核心搜索逻辑
+        function ssGo() {
+            const ssInput = document.querySelector("#ssInput");
+            const ssValue = ssInput.value.trim(); // 去除首尾空格
+            const content = document.querySelector("#content");
+            const deleteAll = document.querySelector(".deleteAll");
+            const header = document.querySelector(".header");
+
+            // 空值校验
+            if (!ssValue) {
+                alert("请输入搜索关键词！");
+                ssInput.focus();
+                return;
+            }
+
+            // 切换搜索样式
+            header.className = "header issearch";
+            ssInput.className = "issearch";
+            deleteAll.style.display = "flex";
+            
+            // 清空原有结果 + 显示加载状态
+            content.innerHTML = '<div class="loading">正在搜索，请稍等......</div>';
+
+            // 搜索站点列表
+            const websiteList = [
+                "foxirj.com",
+                "www.appinn.com",
+                "blog.ruancang.net",
+                "ghxi.com",
+                "www.luochenzhimu.com",
+                "baideye.com",
+                "www.macyy.cn",
+                "www.lxapk.com",
+                "www.iplaysoft.com",
+                "www.torrentmac.net",
+                "www.yxssp.com",
+                "fy6b.com",
+                "www.sdifen.com",
+                "macpedia.xyz",
+                "softasm.com",
+                "igetintopc.com",
+                "www.sadeempc.com",
+                "haxnode.net",
+                "www.crackingcity.com"
+            ];
+
+            // 存储有效结果（避免重复渲染）
+            let searchResults = [];
+            // 记录已完成请求数（用于隐藏加载状态）
+            let completedRequests = 0;
+
+            // 遍历站点请求数据
+            websiteList.forEach((element) => {
+                // 转义关键词特殊字符（避免正则报错）
+                const safeKeyword = escapeRegExp(ssValue);
+                // 构建请求URL（encodeURIComponent处理关键词特殊字符）
+                const requestUrl = `https://${element}/wp-json/wp/v2/posts?search=${encodeURIComponent(ssValue)}&orderby=relevance&_fields=author,id,excerpt,title,link,modified&per_page=100`;
+
+                // 发起AJAX请求
+                myAjax(
+                    "GET",
+                    requestUrl,
+                    function (xhr) {
+                        completedRequests++;
+                        try {
+                            const resData = JSON.parse(xhr.responseText);
+                            // 过滤有效数据并处理
+                            resData.forEach((article) => {
+                                const title = article.title?.rendered || "";
+                                if (!title) return;
+
+                                // 正则匹配（不区分大小写）
+                                const reg = new RegExp(safeKeyword, "i");
+                                // blog.ruancang.net 特殊处理（无需匹配直接展示）
+                                if (reg.test(title) || element === "blog.ruancang.net") {
+                                    // 高亮匹配关键词
+                                    const highlightTitle = title.replace(reg, '<span class="highlight">$&</span>');
+                                    // 提取日期（兼容无日期场景）
+                                    const date = article.modified?.match(/\d{4}-\d{1,2}-\d{1,2}/) || "未知日期";
+                                    
+                                    // 存储结果（避免重复DOM操作）
+                                    searchResults.push({
+                                        title: highlightTitle,
+                                        link: article.link || "#",
+                                        date: date,
+                                        site: element
+                                    });
+                                }
+                            });
+                        } catch (e) {
+                            console.error(`解析${element}数据失败：`, e);
+                        }
+                        // 所有请求完成后渲染结果
+                        renderResults();
+                    },
+                    function (xhr) {
+                        completedRequests++;
+                        console.error(`请求${element}失败：`, xhr.status);
+                        renderResults(); // 单个请求失败不影响整体
+                    }
+                );
+            });
+
+            // 渲染搜索结果
+            function renderResults() {
+                // 所有请求完成后才渲染
+                if (completedRequests < websiteList.length) return;
+                
+                // 清空加载状态
+                content.innerHTML = "";
+
+                // 无结果提示
+                if (searchResults.length === 0) {
+                    content.innerHTML = '<div class="loading">未找到匹配的结果</div>';
+                    return;
+                }
+
+                // 渲染结果列表
+                searchResults.forEach((item) => {
+                    const iterm = document.createElement("div");
+                    iterm.className = "iterm-box";
+                    iterm.innerHTML = `
+                        <a href="${item.link}" target="_blank" rel="noopener noreferrer">
+                            <div class="iterm-content">
+                                <div class="iterm-title">${item.title}</div>
+                                <div class="iterm-info">
+                                    <span class="date">${item.date}</span>
+                                    <span class="website">${item.site}</span>
+                                </div>
+                            </div>
+                        </a>
+                    `;
+                    content.appendChild(iterm);
+                });
+            }
+
+            // 正则特殊字符转义工具函数
+            function escapeRegExp(str) {
+                return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            }
+        }
+
+        // 6. 封装AJAX（增强稳定性）
+        function myAjax(type, url, success, error) {
+            // 兼容IE低版本（可选）
+            const xmlhttp = window.XMLHttpRequest 
+                ? new XMLHttpRequest() 
+                : new ActiveXObject("Microsoft.XMLHTTP");
+
+            // 超时处理（避免无限等待）
+            xmlhttp.timeout = 10000; // 10秒超时
+            xmlhttp.ontimeout = function() {
+                console.error(`请求超时：${url}`);
+                error(xmlhttp);
+            };
+
+            try {
+                xmlhttp.open(type, url, true);
+                // 设置请求头（避免部分站点CORS拦截）
+                xmlhttp.setRequestHeader("Content-Type", "application/json;charset=utf-8");
+                xmlhttp.send();
+
+                xmlhttp.onreadystatechange = function () {
+                    if (xmlhttp.readyState === 4) {
+                        // 成功状态码
+                        if (xmlhttp.status >= 200 && xmlhttp.status < 300 || xmlhttp.status === 304) {
+                            success(xmlhttp);
+                        } else {
+                            error(xmlhttp);
+                        }
+                    }
+                };
+            } catch (e) {
+                console.error("AJAX请求异常：", e);
+                error(xmlhttp);
+            }
+        }
+    </script>
+</body>
+</html>
