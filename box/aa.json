@@ -13,6 +13,14 @@
             "epg": "http://epg.51zmt.top:8000/api/i/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
+		{
+            "name": "Movie",
+            "type": 0,
+            "url": "./Movie.txt",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/i/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }, 
 	{
             "name": "ZJCMCC",
             "type": 0,
