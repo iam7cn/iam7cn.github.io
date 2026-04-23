@@ -40,61 +40,20 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0
-        },
+        },		
         {
-            "key": "直播转点播",
-            "name": "📺︎┃电视┃点播",
-            "playerType": 1,
+            "key": "Kan360",
+            "name": "流离｜寒鸦",
             "type": 3,
-            "api": "./lib/zb.min.js",
+            "api": "csp_Kan360",
             "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/zb.json"
-        },
-        {
-            "key": "csp_SuBaiBai",
-            "name": "🏳️┃素白┃影视",
-            "type": 3,
-            "api": "csp_SuBaiBai",
-            "ext": "http://subaibai.com",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_Nongm",
-            "name": "🌾️┃农民┃影视",
-            "type": 3,
-            "api": "csp_Nongm",
-            "ext": "https://wwgz.cn",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_Lkdy",
-            "name": "🏔️┃来看┃影视",
-            "type": 3,
-            "api": "csp_Lkdy",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_Lggys",
-            "name": "💗️┃攻阁┃影视",
-            "type": 3,
-            "api": "csp_Lggys",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_Tvyb",
-            "name": "☁️┃云播┃影视",
-            "type": 3,
-            "api": "csp_Tvyb",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_Kanke",
-            "name": "🛳️┃看客┃影视",
-            "type": 3,
-            "api": "csp_Kanke",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
+            "filterable": 1,
+            "ext": {
+                "filter": "https://open.wya6.com/d/down/2026/json/360.json",
+                "fishjx": [
+                       "https://jx.xmflv.com/?url="
+                ]
+            }
         },
         {
             "key": "csp_Qiyou",
@@ -102,86 +61,6 @@
             "type": 3,
             "api": "csp_Qiyou",
             "ext": "http://www.dyxz2.com/",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "荐片",
-            "name": "🎬┃荐片┃影视",
-            "api": "csp_Jianpian",
-            "type": 3,
-            "playerType": "2",
-            "ext": "http://api2.rinhome.com",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_Fantuan",
-            "name": "🍙┃饭团┃影视",
-            "type": 3,
-            "api": "csp_Fantuan",
-            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-            "ext": "https://www.fantuan.vip",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_Quanwk",
-            "name": "👀┃全看┃影视",
-            "type": 3,
-            "api": "csp_Quanwk",
-            "ext": "https://www.91qkw.com",
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-		{
-           "key": "csp_AppRZ",
-           "name": "🕵️┃忍者┃影视",
-           "type": 3,
-           "api": "csp_AppRZ",
-           "ext": "http://rzys.xyz/",
-		   "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-		{
-           "key": "csp_LiteApple",
-           "name": "🍎┃苹果┃影视",
-           "type": 3,
-           "api": "csp_LiteApple",
-           "searchable": 1,
-           "quickSearch": 1,
-           "filterable": 1,
-		   "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_J",
-            "name": "🌎┃饺子┃外剧",
-            "type": 3,
-            "api": "csp_Jiaozi",
-            "playerType": 2,
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_SaoHuo",
-            "name": "🔥┃火火┃影视",
-            "type": 3,
-            "api": "csp_SaoHuo",
-            "playerType": 2,
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "csp_Gz360",
-            "name": "🍉┃瓜子┃影视",
-            "type": 3,
-            "api": "csp_Gz360",
-            "playerType": 2,
-            "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
-        },
-        {
-            "key": "厂长",
-            "name": "🏭┃厂长┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Czsapp",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://www.czzyvideo.com",
             "jar": "./jar/feimao0125.jar;md5;1001eaf2f69c956086fe21dbdf1c78ed"
         },
         {
@@ -193,27 +72,6 @@
             "quickSearch": 1,
             "searchable": 1,
             "jar": "./jar/custom_spider.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca"
-        },
-        {
-            "key": "csp_Kuaikan",
-            "name": "💡┃快看┃影视",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/custom_spider.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca"
-        }, 
-        {
-            "key": "csp_Bili短剧",
-            "name": "🎦┃短剧┃BiL",
-            "api": "csp_Bili",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/XYQH.jar",
-            "ext": "./json/Bili短剧.json"
         },
         {
             "key": "csp_New6v",
@@ -236,97 +94,7 @@
             "filterable": 1,
             "ext": "https://www.seedhub.cc",
             "jar": "./jar/custom_spider.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca"
-        },
-        {
-            "key": "csp_KubaCL",
-            "name": "🧲┃酷吧电影┃磁力",
-            "type": 3,
-            "api": "csp_KubaCL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.kubady2.com",
-            "jar": "./jar/custom_spider.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca"
-        },
-        {
-            "key": "csp_MeijuTT",
-            "name": "🧲┃美剧天堂┃磁力",
-            "type": 3,
-            "api": "csp_MeijuTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.meijutt.net",
-            "jar": "./jar/custom_spider.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca"
-        },
-        {
-            "key": "csp_MeijuMi",
-            "name": "🧲┃美剧迷┃磁力",
-            "type": 3,
-            "api": "csp_MeijuMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/custom_spider.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca"
-        },
-        {
-            "key": "csp_Xunlei8",
-            "name": "🧲┃迅雷吧┃磁力",
-            "type": 3,
-            "api": "csp_Xunlei8",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/custom_spider.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca"
-        },        
-		{
-            "key": "dr_iqiyi",
-            "name": "🥝┃爱奇异|解析",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/iqiyi.js"
-        },
-        {
-            "key": "dr_youku",
-            "name": "🥔┃优酷|解析",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/youku.js"
-        },
-        {
-            "key": "dr_qq",
-            "name": "🐧┃腾讯|解析",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/qq.js"
-        },
-        {
-            "key": "dr_mgtv",
-            "name": "🥭┃芒果|解析",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/mgtv.js"
-        },
-        {
-            "key": "dr_搜狗",
-            "name": "🚛┃搜狗|解析",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/caigou.js"
-        },
-        {
-            "key": "dr_360影视",
-            "name": "📺┃360|解析 ",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/360.js"
-        },
-        {
-            "key": "暴风",
-            "name": "🪔|暴风|vod",
-            "type": 1,
-            "api": "https://bfzyapi.com/api.php/provide/vod"
-        },
+        },       
         {
             "key": "量子",
             "name": "🪔|量子|xml",
