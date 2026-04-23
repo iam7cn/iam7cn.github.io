@@ -24,7 +24,7 @@
 	{
             "name": "Ray",
             "type": 1,
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+            "url": "https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/i/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -40,7 +40,16 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0
-        },		
+        },
+        {
+            "key": "zhiqiu",
+            "name": "听风｜知秋",
+            "type": 3,
+            "api": "csp_zhiqiu",
+            "searchable": 1,
+            "ext": "https://fishapi.wya6.com/fish/zhiqiu.php",
+			"jar": "https://modelscope-resouces.oss-cn-zhangjiakou.aliyuncs.com/avatar%2F1069338d-8ee3-44cf-8586-a5df76ec1e7e.php;md5;6857c2aa7067598bde128e5df9e42048"
+        },
         {
             "key": "Kan360",
             "name": "流离｜寒鸦",
@@ -51,9 +60,10 @@
             "ext": {
                 "filter": "https://open.wya6.com/d/down/2026/json/360.json",
                 "fishjx": [
-                       "https://jx.xmflv.com/?url="
+                    "https://jx.xmflv.com/?url="
                 ]
-            }
+            },
+			"jar": "https://modelscope-resouces.oss-cn-zhangjiakou.aliyuncs.com/avatar%2F1069338d-8ee3-44cf-8586-a5df76ec1e7e.php;md5;6857c2aa7067598bde128e5df9e42048"
         },
         {
             "key": "csp_Qiyou",
