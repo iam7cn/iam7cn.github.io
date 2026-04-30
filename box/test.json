@@ -481,9 +481,214 @@
 			"filterable": 1,
 			"quickSearch": 1,
 			"searchable": 1
-		}
-
-
+		},
+    {
+      "key": "hongniuzy",
+      "name": "红牛资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/hongniuzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "wjwsyziyuan",
+      "name": "无尽资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/wjwsyziyuan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "shandianzy",
+      "name": "闪电资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/shandianzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ziyuanku",
+      "name": "优质资源库 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/ziyuanku",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xinlangzy",
+      "name": "新浪资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/xinlangzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "subozy",
+      "name": "速播资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/subozy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jisuzy",
+      "name": "极速资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/jisuzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "maotaizy",
+      "name": "茅台资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/maotaizy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "huohuzy",
+      "name": "豪华资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/huohuzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "doubanzy",
+      "name": "豆瓣资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/doubanzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "okzy",
+      "name": "OK资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/okzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yayazy",
+      "name": "鸭鸭资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/yayazy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yutuzy",
+      "name": "玉兔资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/yutuzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ruyizy",
+      "name": "如意资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/ruyizy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ckzyme",
+      "name": "CK资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/ckzyme",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zuidazy",
+      "name": "最大资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/zuidazy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "suonizy",
+      "name": "索尼资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/suonizy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "niuniuzy",
+      "name": "牛牛资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/niuniuzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hsckzy",
+      "name": "黄色仓库资源 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/hsckzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "dyttzy",
+      "name": "电影天堂资源 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/dyttzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xinbazy",
+      "name": "杏吧资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/xinbazy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xiangjiaozy",
+      "name": "香蕉资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/xiangjiaozy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xibaozyw",
+      "name": "细胞资源站 「MacCMS」",
+      "type": 1,
+      "api": "https://tvbox.rio.edu.kg/api/xibaozyw",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
 	],
 	"parses": [{
 			"name": "Web聚合",
