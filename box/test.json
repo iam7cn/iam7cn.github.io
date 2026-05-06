@@ -83,15 +83,14 @@
             "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/百忙无果.js"
         },
-        {
-            "key": "push_agent",
-            "name": "📽推送",
-            "type": 3,
-            "api": "csp_PushAgent",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+		{
+           "key": "金牌影视",
+           "name": "💡金牌｜影视",
+           "type": 3,
+           "api": "csp_Jpys",
+		   "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0406/21/5b2f258907bc956ee3538c9f5cdf4b83.jpg;md5;5af5edf697f25b99eb189fb800e1d098",
+           "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"	   
+        },        
         {
             "key": "csp_New6v",
             "name": "🧲新6V",
@@ -726,6 +725,15 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{
+            "key": "push_agent",
+            "name": "📽推送",
+            "type": 3,
+            "api": "csp_PushAgent",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
         }
     ],
     "parses": [
