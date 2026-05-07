@@ -84,6 +84,13 @@
             "ext": "./dr_py/js/百忙无果.js"
         },
 		{
+            "key": "drpy_js_360",
+            "name": "360[js]",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "ext": "./dr_py/js/360.js"
+        },
+		{
            "key": "金牌影视",
            "name": "💡金牌｜影视",
            "type": 3,
