@@ -95,7 +95,7 @@
             "name": "金牌影视[js]",
             "type": 3,
             "api": "./dr_py/libs/drpy2.min.js",
-            "ext": "./dr_py/js/金牌影视.js"
+            "ext": "./dr_py/js/tt.js"
         },
 		{
            "key": "金牌影视",
