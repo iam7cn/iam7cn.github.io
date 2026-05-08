@@ -1,140 +1,107 @@
-const CryptoJS = createCryptoJS()
-
-const UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Mobile/15E148 Safari/604.1'
-
-let $config = argsify($config_str)
-let appConfig = {
-    ver: 1,
-    title: '金牌影视',
-    site: $config.site || 'https://m.sunnafh.com',
-    tabs: [
-        { name: '电影', ext: { id: 1 } },
-        { name: '电视剧', ext: { id: 2 } },
-        { name: '综艺', ext: { id: 3 } },
-        { name: '动漫', ext: { id: 4 } },
+{
+  "title": "金牌影院",
+  "host": "https://m.sunnafh.com",
+  "url": "/api/mw-movie/anonymous/video/list?pageNum=fypage&pageSize=30&sort=fyorder&sortBy=1&type1=fyclass&type=fytype&class=fyplot&area=fyarea&year=fyyear&lang=fylang",
+  "searchUrl": "/api/mw-movie/anonymous/video/searchByWordPageable?keyword=**&pageNum=fypage&pageSize=12&type=false",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Mobile/15E148 Safari/604.1"
+  },
+  "searchable": 2,
+  "quickSearch": 0,
+  "filterable": 1,
+  "limit": 30,
+  "double": false,
+  "play_parse": true,
+  "class_name": "电影&电视剧&综艺&动漫",
+  "class_url": "1&2&3&4",
+  "filter_def": {
+    "fyorder": [
+      {"name":"默认排序","value":"1"},
+      {"name":"最近更新","value":"2"},
+      {"name":"人气优先","value":"3"},
+      {"name":"评分优先","value":"4"}
     ],
-}
-
-const filterList = {
-    1: [
-        { key: 'type', name: '类型', value: [{n:'全部',v:''},{n:'喜剧',v:'22'},{n:'动作',v:'23'},{n:'科幻',v:'30'},{n:'爱情',v:'26'},{n:'悬疑',v:'27'},{n:'奇幻',v:'87'},{n:'剧情',v:'37'},{n:'恐怖',v:'36'},{n:'犯罪',v:'35'},{n:'动画',v:'33'},{n:'惊悚',v:'34'},{n:'战争',v:'25'},{n:'冒险',v:'31'},{n:'灾难',v:'81'},{n:'伦理',v:'83'},{n:'其他',v:'43'}]},
-        { key: 'class', name: '剧情', value: [{n:'全部',v:''},{n:'爱情',v:'爱情'},{n:'动作',v:'动作'},{n:'喜剧',v:'喜剧'},{n:'战争',v:'战争'},{n:'科幻',v:'科幻'},{n:'剧情',v:'剧情'},{n:'武侠',v:'武侠'},{n:'冒险',v:'冒险'},{n:'枪战',v:'枪战'},{n:'恐怖',v:'恐怖'},{n:'其他',v:'其他'}]},
-        { key: 'area', name: '地区', value: [{n:'全部',v:''},{n:'中国大陆',v:'中国大陆'},{n:'香港',v:'中国香港'},{n:'台湾',v:'中国台湾'},{n:'美国',v:'美国'},{n:'日本',v:'日本'},{n:'韩国',v:'韩国'},{n:'印度',v:'印度'},{n:'泰国',v:'泰国'},{n:'英国',v:'英国'},{n:'法国',v:'法国'},{n:'其他',v:'其他'}]},
-        { key: 'year', name: '年份', value: [{n:'全部',v:''},{n:'2026',v:'2026'},{n:'2025',v:'2025'},{n:'2024',v:'2024'},{n:'2023',v:'2023'},{n:'2022',v:'2022'},{n:'2021',v:'2021'},{n:'2020',v:'2020'},{n:'2019',v:'2019'},{n:'2018',v:'2018'},{n:'2017',v:'2017'},{n:'2016',v:'2016'},{n:'2015',v:'2015'},{n:'2014',v:'2014'},{n:'2013',v:'2013'},{n:'2012',v:'2012'},{n:'2011',v:'2011'},{n:'2010',v:'2010'},{n:'2009~2000',v:'2009~2000'}]},
-        { key: 'lang', name: '语言', value: [{n:'全部',v:''},{n:'国语',v:'国语'},{n:'英语',v:'英语'},{n:'粤语',v:'粤语'},{n:'韩语',v:'韩语'},{n:'日语',v:'日语'},{n:'其他',v:'其他'}]},
-        { key: 'sort', name: '排序', value: [{n:'最近更新',v:'2'},{n:'人气高低',v:'3'},{n:'评分高低',v:'4'}]}
+    "fytype": [
+      {"name":"全部","value":""},
+      {"name":"喜剧","value":"22"},
+      {"name":"动作","value":"23"},
+      {"name":"科幻","value":"30"},
+      {"name":"爱情","value":"26"},
+      {"name":"悬疑","value":"27"},
+      {"name":"奇幻","value":"87"},
+      {"name":"剧情","value":"37"},
+      {"name":"恐怖","value":"36"},
+      {"name":"犯罪","value":"35"},
+      {"name":"动画","value":"33"},
+      {"name":"惊悚","value":"34"},
+      {"name":"战争","value":"25"},
+      {"name":"冒险","value":"31"},
+      {"name":"灾难","value":"81"},
+      {"name":"伦理","value":"83"},
+      {"name":"其他","value":"43"}
     ],
-    2: [
-        { key: 'type', name: '类型', value: [{n:'全部',v:''},{n:'国产剧',v:'14'},{n:'欧美剧',v:'15'},{n:'港台剧',v:'16'},{n:'日韩剧',v:'62'},{n:'其他剧',v:'68'}]},
-        { key: 'class', name: '剧情', value: [{n:'全部',v:''},{n:'古装',v:'古装'},{n:'战争',v:'战争'},{n:'喜剧',v:'喜剧'},{n:'家庭',v:'家庭'},{n:'犯罪',v:'犯罪'},{n:'动作',v:'动作'},{n:'奇幻',v:'奇幻'},{n:'剧情',v:'剧情'},{n:'历史',v:'历史'},{n:'短片',v:'短片'},{n:'其他',v:'其他'}]},
-        { key: 'area', name: '地区', value: [{n:'全部',v:''},{n:'中国大陆',v:'中国大陆'},{n:'香港',v:'中国香港'},{n:'台湾',v:'中国台湾'},{n:'日本',v:'日本'},{n:'韩国',v:'韩国'},{n:'美国',v:'美国'},{n:'泰国',v:'泰国'},{n:'其他',v:'其他'}]},
-        { key: 'year', name: '年份', value: [{n:'全部',v:''},{n:'2026',v:'2026'},{n:'2025',v:'2025'},{n:'2024',v:'2024'},{n:'2023',v:'2023'},{n:'2022',v:'2022'},{n:'2021',v:'2021'},{n:'2020',v:'2020'},{n:'2019',v:'2019'},{n:'2018',v:'2018'},{n:'2017',v:'2017'},{n:'2016',v:'2016'},{n:'2015',v:'2015'},{n:'2014',v:'2014'},{n:'2013',v:'2013'},{n:'2012',v:'2012'},{n:'2011',v:'2011'},{n:'2010',v:'2010'}]},
-        { key: 'lang', name: '语言', value: [{n:'全部',v:''},{n:'国语',v:'国语'},{n:'英语',v:'英语'},{n:'粤语',v:'粤语'},{n:'韩语',v:'韩语'},{n:'日语',v:'日语'},{n:'泰语',v:'泰语'},{n:'其他',v:'其他'}]},
-        { key: 'sort', name: '排序', value: [{n:'最近更新',v:'2'},{n:'人气高低',v:'3'},{n:'评分高低',v:'4'}]}
+    "fyplot": [
+      {"name":"全部","value":""},
+      {"name":"爱情","value":"爱情"},
+      {"name":"动作","value":"动作"},
+      {"name":"喜剧","value":"喜剧"},
+      {"name":"战争","value":"战争"},
+      {"name":"科幻","value":"科幻"},
+      {"name":"剧情","value":"剧情"},
+      {"name":"武侠","value":"武侠"},
+      {"name":"冒险","value":"冒险"},
+      {"name":"枪战","value":"枪战"},
+      {"name":"恐怖","value":"恐怖"},
+      {"name":"其他","value":"其他"}
     ],
-    3: [
-        { key: 'type', name: '类型', value: [{n:'全部',v:''},{n:'国产综艺',v:'69'},{n:'港台综艺',v:'70'},{n:'日韩综艺',v:'72'},{n:'欧美综艺',v:'73'}]},
-        { key: 'class', name: '剧情', value: [{n:'全部',v:''},{n:'真人秀',v:'真人秀'},{n:'音乐',v:'音乐'},{n:'脱口秀',v:'脱口秀'}]},
-        { key: 'area', name: '地区', value: [{n:'全部',v:''},{n:'中国大陆',v:'中国大陆'},{n:'香港',v:'中国香港'},{n:'台湾',v:'中国台湾'},{n:'日本',v:'日本'},{n:'韩国',v:'韩国'},{n:'美国',v:'美国'},{n:'其他',v:'其他'}]},
-        { key: 'year', name: '年份', value: [{n:'全部',v:''},{n:'2026',v:'2026'},{n:'2025',v:'2025'},{n:'2024',v:'2024'},{n:'2023',v:'2023'},{n:'2022',v:'2022'},{n:'2021',v:'2021'},{n:'2020',v:'2020'}]},
-        { key: 'lang', name: '语言', value: [{n:'全部',v:''},{n:'国语',v:'国语'},{n:'英语',v:'英语'},{n:'粤语',v:'粤语'},{n:'韩语',v:'韩语'},{n:'日语',v:'日语'},{n:'其他',v:'其他'}]},
-        { key: 'sort', name: '排序', value: [{n:'最近更新',v:'2'},{n:'人气高低',v:'3'},{n:'评分高低',v:'4'}]}
+    "fyarea": [
+      {"name":"全部地区","value":""},
+      {"name":"中国大陆","value":"中国大陆"},
+      {"name":"中国香港","value":"中国香港"},
+      {"name":"中国台湾","value":"中国台湾"},
+      {"name":"美国","value":"美国"},
+      {"name":"日本","value":"日本"},
+      {"name":"韩国","value":"韩国"},
+      {"name":"印度","value":"印度"},
+      {"name":"泰国","value":"泰国"},
+      {"name":"英国","value":"英国"},
+      {"name":"法国","value":"法国"},
+      {"name":"其他","value":"其他"}
     ],
-    4: [
-        { key: 'type', name: '类型', value: [{n:'全部',v:''},{n:'国产动漫',v:'75'},{n:'日韩动漫',v:'76'},{n:'欧美动漫',v:'77'}]},
-        { key: 'class', name: '剧情', value: [{n:'全部',v:''},{n:'喜剧',v:'喜剧'},{n:'科幻',v:'科幻'},{n:'热血',v:'热血'},{n:'冒险',v:'冒险'},{n:'动作',v:'动作'},{n:'运动',v:'运动'},{n:'战争',v:'战争'},{n:'动画',v:'动画'}]},
-        { key: 'area', name: '地区', value: [{n:'全部',v:''},{n:'中国大陆',v:'中国大陆'},{n:'日本',v:'日本'},{n:'美国',v:'美国'},{n:'其他',v:'其他'}]},
-        { key: 'year', name: '年份', value: [{n:'全部',v:''},{n:'2026',v:'2026'},{n:'2025',v:'2025'},{n:'2024',v:'2024'},{n:'2023',v:'2023'},{n:'2022',v:'2022'},{n:'2021',v:'2021'},{n:'2020',v:'2020'},{n:'2019',v:'2019'},{n:'2018',v:'2018'},{n:'2017',v:'2017'},{n:'2016',v:'2016'},{n:'2015',v:'2015'},{n:'2014',v:'2014'},{n:'2013',v:'2013'},{n:'2012',v:'2012'},{n:'2011',v:'2011'},{n:'2010',v:'2010'}]},
-        { key: 'lang', name: '语言', value: [{n:'全部',v:''},{n:'国语',v:'国语'},{n:'英语',v:'英语'},{n:'日语',v:'日语'},{n:'其他',v:'其他'}]},
-        { key: 'sort', name: '排序', value: [{n:'最近更新',v:'2'},{n:'人气高低',v:'3'},{n:'评分高低',v:'4'}]}
+    "fyyear": [
+      {"name":"全部年份","value":""},
+      {"name":"2026","value":"2026"},
+      {"name":"2025","value":"2025"},
+      {"name":"2024","value":"2024"},
+      {"name":"2023","value":"2023"},
+      {"name":"2022","value":"2022"},
+      {"name":"2021","value":"2021"},
+      {"name":"2020","value":"2020"},
+      {"name":"2019","value":"2019"},
+      {"name":"2018","value":"2018"},
+      {"name":"2017","value":"2017"},
+      {"name":"2016","value":"2016"},
+      {"name":"2015","value":"2015"},
+      {"name":"2014","value":"2014"},
+      {"name":"2013","value":"2013"},
+      {"name":"2012","value":"2012"},
+      {"name":"2011","value":"2011"},
+      {"name":"2010","value":"2010"},
+      {"name":"2009~2000","value":"2009~2000"}
+    ],
+    "fylang": [
+      {"name":"全部语言","value":""},
+      {"name":"国语","value":"国语"},
+      {"name":"英语","value":"英语"},
+      {"name":"粤语","value":"粤语"},
+      {"name":"韩语","value":"韩语"},
+      {"name":"日语","value":"日语"},
+      {"name":"泰语","value":"泰语"},
+      {"name":"其他","value":"其他"}
     ]
-}
-
-async function getConfig() {
-    return JSON.stringify(appConfig)
-}
-
-async function getCards(ext) {
-    ext = JSON.parse(ext)
-    let cards = []
-    let { id, page = 1 } = ext
-    const { type = '', class: v_class = '', area = '', year = '', lang = '', sort = '2' } = ext?.filters || {}
-
-    const toQueryString = obj => Object.keys(obj).filter(k => obj[k] != null && obj[k] !== '').map(k => `${k}=${obj[k]}`).join('&')
-    const params = {
-        area, lang, pageNum:page, pageSize:'30', sort, sortBy:'1', type, type1:id, class:v_class, year, filterStatus:'1'
-    }
-    let url = `${appConfig.site}/api/mw-movie/anonymous/video/list?${toQueryString(params)}`
-    const headers = getHeader(url)
-    const res = await $fetch.get(url, { headers })
-    const list = JSON.parse(res.data).data.list || []
-
-    list.forEach(e => {
-        if (e.vodName.includes('预告')) return
-        cards.push({
-            vod_id: e.vodId+'',
-            vod_name: e.vodName,
-            vod_pic: e.vodPic,
-            vod_remarks: e.vodDoubanScore?.toFixed(1) || e.vodRemarks,
-            ext: { id: e.vodId }
-        })
-    })
-
-    return JSON.stringify({ list: cards, filter: filterList[id] })
-}
-
-async function getTracks(ext) {
-    ext = JSON.parse(ext)
-    let id = ext.id
-    let url = `${appConfig.site}/api/mw-movie/anonymous/video/detail?id=${id}`
-    const headers = getHeader(url)
-    const { data } = await $fetch.get(url, { headers })
-    const info = JSON.parse(data).data
-    const tracks = info.episodeList.map(e => ({
-        name: e.name, ext: { id, nid: e.nid }
-    }))
-    return JSON.stringify({ list: [{ title: '金牌线路', tracks }] })
-}
-
-async function getPlayinfo(ext) {
-    ext = JSON.parse(ext)
-    let { id, nid } = ext
-    let url = `${appConfig.site}/api/mw-movie/anonymous/v2/video/episode/url?clientType=1&id=${id}&nid=${nid}`
-    const headers = getHeader(url)
-    const { data } = await $fetch.get(url, { headers })
-    const playUrl = JSON.parse(data).data.list[0].url
-    return JSON.stringify({ urls: [playUrl] })
-}
-
-async function search(ext) {
-    ext = JSON.parse(ext)
-    let cards = []
-    let { text, page = 1 } = ext
-    let url = `${appConfig.site}/api/mw-movie/anonymous/video/searchByWordPageable?keyword=${encodeURIComponent(text)}&pageNum=${page}&pageSize=12&type=false`
-    const headers = getHeader(url)
-    const { data } = await $fetch.get(url, { headers })
-    const list = JSON.parse(data).data.list || []
-    list.forEach(e => {
-        cards.push({
-            vod_id: e.vodId+'',
-            vod_name: e.vodName,
-            vod_pic: e.vodPic,
-            vod_remarks: e.vodDoubanScore?.toFixed(1) || e.vodVersion,
-            ext: { id: e.vodId }
-        })
-    })
-    return JSON.stringify({ list: cards })
-}
-
-function getHeader(url) {
-    const key = 'cb808529bae6b6be45ecfab29a4889bc'
-    const dataStr = url.split('?')[1] || ''
-    const t = Date.now()
-    const signStr = dataStr + `&key=${key}&t=${t}`
-    const sign = CryptoJS.SHA1(CryptoJS.MD5(signStr).toString()).toString()
-    return {
-        'User-Agent': UA,
-        deviceId: '63ffad23-a598-4f96-85d7-7bf5f3e4a0a2',
-        t: t+'', sign
-    }
+  },
+  "一级": "js:\nlet d = [];\nlet t = new Date().getTime();\neval(getCryptoJS);\nlet signkey = input.split('?')[1]+'&key=cb808529bae6b6be45ecfab29a4889bc&t='+t;\nlet key = CryptoJS.SHA1(CryptoJS.MD5(signkey).toString()).toString();\nlet res = JSON.parse(request(input,{\nheaders:{\n'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 18_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Mobile/15E148 Safari/604.1',\ndeviceId:'63ffad23-a598-4f96-85d7-7bf5f3e4a0a2',\nsign:key,\nt:t\n}\n})).data.list;\nres.forEach(it=>{\n  d.push({\n    title:it.vodName,\n    desc:it.vodRemarks||it.vodDoubanScore,\n    img:it.vodPic,\n    url:'http'+it.vodId\n  })\n});\nsetResult(d);",
+  "二级": "js:\nlet kid=input.split('http')[1];\nlet t = new Date().getTime();\neval(getCryptoJS);\nlet signkey='id='+kid+'&key=cb808529bae6b6be45ecfab29a4889bc&t='+t;\nlet key=CryptoJS.SHA1(CryptoJS.MD5(signkey).toString()).toString();\nlet kjson=JSON.parse(request('https://m.sunnafh.com/api/mw-movie/anonymous/video/detail?id='+kid,{\nheaders:{\n'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 18_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Mobile/15E148 Safari/604.1',\ndeviceId:'63ffad23-a598-4f96-85d7-7bf5f3e4a0a2',\nsign:key,\nt:t\n}\n})).data;\nlet kurls = kjson.episodeList.map(it=>it.name+'$https://m.sunnafh.com/vod/play/'+kid+'/sid/'+it.nid).join('#');\nVOD={\nvod_id:kid,\nvod_name:kjson.vodName,\nvod_pic:kjson.vodPic,\ntype_name:kjson.vodClass,\nvod_remarks:kjson.vodRemarks,\nvod_year:kjson.vodYear,\nvod_area:kjson.vodArea,\nvod_lang:kjson.vodLang,\nvod_director:kjson.vodDirector,\nvod_actor:kjson.vodActor,\nvod_content:kjson.vodContent,\nvod_play_from:'金牌线路',\nvod_play_url:kurls\n}",
+  "lazy": "js:\nlet pid = input.split('/')[5];\nlet nid = input.split('/')[7];\nconst t = new Date().getTime();\neval(getCryptoJS);\nlet signkey = 'clientType=1&id='+pid+'&nid='+nid+'&key=cb808529bae6b6be45ecfab29a4889bc&t='+t;\nconst key = CryptoJS.SHA1(CryptoJS.MD5(signkey).toString()).toString();\nlet json_data = JSON.parse(request('https://m.sunnafh.com/api/mw-movie/anonymous/v2/video/episode/url?clientType=1&id='+pid+'&nid='+nid,{\nheaders:{\n'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 18_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Mobile/15E148 Safari/604.1',\ndeviceid':'63ffad23-a598-4f96-85d7-7bf5f3e4a0a2',\nsign:key,\nt:t\n}\n}));\nlet link = json_data.data.list[0].url;\nif(/\\.(m3u8|mp4)/.test(link)){input={jx:0,parse:0,url:link}}else{input={jx:0,parse:1,url:link}}",
+  "搜索": "js:\nlet t = new Date().getTime();\neval(getCryptoJS);\nlet pg = MY_PAGE;\nlet signkey = 'keyword='+KEY+'&pageNum='+pg+'&pageSize=12&type=false&key=cb808529bae6b6be45ecfab29a4889bc&t='+t;\nlet key = CryptoJS.SHA1(CryptoJS.MD5(signkey).toString()).toString();\nlet html = JSON.parse(request(input,{\nheaders:{\n'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 18_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Mobile/15E148 Safari/604.1',\ndeviceid':'63ffad23-a598-4f96-85d7-7bf5f3e4a0a2',\nsign:key,\nt:t\n}\n}));\nlet data = html.data.list;\nlet d = [];\ndata.forEach(it=>{\n  d.push({\n    title:it.vodName,\n    desc:it.vodVersion||it.vodRemarks,\n    img:it.vodPic,\n    url:'http'+it.vodId\n  })\n});\nsetResult(d)"
 }
