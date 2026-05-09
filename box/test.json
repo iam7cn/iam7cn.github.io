@@ -104,7 +104,106 @@
            "api": "csp_Jpys",
 		   "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0406/21/5b2f258907bc956ee3538c9f5cdf4b83.jpg;md5;5af5edf697f25b99eb189fb800e1d098",
            "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"	   
-        },        
+        },
+        {
+           "key":"Py_华数",
+           "name":"🌴华数影视",
+           "type":3,
+           "api":"./dr_py/py/华数.py",
+           "changeable":1
+        },
+		{ 
+		   "key": "Py_河马短剧", 
+           "name": "河马短剧",
+           "type": 3,
+           "api":"./dr_py/py/河马短剧2.py",
+           "filterable":1,
+           "quickSearch":1,
+           "searchable":1,
+           "changeable":0
+        },
+        {
+           "key":"Py_饭团PY",
+           "name":"🍚饭团PY",
+           "api":"./dr_py/py/饭团影视.py",
+           "filterable":1,
+           "quickSearch":1,
+           "searchable":1,
+           "type":3
+        },
+		{
+          "key": "壹影视.py",
+          "name": "🎀壹影视(py)🎀",
+		  "type": 3,
+          "api": "./dr_py/py/壹影视.py",
+          "searchable": 1,
+          "changeable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "playerType": 2,
+          "order_num": 0,
+          "ext": ""
+        },
+		{
+           "key": "采集之王",
+           "name": "🐢采集｜合集",
+           "type": 3,
+           "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
+           "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/采集之王.js?type=url¶ms=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/采集静态.json"
+        },
+		{
+           "key": "555影视",
+           "name": "555影视",
+           "type": 3,
+           "api": "./dr_py/libs/drpy2.min.js",
+           "searchable": 1,
+           "quickSearch": 1,
+           "changeable": 1,
+           "playerType": 2,
+           "ext": "./dr_py/js/555影视[2026].js"
+        },
+		{
+           "key": "土豆浏览器.py",
+           "name": "🎀土豆浏览器(py)🎀",
+           "type": 3,
+           "api": "./dr_py/py/土豆浏览器.py",
+           "searchable": 1,
+           "changeable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "playerType": 2,
+           "order_num": 0,
+           "ext": ""
+        },
+        {
+          "key": "csp_界影视",
+          "name": "🎀界影视(py)🎀",
+          "type": 3,
+          "api": "./dr_py/py/py_jieyingshi.py",
+          "searchable": 1,
+          "quickSearch": 1
+        },  
+        {
+          "key": "金牌影视",
+          "name": "七星🌟┃秒播",
+          "type": 3,
+          "api": "./dr_py/py/金牌.py",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": {"site":"https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"}
+		},
+		{
+          "key": "央库云",
+          "name": "☀央视🔹大全",
+          "type": 3,
+          "api": "./dr_py/py/央库云.py",
+          "searchable": 1,
+          "changeable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "playerType": 2
+        },
         {
             "key": "csp_New6v",
             "name": "🧲新6V",
