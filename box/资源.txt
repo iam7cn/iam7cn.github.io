@@ -1,0 +1,72 @@
+百度资源 | https://api.apibdzy.com/api.php/provide/vod/?ac=list
+闪电资源 | https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list
+樱花资源 | https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list
+量子资源 | https://cj.lziapi.com/api.php/provide/vod/
+OK资源   | https://api.okzyw.net/api.php/provide/vod/?ac=list
+360资源  | https://360zyzz.com/api.php/provide/vod
+最大资源 | https://api.zuidapi.com/api.php/provide/vod/?ac=list
+茅台资源 | https://mtzy0.com/api.php/provide/vod/at/josn/
+红牛资源 | https://www.hongniuzy2.com/api.php/provide/vod/at/josn/
+光速资源 | https://api.guangsuapi.com/api.php/provide/vod/josn 
+虎牙资源 | https://huyazy.com/api.php/provide/vod/at/json/
+豪华资源 | https://haohuazy.com/api.php/provide/vod/at/json/
+速播资源 | http://www.suboziyuan.net/api.php/provide/vod/at/json/
+新浪资源 | https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn 
+金鹰资源 | https://jinyingzy.com/api.php/provide/vod/at/json/
+无水印资源 | https://www.wsyzy.cc/api.php/provide/vod/at/json/
+影剧资源 | https://yjzy.tv/api.php/provide/vod/at/json/
+非凡资源 | https://ffzy5.tv/api.php/provide/vod/at/json/
+爱奇艺影视 | https://iqiyizy.com/api.php/provide/vod/at/json/
+牛牛资源 | https://api.niuniuzy.me/api.php/provide/vod/at/json/
+鸭鸭资源 | https://cj.yayazy.net/api.php/provide/vod/?ac=list
+//金蝉资源 | https://zy.jinchancaiji.com/api.php/provide/vod/at/json/
+猫眼资源 | https://www.maoyanzy.com/api.php/provide/vod/at/json/
+789 官方资源 | https://www.caiji.cyou/api.php/provide/vod/at/json/
+豆瓣资源 | https://dbzy.tv/api.php/provide/vod/at/json/
+如意资源 | https://www.ryzy.tv/api.php/provide/vod/at/json/
+旺旺资源 | https://www.wwzy.tv/api.php/provide/vod/at/json/
+优质资源站 | https://api.yzzy-api.com/inc/apijson.php
+电影天堂资源 | http://dyttzy.tv/api.php/provide/vod/at/json/
+卧龙资源 | https://wolongzyw.com/api.php/provide/vod/at/json/
+淘片资源 | https://taopianapi.com/cjapi/sda/vod/json.html
+iKun 资源 | https://ikunzy.net/api.php/provide/vod/at/json/
+//麒麟资源 | https://www.qilinzyz.com/api.php/provide/vod/at/json/
+索尼资源 | https://suonizy.com/api.php/provide/vod/at/json/
+极速资源 | http://www.jisuzy.com/api.php/provide/vod/at/json/
+暴风资源 | https://bfzyapi.com/api.php/provide/vod/
+快车资源 | https://kuaichezy.com/api.php/provide/vod/at/json/
+无尽资源 | https://api.wujinapi.me/api.php/provide/vod/?ac=list
+魔都资源 | https://moduzy.com/api.php/provide/vod/at/json/
+
+杏吧资源 | https://sex8zy1.com/api.php/provide/vod/at/json/
+优优资源 | https://yytv.cc/api.php/provide/vod/at/json/
+天美资源 | https://tmzyz.com/api.php/provide/vod/at/json/
+//TG 资源站 | https://tgzyz.pp.ua/api.php/provide/vod/at/json/
+香蕉资源 | http://www.xiangjiaozyw.com/api.php/provide/vod/at/json/
+番茄资源 | https://fqzy.me/api.php/provide/vod/at/json/
+黑料资源 | https://heiliaozyapi.com/api.php/provide/vod
+黄色仓库 | https://hsckzy001.com/api.php/provide/vod/at/json/
+小鸡资源 | https://api.xjzyapi.xyz/provide/vod
+细胞资源 | https://xibaozyw.com/api.php/provide/vod/at/json/
+大地资源 | https://dadizy11.com/api.php/provide/vod
+//草批资源 | https://www.988caobi.com/api.php/provide/vod/at/json/
+奶香香资源 | https://naixxzy.com/api.php/provide/vod/?ac=list
+桃花资源 | https://thzy1.me/api.php/provide/vod/at/json/
+丝袜资源网 | https://www.siwazyw.tv/api.php/provide/vod/at/json/
+CK 伦理资源 | https://www.ckzy1.com/api.php/provide/vod/at/json/
+大奶子资源 | https://apidanaizi.com/api.php/provide/vod/?ac=list
+搜 av 资源 | https://souavzyw.com/api.php/provide/vod/at/json/
+奥斯卡资源 | https://aosikazy1.com/api.php/provide/vod/at/json/
+jkun 资源 | https://jkunzy.com/api.php/provide/vod/at/json/
+滴滴资源网 | https://didizy.com/api.php/provide/vod/at/json/
+豆豆资源 | https://doudouzy.com/api.php/provide/vod/at/json/
+精品 x 资源 | https://jingpinx.com/api.php/provide/vod/at/json/
+鲨鱼资源网 | http://shayuzy5.com/api.php/provide/vod/at/json/
+辣椒资源 | http://lajiaozy.com/api.php/provide/vod/at/json/
+森林资源 | http://senlinzy2.com/api.php/provide/vod/at/json/
+155 资源 | https://155api.com/api.php/provide/vod/at/json/
+色猫资源 | https://caiji.semaozy.net/inc/apijson_vod.php
+乐播资源 | http://lebozy5.com/api.php/provide/vod/
+玉兔资源 | https://yutuzy.com/api.php/provide/vod/
+老色 P 资源 | https://laosebizy.com/api.php/provide/vod/
+番号资源 | http://fhapi9.com/api.php/provide/vod/at/json/
