@@ -787,6 +787,36 @@
             "quickSearch": 1,
             "searchable": 1
         },
+		{
+            "key": "bdzy",
+            "name": "百度资源站 「MacCMS」",
+            "type": 1,
+            "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+			"playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "wolong",
+            "name": "卧龙资源网 「MacCMS」",
+            "type": 1,
+            "api": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list",
+			"playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "魔都资源",
+            "name": "🤣魔都┃动漫",
+            "type": 1,
+            "api": "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list",
+			"playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "hongniuzy",
             "name": "红牛资源站 「MacCMS」",
