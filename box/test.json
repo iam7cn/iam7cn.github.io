@@ -809,7 +809,7 @@
         },
 		{
             "key": "魔都资源",
-            "name": "🤣魔都┃动漫",
+            "name": "🤣魔都┃动漫|翻",
             "type": 1,
             "api": "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list",
 			"playUrl": "",
@@ -821,7 +821,8 @@
             "key": "hongniuzy",
             "name": "红牛资源站 「MacCMS」",
             "type": 1,
-            "api": "https://tvbox.rio.edu.kg/api/hongniuzy",
+            "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",
+			"playUrl": "https://www.hongniujiexi.com/m3u8/?url=",			
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
