@@ -838,7 +838,7 @@
             "filterable": 1
         },
 		{
-            "key": "wjwsyziyuan",
+            "key": "wjwsyziyuan11",
             "name": "无尽资源站 「xml」",
             "type": 0,
             "api": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/xml/",
@@ -848,7 +848,7 @@
             "filterable": 1
         },
         {
-            "key": "shandianzy1",
+            "key": "shandianzy",
             "name": "闪电资源站 「MacCMS」",
             "type": 1,
             "api": "https://tvbox.rio.edu.kg/api/shandianzy",
