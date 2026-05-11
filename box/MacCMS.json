@@ -45,6 +45,46 @@
             "ext": "./dr_py/js/drpy.js"
         },
 		{
+            "key": "modouzy",
+            "name": "墨斗资源",
+            "type": 1,
+            "api": "https://www.mdzyapi.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "piaolinzy",
+            "name": "飘零资源",
+            "type": 1,
+            "api": "https://p2100.net/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "uku",
+            "name": "U酷资源",
+            "type": 1,
+            "api": "https://api.ukuapi88.com/api.php/provide/vod",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "aidan",
+            "name": "艾旦影视",
+            "type": 1,
+            "api": "http://lovedan.net/api.php/provide/vod",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
             "key": "yhzy",
             "name": "樱花资源",
             "type": 1,
@@ -257,7 +297,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
+        },		
         {
             "key": "789",
             "name": "789官方资源",
@@ -693,6 +733,16 @@
             "name": "老色P资源",
             "type": 1,
             "api": "https://laosebizy.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "aosika",
+            "name": "奥斯卡资源",
+            "type": 1,
+            "api": "http://aosikazy.com/api.php/provide/vod",
             "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
