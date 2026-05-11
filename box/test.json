@@ -96,14 +96,215 @@
             "type": 3,
             "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/金牌影视.js"
+        },       
+		{
+            "key": "555影视",
+            "name": "📟️|555影视|[js]",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "./dr_py/js/555影视[2026].js"
+        },
+		{
+            "key": "JS哔哩直播",
+            "name": "哔哩直播[js]",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./dr_py/js/哔哩直播.js"
+        },
+		{
+            "key": "DRJS_虎牙",
+            "name": "虎牙直播(JS)",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "ext": "./dr_py/js/虎牙直播.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1
         },
         {
+            "key": "csp_XYQHiker_虎牙直播",
+            "name": "🐯虎牙直播(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./XYQHiker/虎牙直播.json"
+        },
+        {
+            "key": "csp_XYQHiker_斗鱼直播",
+            "name": "🐠斗鱼直播(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./XYQHiker/斗鱼直播.json"
+        },
+		{
+            "key": "csp_XYQHiker_兔小贝",
+            "name": "🐰兔小贝(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/兔小贝.json"
+        },
+        {
+            "key": "csp_XYQHiker_兔小贝2",
+            "name": "🐰兔小贝2(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/兔小贝2.json"
+        },
+        {
+            "key": "csp_XYQHiker_播视童趣",
+            "name": "👶🏻播视童趣(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./XYQHiker/播视童趣.json"
+        },
+        {
+            "key": "csp_XYQHiker_风铃动漫",
+            "name": "🛎风铃动漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/风铃动漫.json"
+        },
+        {
+            "key": "csp_XYQHiker_去看吧动漫",
+            "name": "🔭去看吧动漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/去看吧动漫.json"
+        },
+        {
+            "key": "csp_XYQHiker_动漫巴士",
+            "name": "🚌动漫巴士(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/动漫巴士.json"
+        },
+        {
+            "key": "csp_XYQHiker_路漫漫",
+            "name": "路漫漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/路漫漫.json"
+        },
+        {
+            "key": "csp_XYQHiker_age动漫",
+            "name": "AGE动漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/age动漫.json"
+        },
+        {
+            "key": "csp_XYQHiker_短剧五五",
+            "name": "🎬短剧五五|翻",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/短剧五五.json"
+        },
+        {
+            "key": "csp_XYQHiker_农民影视",
+            "name": "🧑🏻农民影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/农民影视.json"
+        },
+        {
+            "key": "csp_XYQHiker_骚火电影VIP",
+            "name": "🔥骚火电影VIP(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/骚火电影VIP.json"
+        },
+        {
+            "key": "csp_XYQHiker_爱看电影",
+            "name": "爱看电影(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/爱看电影.json"
+        },
+        {
+            "key": "csp_XYQHiker_低端影视",
+            "name": "低端影视(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/低端影视.json"
+        },
+        {
+            "key": "csp_XYQHiker_看影网",
+            "name": "🔍看影网(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/看影网.json"
+        },
+        {
+            "key": "csp_XYQHiker_好影快看",
+            "name": "好影快看(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/好影快看.json"
+        },		
+		{
             "key": "Py_华数",
             "name": "🌴|华数|(py)",
             "type": 3,
             "api": "./dr_py/py/华数.py",
             "changeable": 1
-        },
+        },		
         {
             "key": "Py_河马短剧",
             "name": "🦛|河马短剧|(py)",
@@ -122,25 +323,7 @@
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
-        },
-        {
-            "key": "采集之王",
-            "name": "🐢|采集｜合集",
-            "type": 3,
-            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
-            "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/采集之王.js?type=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/采集静态.json"
-        },
-        {
-            "key": "555影视",
-            "name": "📟️|555影视|[js]",
-            "type": 3,
-            "api": "./dr_py/libs/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": 2,
-            "ext": "./dr_py/js/555影视[2026].js"
-        },
+        },        
         {
             "key": "csp_界影视",
             "name": "🎀|界影视|(py)",
@@ -367,6 +550,9 @@
             "order_num": 0,
             "ext": ""
         },
+		
+		
+		
         {
             "key": "py_emby.py",
             "name": "py_emby(py)",
@@ -528,17 +714,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./biliext/高中课堂.json"
-        },
-        {
-            "key": "JS哔哩直播",
-            "name": "哔哩直播[js]",
-            "type": 3,
-            "api": "./dr_py/libs/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./dr_py/js/哔哩直播.js"
-        },
+        },        
         {
             "key": "csp_XYQHiker_戏曲多多",
             "name": "🎻戏曲多多",
@@ -549,186 +725,13 @@
             "filterable": 1,
             "ext": "./XYQHiker/戏曲多多.json"
         },
-        {
-            "key": "csp_XYQHiker_兔小贝",
-            "name": "🐰兔小贝(XYQH)",
+		{
+            "key": "采集之王",
+            "name": "🐢|采集｜合集",
             "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/兔小贝.json"
-        },
-        {
-            "key": "csp_XYQHiker_兔小贝2",
-            "name": "🐰兔小贝2(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/兔小贝2.json"
-        },
-        {
-            "key": "csp_XYQHiker_播视童趣",
-            "name": "👶🏻播视童趣(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./XYQHiker/播视童趣.json"
-        },
-        {
-            "key": "csp_XYQHiker_风铃动漫",
-            "name": "🛎风铃动漫(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/风铃动漫.json"
-        },
-        {
-            "key": "csp_XYQHiker_樱花动漫",
-            "name": "🌸樱花动漫(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/樱花动漫.json"
-        },
-        {
-            "key": "csp_XYQHiker_去看吧动漫",
-            "name": "🔭去看吧动漫(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/去看吧动漫.json"
-        },
-        {
-            "key": "csp_XYQHiker_嗷呜动漫",
-            "name": "🙀嗷呜动漫(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/嗷呜动漫.json"
-        },
-        {
-            "key": "csp_XYQHiker_动漫巴士",
-            "name": "🚌动漫巴士(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/动漫巴士.json"
-        },
-        {
-            "key": "csp_XYQHiker_路漫漫",
-            "name": "路漫漫(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/路漫漫.json"
-        },
-        {
-            "key": "csp_XYQHiker_番茶动漫",
-            "name": "番茶动漫(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/番茶动漫.json"
-        },
-        {
-            "key": "csp_XYQHiker_age动漫",
-            "name": "AGE动漫(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/age动漫.json"
-        },
-        {
-            "key": "csp_XYQHiker_短剧五五",
-            "name": "🎬短剧五五",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/短剧五五.json"
-        },
-        {
-            "key": "csp_XYQHiker_农民影视",
-            "name": "🧑🏻农民影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/农民影视.json"
-        },
-        {
-            "key": "csp_XYQHiker_骚火电影VIP",
-            "name": "🔥骚火电影VIP(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/骚火电影VIP.json"
-        },
-        {
-            "key": "csp_XYQHiker_爱看电影",
-            "name": "爱看电影(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/爱看电影.json"
-        },
-        {
-            "key": "csp_XYQHiker_低端影视",
-            "name": "低端影视(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/低端影视.json"
-        },
-        {
-            "key": "csp_XYQHiker_看影网",
-            "name": "🔍看影网(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/看影网.json"
-        },
-        {
-            "key": "csp_XYQHiker_好影快看",
-            "name": "好影快看(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/好影快看.json"
-        },
+            "api": "./dr_py/libs/drpy2.min.js",
+            "ext": "./dr_py/js/采集之王.js?type=https://hao.iam7.cn/box/dr_py/json/采集静态.json"
+        },        
         {
             "key": "柚子资源",
             "name": "🍊柚子资源",
@@ -774,37 +777,7 @@
                 "预告片",
                 "体育"
             ]
-        },
-        {
-            "key": "DRJS_虎牙",
-            "name": "虎牙直播(JS)",
-            "type": 3,
-            "api": "./dr_py/libs/drpy2.min.js",
-            "ext": "./dr_py/js/虎牙直播.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1
-        },
-        {
-            "key": "csp_XYQHiker_虎牙直播",
-            "name": "🐯虎牙直播(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./XYQHiker/虎牙直播.json"
-        },
-        {
-            "key": "csp_XYQHiker_斗鱼直播",
-            "name": "🐠斗鱼直播(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./XYQHiker/斗鱼直播.json"
-        },
+        },        
         {
             "key": "csp_Djuu",
             "name": "🎧DJ悠悠",
