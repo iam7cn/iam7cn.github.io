@@ -44,6 +44,70 @@
             "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/drpy.js"
         },
+		{
+            "key": "yhzy",
+            "name": "樱花资源",
+            "type": 1,
+            "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "bdzy",
+            "name": "百度资源",
+            "type": 1,
+            "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+			"playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "shandianzy",
+            "name": "闪电资源",
+            "type": 1,
+            "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "lzizy",
+            "name": "量子资源",
+            "type": 1,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },		
+		{
+            "key": "okzy",
+            "name": "OK资源",
+            "type": 1,
+            "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "360zy",
+            "name": "360资源",
+            "type": 1,
+            "api": "https://360zyzz.com/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "zuidazy",
+            "name": "最大资源",
+            "type": 1,
+            "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "maotai",
             "name": "茅台资源",
@@ -53,7 +117,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
+        },		
         {
             "key": "hongniu",
             "name": "红牛资源",
