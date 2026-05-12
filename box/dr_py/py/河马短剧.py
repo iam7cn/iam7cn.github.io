@@ -16,27 +16,27 @@ except ImportError:
 
 class Spider(Spider):
     def __init__(self):
-    self.siteUrl = "https://www.kuaikaw.cn"
-    self.nextData = None  # 缓存NEXT_DATA数据
-    # 顶部只保留 全部短剧
-    self.cateManual = {
-        "全部短剧": "0"            
-    }
-    # 👇 所有分类放到【筛选】里面
-    self.filterManual = {
-        "类型": [
-            {"name":"🦄 甜宠","id":"462"},
-            {"name":"🦄 古装仙侠","id":"1102"},
-            {"name":"🦄 现代言情","id":"1145"},
-            {"name":"🦄 青春","id":"1170"},
-            {"name":"🦄 豪门恩怨","id":"585"},
-            {"name":"🦄 逆袭","id":"417-464"},
-            {"name":"🦄 重生","id":"439-465"},
-            {"name":"🦄 系统","id":"1159"},
-            {"name":"🦄 总裁","id":"1147"},
-            {"name":"🦄 职场商战","id":"943"}
-        ]
-    }
+        self.siteUrl = "https://www.kuaikaw.cn"
+        self.nextData = None  # 缓存NEXT_DATA数据
+        # 顶部导航只保留 全部短剧
+        self.cateManual = {
+            "全部短剧": "0"
+        }
+        # 所有分类放入【筛选】弹窗里
+        self.filterManual = {
+            "类型": [
+                {"name":"🦄 甜宠","id":"462"},
+                {"name":"🦄 古装仙侠","id":"1102"},
+                {"name":"🦄 现代言情","id":"1145"},
+                {"name":"🦄 青春","id":"1170"},
+                {"name":"🦄 豪门恩怨","id":"585"},
+                {"name":"🦄 逆袭","id":"417-464"},
+                {"name":"🦄 重生","id":"439-465"},
+                {"name":"🦄 系统","id":"1159"},
+                {"name":"🦄 总裁","id":"1147"},
+                {"name":"🦄 职场商战","id":"943"}
+            ]
+        }
         
     def getName(self):
         # 返回爬虫名称
@@ -86,6 +86,8 @@ class Spider(Spider):
                 'type_id': self.cateManual[k]
             })
         result['class'] = classes
+        # 注入筛选配置
+        result['filter'] = self.filterManual
         # 获取首页推荐视频
         try:
             result['list'] = self.homeVideoContent()['list']
@@ -143,15 +145,6 @@ class Spider(Spider):
                                     "vod_remarks": f"{status} {total_chapters}集" if total_chapters else status
                                 })
                  
-            # # 去重
-            # seen = set()
-            # unique_videos = []
-            # for video in videos:
-            #     if video["vod_id"] not in seen:
-            #         seen.add(video["vod_id"])
-            #         unique_videos.append(video)
-            # videos = unique_videos
-        
         except Exception as e:
             print(f"获取首页推荐内容出错: {e}")
         
@@ -313,7 +306,7 @@ class Spider(Spider):
             sub_title = f"{book_info.get('totalChapterNum', '')}集"
             
             categories = []
-            for category in book_info.get("categoryList", []) :
+            for category in book_info.get("categoryList", []):
                 categories.append(category.get("name", ""))
             
             vod_content = book_info.get("introduction", "")
