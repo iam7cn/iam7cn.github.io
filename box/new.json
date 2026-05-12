@@ -193,6 +193,9 @@
             "name": "🌴|华数|(py)",
             "type": 3,
             "api": "./dr_py/py/华数.py",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
             "changeable": 1
         },		
         {
