@@ -107,6 +107,16 @@
             "changeable": 1,
             "playerType": 2,
             "ext": "./dr_py/js/555影视[2026].js"
+        },
+        {
+            "key": "csp_XYQHiker_短剧网",
+            "name": "🎬短剧网|(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/短剧网.json"
         },		
         {
             "key": "csp_XYQHiker_短剧五五",
