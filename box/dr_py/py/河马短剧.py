@@ -19,7 +19,17 @@ class Spider(Spider):
         self.siteUrl = "https://www.kuaikaw.cn"
         self.nextData = None  # 缓存NEXT_DATA数据
         self.cateManual = {
-            "全部短剧": "0"            
+            "全部短剧": "0",
+            "🦄 甜宠": "462",
+            "🦄 古装仙侠": "1102",
+            "🦄 现代言情": "1145",
+            "🦄 青春": "1170",
+            "🦄 豪门恩怨": "585",
+            "🦄 逆袭": "417-464",
+            "🦄 重生": "439-465",
+            "🦄 系统": "1159",
+            "🦄 总裁": "1147",
+            "🦄 职场商战": "943"
         }
         
     def getName(self):
@@ -297,7 +307,7 @@ class Spider(Spider):
             sub_title = f"{book_info.get('totalChapterNum', '')}集"
             
             categories = []
-            for category in book_info.get("categoryList", []):
+            for category in book_info.get("categoryList", []) :
                 categories.append(category.get("name", ""))
             
             vod_content = book_info.get("introduction", "")
@@ -569,4 +579,4 @@ class Spider(Spider):
 
     def destroy(self):
         # 资源回收
-        pass 
+        pass
