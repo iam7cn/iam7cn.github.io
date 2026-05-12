@@ -16,21 +16,27 @@ except ImportError:
 
 class Spider(Spider):
     def __init__(self):
-        self.siteUrl = "https://www.kuaikaw.cn"
-        self.nextData = None  # 缓存NEXT_DATA数据
-        self.cateManual = {
-            "全部短剧": "0",
-            "🦄 甜宠": "462",
-            "🦄 古装仙侠": "1102",
-            "🦄 现代言情": "1145",
-            "🦄 青春": "1170",
-            "🦄 豪门恩怨": "585",
-            "🦄 逆袭": "417-464",
-            "🦄 重生": "439-465",
-            "🦄 系统": "1159",
-            "🦄 总裁": "1147",
-            "🦄 职场商战": "943"
-        }
+    self.siteUrl = "https://www.kuaikaw.cn"
+    self.nextData = None  # 缓存NEXT_DATA数据
+    # 顶部只保留 全部短剧
+    self.cateManual = {
+        "全部短剧": "0"            
+    }
+    # 👇 所有分类放到【筛选】里面
+    self.filterManual = {
+        "类型": [
+            {"name":"🦄 甜宠","id":"462"},
+            {"name":"🦄 古装仙侠","id":"1102"},
+            {"name":"🦄 现代言情","id":"1145"},
+            {"name":"🦄 青春","id":"1170"},
+            {"name":"🦄 豪门恩怨","id":"585"},
+            {"name":"🦄 逆袭","id":"417-464"},
+            {"name":"🦄 重生","id":"439-465"},
+            {"name":"🦄 系统","id":"1159"},
+            {"name":"🦄 总裁","id":"1147"},
+            {"name":"🦄 职场商战","id":"943"}
+        ]
+    }
         
     def getName(self):
         # 返回爬虫名称
