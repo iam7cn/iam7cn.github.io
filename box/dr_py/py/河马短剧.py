@@ -5,6 +5,21 @@ import json
 import traceback
 import sys
 
+# ========== 单独放这里，不在类里面 ==========
+cate_config = {
+    "🦄 甜宠": "462",
+    "🦄 古装仙侠": "1102",
+    "🦄 现代言情": "1145",
+    "🦄 青春": "1170",
+    "🦄 豪门恩怨": "585",
+    "🦄 逆袭": "417-464",
+    "🦄 重生": "439-465",
+    "🦄 系统": "1159",
+    "🦄 总裁": "1147",
+    "🦄 职场商战": "943"
+}
+# ========================================
+
 sys.path.append('../../')
 try:
     from base.spider import Spider
@@ -18,25 +33,8 @@ class Spider(Spider):
     def __init__(self):
         self.siteUrl = "https://www.kuaikaw.cn"
         self.nextData = None  # 缓存NEXT_DATA数据
-        # 顶部导航只保留 全部短剧
-        self.cateManual = {
-            "全部短剧": "0"
-        }
-        # 所有分类放入【筛选】弹窗里
-        self.filterManual = {
-            "类型": [
-                {"name":"🦄 甜宠","id":"462"},
-                {"name":"🦄 古装仙侠","id":"1102"},
-                {"name":"🦄 现代言情","id":"1145"},
-                {"name":"🦄 青春","id":"1170"},
-                {"name":"🦄 豪门恩怨","id":"585"},
-                {"name":"🦄 逆袭","id":"417-464"},
-                {"name":"🦄 重生","id":"439-465"},
-                {"name":"🦄 系统","id":"1159"},
-                {"name":"🦄 总裁","id":"1147"},
-                {"name":"🦄 职场商战","id":"943"}
-            ]
-        }
+        # 不再在这里写死分类，直接引用外部全局的 cate_config
+        self.cateManual = cate_config
         
     def getName(self):
         # 返回爬虫名称
@@ -78,7 +76,7 @@ class Spider(Spider):
     def homeContent(self, filter):
         """获取首页分类及筛选"""
         result = {}
-        # 分类列表，使用已初始化的cateManual
+        # 分类列表，使用外部配置的cateManual
         classes = []
         for k in self.cateManual:
             classes.append({
@@ -86,8 +84,6 @@ class Spider(Spider):
                 'type_id': self.cateManual[k]
             })
         result['class'] = classes
-        # 注入筛选配置
-        result['filter'] = self.filterManual
         # 获取首页推荐视频
         try:
             result['list'] = self.homeVideoContent()['list']
