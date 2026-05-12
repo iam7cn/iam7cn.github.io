@@ -199,7 +199,7 @@
             "key": "Py_河马短剧",
             "name": "🦛|河马短剧|(py)",
             "type": 3,
-            "api": "./dr_py/py/河马短剧2.py",
+            "api": "./dr_py/py/河马短剧.py",
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1,
