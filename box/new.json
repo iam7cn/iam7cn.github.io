@@ -107,6 +107,17 @@
             "changeable": 1,
             "playerType": 2,
             "ext": "./dr_py/js/555影视[2026].js"
+        },
+{
+            "key": "5551影视",
+            "name": "📟️|5551影视|[js]",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "./dr_py/js/555.json"
         },		
 		{
             "key": "4k-av",
