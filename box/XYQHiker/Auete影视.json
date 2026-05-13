@@ -86,13 +86,13 @@
     "sea_subtitle": "",
     
     //片单链接是否直接播放，1是直接播放，0否。
-    "force_play": "1",
+    "force_play": "0",
     //直接播放链接补前缀
-    //"play_prefix": "https://live.52sf.ga/huya/",
+    "play_prefix": "https://live.52sf.ga/huya/",
     //直接播放链接补后缀，设置为#isVideo=true#可强制识别为视频链接  https://vip.dytt-kan.com
-    //"play_suffix": "#isVideo=true#",
+    "play_suffix": "#isVideo=true#",
     //直接播放链接设置请求头，只对直链视频有效，每一组用#分开
-    //"play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
+    "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
     
     //演员数据，截取前缀&&截取后缀
     "proj_actor": "主演: &&</p>",
