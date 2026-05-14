@@ -2,13 +2,13 @@ var rule = {
 	title: '可达影视', // csp_AppYsV2
 	host: ' https://www.kedays.cc/ ', //https://www.555gy.cc/
 	homeUrl:'/api/filter',
-	// url: '/api.php/app/video?tid=fyclass&class=&area=&lang=&year=&limit=20&pg=fypage',
-	url: '/api/filter?catId=fyclassfyfilter&limit=20&pg=fypage',
-	filter_url:'&class={{fl.class}}&area={{fl.area}}&year={{fl.year}}',
+	// url: '/api.php/app/video?tid=fytype&type=&area=&year=&limit=20&pg=fypage',https://www.kedays.cc/api/filter?catId=1&type=%E5%96%9C%E5%89%A7&area=%E5%A4%A7%E9%99%86&year=2025&sort=ranklatest&page=1&size=24
+	url: '/api/filter?catId=fytypefyfilter&sort=ranklatest&page=fypage',
+	filter_url:'&type={{fl.type}}&area={{fl.area}}&year={{fl.year}}',
 	filter: {
     "1": [
         {
-            "key": "class",
+            "key": "type",
             "name": "剧情",
             "value": [
                 {
@@ -200,7 +200,7 @@ var rule = {
     ],
     "2": [
         {
-            "key": "class",
+            "key": "type",
             "name": "剧情",
             "value": [
                 {
@@ -376,7 +376,7 @@ var rule = {
     ],
     "3": [
         {
-            "key": "class",
+            "key": "type",
             "name": "剧情",
             "value": [
                 {
@@ -520,7 +520,7 @@ var rule = {
     ],
     "4": [
         {
-            "key": "class",
+            "key": "type",
             "name": "剧情",
             "value": [
                 {
@@ -660,20 +660,20 @@ var rule = {
     ]
 },
 	detailUrl:'/api/detail?id=fyid',
-	searchUrl: '/api/search?q=**&source=bf&pg=fypage',
+	searchUrl: '/api/search?q=**&source=bf&page=fypage',
 	//https://www.kedays.cc/api/search?q=%E6%B5%81%E6%B5%AA&source=bf&page=2
 	searchable: 2,
 	quickSearch: 0,
 	filterable:1,//是否启用分类筛选,
 	headers:{'User-Agent':'Dart/2.14 (dart:io)'},
 	timeout:5000,
-	class_name:'连续剧&电影&综艺&动漫', // 分类筛选 /api.php/app/nav
-	class_url:'2&1&3&4',
+	type_name:'连续剧&电影&综艺&动漫', // 分类筛选 /api.php/app/nav
+	type_url:'2&1&3&4',
 	play_parse:true,
 	lazy:'js:input=/ddvod/.test(input)?"http://jhsj.manduhu.com/?url="+input:input',
 	limit:6,
 	推荐:'json:list[0].vlist;*;*;*;*',
 	一级:'json:list;vod_name;vod_pic;vod_remarks;vod_id',
-	二级:'js:try{let html=request(input);print(html);html=JSON.parse(html);let node=html.data;VOD={vod_id:node["vod_id"],vod_name:node["vod_name"],vod_pic:node["vod_pic"],type_name:node["vod_class"],vod_year:node["vod_year"],vod_area:node["vod_area"],vod_remarks:node["vod_remarks"],vod_actor:node["vod_actor"],vod_director:node["vod_director"],vod_content:node["vod_content"].strip()};let episodes=node.vod_url_with_player;let playMap={};if(typeof play_url==="undefined"){var play_url=""}episodes.forEach(function(ep){let source=ep["name"];if(!playMap.hasOwnProperty(source)){playMap[source]=[]}playMap[source].append(ep["url"])});let playFrom=[];let playList=[];Object.keys(playMap).forEach(function(key){playFrom.append(key);playList.append(playMap[key])});let vod_play_from=playFrom.join("$$$");let vod_play_url=playList.join("$$$");VOD["vod_play_from"]=vod_play_from;VOD["vod_play_url"]=vod_play_url}catch(e){log("获取二级详情页发生错误:"+e.message)}',
+	二级:'js:try{let html=request(input);print(html);html=JSON.parse(html);let node=html.data;VOD={vod_id:node["vod_id"],vod_name:node["vod_name"],vod_pic:node["vod_pic"],type_name:node["vod_type"],vod_year:node["vod_year"],vod_area:node["vod_area"],vod_remarks:node["vod_remarks"],vod_actor:node["vod_actor"],vod_director:node["vod_director"],vod_content:node["vod_content"].strip()};let episodes=node.vod_url_with_player;let playMap={};if(typeof play_url==="undefined"){var play_url=""}episodes.forEach(function(ep){let source=ep["name"];if(!playMap.hasOwnProperty(source)){playMap[source]=[]}playMap[source].append(ep["url"])});let playFrom=[];let playList=[];Object.keys(playMap).forEach(function(key){playFrom.append(key);playList.append(playMap[key])});let vod_play_from=playFrom.join("$$$");let vod_play_url=playList.join("$$$");VOD["vod_play_from"]=vod_play_from;VOD["vod_play_url"]=vod_play_url}catch(e){log("获取二级详情页发生错误:"+e.message)}',
 	搜索:'*',
 }
