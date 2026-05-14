@@ -250,6 +250,16 @@
             "quickSearch": 1,
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "Py_皮皮虾",
+            "name": "❤|皮皮虾|(py)",
+            "type": 3,
+            "api": "./dr_py/py/皮皮虾.py",
+            "ext": "http://154.94.224.98:8762",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1
         },		
         {
             "key": "Py_河马短剧",
