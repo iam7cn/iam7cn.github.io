@@ -5,7 +5,7 @@ var rule = {
 	title:'楚门影院',
 	模板:'首图',
 	host:'https://www.chumenys.com',
-	url:'/vod/show/fyfilter.html',
+	url:'/vodshow/fyfilter.html',
 	filterable:1,//是否启用分类筛选,
 	filter_url:'{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
 	filter: {
@@ -20,7 +20,9 @@ var rule = {
 		2:{cateId:'21'},
 		3:{cateId:'22'},
 		4:{cateId:'23'},
-		51:{cateId:'24'}
+		5:{cateId:'24'},
+		6:{cateId:'25'},
+		51:{cateId:'26'}
 	},
 	class_parse: '.myui-header__menu .hidden-sm:gt(0):lt(6);a&&Text;a&&href;/(\\d+).html',
 	lazy:"js:let html=request(input);input=jsp.pd(html,'.embed-responsive&&iframe&&src')",
