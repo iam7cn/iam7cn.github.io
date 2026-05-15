@@ -96,8 +96,8 @@
             "type": 3,
             "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/金牌影视.js"
-        },       
-		{
+        },
+        {
             "key": "555影视",
             "name": "📟️|555影视|[js]",
             "type": 3,
@@ -108,7 +108,7 @@
             "playerType": 2,
             "ext": "./dr_py/js/555影视[2026].js"
         },
-{
+        {
             "key": "楚门影院",
             "name": "📟️|楚门影院|[js]",
             "type": 3,
@@ -118,8 +118,8 @@
             "changeable": 1,
             "playerType": 2,
             "ext": "./dr_py/js/孜然影视.js"
-        },		
-		{
+        },
+        {
             "key": "4k-av",
             "name": "📟️|4k-av|[js]",
             "type": 3,
@@ -130,7 +130,7 @@
             "playerType": 2,
             "ext": "./dr_py/js/4kav.js"
         },
-		{
+        {
             "key": "哔滴影视",
             "name": "📟️|哔滴影视|[js]",
             "type": 3,
@@ -140,6 +140,287 @@
             "changeable": 1,
             "playerType": 2,
             "ext": "./dr_py/js/bdys.js"
+        },        
+        {
+            "key": "drpy_js_Anime1动畫",
+            "name": "🎽Anime1动畫",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "ext": "./dr_py/js/Anime1动畫.js"
+        },
+        {
+            "key": "drpy_js_童趣",
+            "name": "🧒🏼童趣",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "ext": "./dr_py/js/童趣.js"
+        },
+        {
+            "key": "drpy_js_酷6网",
+            "name": "🆒酷6网",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "ext": "./dr_py/js/酷6网.js"
+        },
+        {
+            "key": "drpy_js_去看吧",
+            "name": "👁️去看吧",
+            "type": 3,
+            "api": "./dr_py/libs/drpy2.min.js",
+            "ext": "./dr_py/js/去看吧.js"
+        },
+        {
+            "key": "BD",
+            "name": "🔌BD资源",
+            "type": 1,
+            "api": "https://api.apibdzy.com/api.php/provide/vod/",
+            "searchable": 1,
+            "filterable": 0,
+            "categories": [
+                "国产动漫",
+                "日韩动漫",
+                "大陆剧",
+                "欧美剧",
+                "韩剧",
+                "日剧",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片"
+            ]
+        },
+        {
+            "key": "cjzy_暴风资源",
+            "name": "🌪️暴风影视",
+            "type": 1,
+            "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+            "playUrl": "",
+            "categories": [
+                "国产剧",
+                "国产动漫",
+                "大陆综艺",
+                "港台综艺",
+                "香港剧",
+                "台湾剧",
+                "日本剧",
+                "欧美剧",
+                "泰国剧",
+                "日本动漫",
+                "日本综艺",
+                "综艺频道",
+                "新马泰综艺",
+                "科幻片",
+                "喜剧片",
+                "战争片"
+            ]
+        },
+        {
+            "key": "量子",
+            "name": "🔊量子综合",
+            "type": 0,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "filterable": 0,
+            "categories": [
+                "国产动漫",
+                "日韩动漫",
+                "国产剧",
+                "韩国剧",
+                "日本剧",
+                "电影片",
+                "连续剧",
+                "综艺片",
+                "动漫片",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "台湾剧",
+                "香港剧",
+                "欧美剧",
+                "记录片",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "体育",
+                "足球",
+                "篮球",
+                "网球",
+                "斯诺克"
+            ]
+        },
+        {
+            "key": "非凡",
+            "name": "🥏非凡综合",
+            "type": 0,
+            "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "filterable": 0,
+            "categories": [
+                "国产动漫",
+                "日韩动漫",
+                "国产剧",
+                "韩国剧",
+                "日本剧",
+                "电影片",
+                "连续剧",
+                "综艺片",
+                "动漫片",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "台湾剧",
+                "香港剧",
+                "欧美剧",
+                "记录片",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "体育",
+                "足球",
+                "篮球",
+                "网球",
+                "斯诺克"
+            ]
+        },
+        {
+            "key": "光速云播",
+            "name": "✨光速云播",
+            "type": 0,
+            "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list",
+            "searchable": 1,
+            "filterable": 0,
+            "categories": [
+                "动作片",
+                "爱情片",
+                "科幻片",
+                "战争片",
+                "剧情片",
+                "恐怖片",
+                "喜剧片",
+                "大陆剧",
+                "港澳剧",
+                "台湾剧",
+                "欧美剧",
+                "动漫电影",
+                "韩剧",
+                "日剧",
+                "泰剧",
+                "伦理片"
+            ]
+        },
+        {
+            "key": "drpy_js_ikanbot3",
+            "name": "💣︎ikanbot3",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/ikanbot3.js"
+        },
+        {
+            "key": "drpy_js_人人影视",
+            "name": "👩\u200d❤\u200d👨人人影视",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/人人影视.js"
+        },
+        {
+            "key": "drpy_js_哔哩影视",
+            "name": "🇧哔哩影视",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/哔哩影视.js"
+        },
+        {
+            "key": "drpy_js_我的哔哩",
+            "name": "🅱️我的哔哩",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/我的哔哩.js"
+        },
+        {
+            "key": "drpy_js_网飞TV",
+            "name": "🥅网飞TV",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/网飞.TV.js"
+        },
+        {
+            "key": "drpy_js_6V新版磁]",
+            "name": "🧲6V新版[磁]",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/6V新版[磁].js"
+        },
+        {
+            "key": "drpy_js_酷酷[V2]",
+            "name": "🏎️酷酷[V2]",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/酷酷[V2].jsd"
+        },
+        {
+            "key": "drpy_js_剧白白",
+            "name": "🎬剧白白",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/剧白白.jsd"
+        },
+        {
+            "key": "drpy_js_网易公版影像",
+            "name": "🕸️网易公版影像",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/网易公版影像.js"
+        },
+        {
+            "key": "drpy_js_菜狗",
+            "name": "🐶菜狗",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/菜狗.js"
+        },
+        {
+            "key": "drpy_js_奇珍异兽",
+            "name": "🦄奇珍异兽",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/奇珍异兽.js"
+        },
+        {
+            "key": "drpy_js_KUBO影视",
+            "name": "🤠KUBO影视",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/KUBO影视.js"
+        },
+        {
+            "key": "drpy_js_360影视",
+            "name": "🕵360影视🕵",
+            "type": 3,
+            "api": "./dr_py/libs/drpy.min.js",
+            "ext": "./dr_py/js/360影视.js"
         },
 		{
             "key": "csp_XYQHiker_Auete影视",
@@ -160,7 +441,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/短剧网.json"
-        },		
+        },
         {
             "key": "csp_XYQHiker_短剧五五",
             "name": "🎬短剧五五|(XYQH)",
@@ -200,7 +481,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/爱看电影.json"
-        },//播放有问题
+        },
         {
             "key": "csp_XYQHiker_低端影视",
             "name": "低端影视(XYQH)",
@@ -220,7 +501,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/看影网.json"
-        },//播放有问题
+        },
         {
             "key": "csp_XYQHiker_好影快看",
             "name": "好影快看(XYQH)",
@@ -240,8 +521,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/即看影视.json"
-        },		
-		{
+        },
+        {
             "key": "Py_华数",
             "name": "🌴|华数|(py)",
             "type": 3,
@@ -260,7 +541,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1
-        },		
+        },
         {
             "key": "Py_河马短剧",
             "name": "🦛|河马短剧|(py)",
@@ -279,7 +560,7 @@
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
-        },        
+        },
         {
             "key": "csp_界影视",
             "name": "🎀|界影视|(py)",
@@ -363,7 +644,7 @@
             "order_num": 0,
             "ext": ""
         },
-		{
+        {
             "key": "壹影视.py",
             "name": "🎃|壹影视|(py)",
             "type": 3,
@@ -519,9 +800,6 @@
             "order_num": 0,
             "ext": ""
         },
-		
-		
-		
         {
             "key": "py_emby.py",
             "name": "py_emby(py)",
@@ -683,7 +961,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./biliext/高中课堂.json"
-        },        
+        },
         {
             "key": "csp_XYQHiker_戏曲多多",
             "name": "🎻戏曲多多",
@@ -694,13 +972,13 @@
             "filterable": 1,
             "ext": "./XYQHiker/戏曲多多.json"
         },
-		{
+        {
             "key": "采集之王",
             "name": "🐢|采集｜合集",
             "type": 3,
             "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/采集之王.js?type=https://hao.iam7.cn/box/dr_py/json/采集静态.json"
-        },        
+        },
         {
             "key": "柚子资源",
             "name": "🍊柚子资源",
@@ -746,7 +1024,7 @@
                 "预告片",
                 "体育"
             ]
-        },        
+        },
         {
             "key": "csp_Djuu",
             "name": "🎧DJ悠悠",
@@ -756,32 +1034,32 @@
             "quickSearch": 1,
             "searchable": 1
         },
-		{
+        {
             "key": "bdzy",
             "name": "百度资源站 「MacCMS」",
             "type": 1,
             "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
-			"playUrl": "",
+            "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "wolong",
             "name": "卧龙资源网 「MacCMS」",
             "type": 1,
             "api": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list",
-			"playUrl": "",
+            "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "魔都资源",
             "name": "魔都资源站 「MacCMS」",
             "type": 1,
             "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
-			"playUrl": "https://www.modujiexi66.com/?url=",
+            "playUrl": "https://www.modujiexi66.com/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -791,7 +1069,7 @@
             "name": "红牛资源站 「MacCMS」",
             "type": 1,
             "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",
-			"playUrl": "https://www.hongniujiexi.com/m3u8/?url=",			
+            "playUrl": "https://www.hongniujiexi.com/m3u8/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -801,7 +1079,7 @@
             "name": "无尽资源站 「MacCMS」",
             "type": 1,
             "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
-			"playUrl": "https://jx.xllmcms.com/dplayer/?url=",
+            "playUrl": "https://jx.xllmcms.com/dplayer/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -811,17 +1089,17 @@
             "name": "淘片资源站 「MacCMS」",
             "type": 1,
             "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
-			"playUrl": "",
+            "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "guanshuzy",
             "name": "光速资源站 「MacCMS」",
             "type": 1,
             "api": "https://api.guangsuapi.com/api.php/provide/vod/josn",
-			"playUrl": "https://www.gszyv.com/m3u8/?url=",
+            "playUrl": "https://www.gszyv.com/m3u8/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -831,21 +1109,21 @@
             "name": "极速资源站 「MacCMS」",
             "type": 1,
             "api": "https://jszyapi.com/api.php/provide/vod",
-			"playUrl": "https://jisuzyjiexi.com/play/?url=",
+            "playUrl": "https://jisuzyjiexi.com/play/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "huohuzy",
             "name": "豪华资源站 「MacCMS」",
             "type": 1,
             "api": "https://hhzyapi.com/api.php/provide/vod",
-			"playUrl": "https://hhzyjiexi.com/play/?url=",
+            "playUrl": "https://hhzyjiexi.com/play/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },		
+        },
         {
             "key": "shandianzy",
             "name": "闪电资源站 「MacCMS」",
@@ -855,7 +1133,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "kuaichezy",
             "name": "快车资源站 「MacCMS」",
             "type": 1,
@@ -864,7 +1142,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "yhzy",
             "name": "樱花资源站 「MacCMS」",
             "type": 1,
@@ -873,7 +1151,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "subozy",
             "name": "速播资源站 「MacCMS」",
             "type": 1,
@@ -882,7 +1160,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "jinyingzy",
             "name": "金鹰资源站 「MacCMS」",
             "type": 1,
@@ -891,7 +1169,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "baofenzy",
             "name": "暴风资源站 「MacCMS」",
             "type": 1,
@@ -900,7 +1178,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "ckzyme",
             "name": "CK资源站 「MacCMS」",
             "type": 1,
@@ -909,7 +1187,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "xinlangzy",
             "name": "新浪资源站 「MacCMS」",
             "type": 1,
@@ -918,7 +1196,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "lzizy",
             "name": "量子资源站 「MacCMS」",
             "type": 1,
@@ -927,7 +1205,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "iKunzy",
             "name": "iKun资源站 「MacCMS」",
             "type": 1,
@@ -936,7 +1214,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "okzy",
             "name": "OK资源站 「MacCMS」",
             "type": 1,
@@ -945,7 +1223,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "maotaizy",
             "name": "茅台资源站 「MacCMS」",
             "type": 1,
@@ -954,7 +1232,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "yayazy",
             "name": "鸭鸭资源站 「MacCMS」",
             "type": 1,
@@ -963,7 +1241,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "niuniuzy",
             "name": "牛牛资源站 「MacCMS」",
             "type": 1,
@@ -972,7 +1250,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "huyazy",
             "name": "虎牙资源站 「MacCMS」",
             "type": 1,
@@ -981,7 +1259,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "ziyuanku",
             "name": "优质资源库 「MacCMS」",
             "type": 1,
@@ -990,7 +1268,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "360zy",
             "name": "360资源库 「MacCMS」",
             "type": 1,
@@ -999,7 +1277,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "wwzy",
             "name": "旺旺资源库 「MacCMS」",
             "type": 1,
@@ -1008,7 +1286,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "ryzy",
             "name": "如意资源库 「MacCMS」",
             "type": 1,
@@ -1017,7 +1295,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "maoyanzy",
             "name": "猫眼资源库 「MacCMS」",
             "type": 1,
@@ -1026,7 +1304,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "789zy",
             "name": "789资源库 「MacCMS」",
             "type": 1,
@@ -1035,7 +1313,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "iqiyizy",
             "name": "爱奇艺资源库 「MacCMS」",
             "type": 1,
@@ -1044,7 +1322,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "yjzy",
             "name": "影剧资源库 「MacCMS」",
             "type": 1,
@@ -1053,7 +1331,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "wsyzy",
             "name": "无水印资源网 「MacCMS」",
             "type": 1,
@@ -1061,8 +1339,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },		
-		{
+        },
+        {
             "key": "doubanzy",
             "name": "豆瓣资源站 「MacCMS」",
             "type": 1,
@@ -1071,7 +1349,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "yutuzy",
             "name": "玉兔资源站 「MacCMS」",
             "type": 1,
@@ -1080,7 +1358,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "ruyizy",
             "name": "如意资源站 「MacCMS」",
             "type": 1,
@@ -1089,7 +1367,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
+        {
             "key": "zuidazy",
             "name": "最大资源站 「MacCMS」",
             "type": 1,
@@ -1124,7 +1402,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },        
+        },
         {
             "key": "xinbazy",
             "name": "杏吧资源站 「MacCMS」",
@@ -1133,7 +1411,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }, 
+        },
         {
             "key": "xiangjiaozy",
             "name": "香蕉资源站 「MacCMS」",
