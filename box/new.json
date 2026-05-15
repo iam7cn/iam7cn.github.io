@@ -335,91 +335,91 @@
             "key": "drpy_js_ikanbot3",
             "name": "💣︎ikanbot3",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/ikanbot3.js"
         },
         {
             "key": "drpy_js_人人影视",
             "name": "👩\u200d❤\u200d👨人人影视",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/人人影视.js"
         },
         {
             "key": "drpy_js_哔哩影视",
             "name": "🇧哔哩影视",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/哔哩影视.js"
         },
         {
             "key": "drpy_js_我的哔哩",
             "name": "🅱️我的哔哩",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/我的哔哩.js"
         },
         {
             "key": "drpy_js_网飞TV",
             "name": "🥅网飞TV",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/网飞.TV.js"
         },
         {
             "key": "drpy_js_6V新版磁]",
             "name": "🧲6V新版[磁]",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/6V新版[磁].js"
         },
         {
             "key": "drpy_js_酷酷[V2]",
             "name": "🏎️酷酷[V2]",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/酷酷[V2].jsd"
         },
         {
             "key": "drpy_js_剧白白",
             "name": "🎬剧白白",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/剧白白.jsd"
         },
         {
             "key": "drpy_js_网易公版影像",
             "name": "🕸️网易公版影像",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/网易公版影像.js"
         },
         {
             "key": "drpy_js_菜狗",
             "name": "🐶菜狗",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/菜狗.js"
         },
         {
             "key": "drpy_js_奇珍异兽",
             "name": "🦄奇珍异兽",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/奇珍异兽.js"
         },
         {
             "key": "drpy_js_KUBO影视",
             "name": "🤠KUBO影视",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
-            "ext": "./dr_py/js/KUBO影视.js"
+            "api": "./dr_py/libs/drpy2.min.js",
+            "ext": "./dr_py/js/KUBO影视[飞].js"
         },
         {
             "key": "drpy_js_360影视",
             "name": "🕵360影视🕵",
             "type": 3,
-            "api": "./dr_py/libs/drpy.min.js",
+            "api": "./dr_py/libs/drpy2.min.js",
             "ext": "./dr_py/js/360影视.js"
         },
 		{
