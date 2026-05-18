@@ -669,33 +669,7 @@
             "playerType": 2,
             "order_num": 0,
             "ext": ""
-        },
-        {
-            "key": "小红薯APP.py",
-            "name": "🔞|小红薯|(py)",
-            "type": 3,
-            "api": "./dr_py/py/小红薯APP.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "order_num": 0,
-            "ext": ""
-        },
-        {
-            "key": "推特APP.py",
-            "name": "🔞|推特|(py)",
-            "type": 3,
-            "api": "./dr_py/py/推特APP.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "order_num": 0,
-            "ext": ""
-        },
+        },        
         {
             "key": "小苹果影视.py",
             "name": "🍏|小苹果|(py)",
