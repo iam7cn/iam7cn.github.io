@@ -318,7 +318,7 @@
             "key": "yutu",
             "name": "玉兔资源",
             "type": 1,
-            "api": "https://yutuzy.com/api.php/provide/vod/",
+            "api": "https://yutuzy.com/api.php/provide/vod/", // https://apiyutu.com/api.php/provide/vod
             "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
@@ -343,7 +343,15 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }
+        },
+		{
+            "key": "91md",
+            "name": "91md",
+            "type": 1,
+            "api": "https://91md.me/api.php/provide/vod/from/mdm3u8/",
+            "tag": "qb,tj,rm",
+            "categories": []
+         },
     ],
     "parses": [
         {

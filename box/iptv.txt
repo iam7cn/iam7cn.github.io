@@ -26,6 +26,9 @@
 嘉兴公共频道,http://nas.iam7.cn:6001/IPTV/jxitv.php?id=jxgg
 嘉兴公共频道,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236553/1/index.m3u8?fmt=ts2hls
 嘉兴公共频道,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235460/1/index.m3u8?fmt=ts2hls
+CHC家庭影院,http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub
+CHC影迷电影,http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
+CHC动作电影,http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
 
 央视台,#genre#
 CCTV-1,http://nas.iam7.cn:6001/IPTV/migu.php?id=cctv1

@@ -1008,6 +1008,47 @@
             "quickSearch": 1,
             "searchable": 1
         },
+		{
+            "key": "小猫咪",
+            "name": "小猫咪(聚)",
+            "type": 1,
+            "api": "http://zy.xiaomaomi.cc/api.php/provide/vod/",
+            "playUrl": "http://xiaomaomi.cc/player/?url=",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+		{
+            "key": "步步高资源",
+            "name": "步步高资源(切)",
+            "type": 1,
+            "api": "https://api.yparse.com/api/json",
+            "searchable": 0,
+            "quickSearch": 0
+        },
+		{
+            "key": "U酷资源",
+            "name": "U酷资源(优)",
+            "type": 1,
+            "api": "https://api.ukuapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+		{
+            "key": "艾旦影视",
+            "name": "艾旦影视(聚)",
+            "type": 1,
+            "api": "https://lovedan.net/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+		{
+            "key": "飘零影院",
+            "name": "飘零影院(聚)",
+            "type": 1,
+            "api": "https://p2100.net/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1
+        },
         {
             "key": "bdzy",
             "name": "百度资源站 「MacCMS」",
