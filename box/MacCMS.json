@@ -559,7 +559,7 @@
         },
         {
             "key": "heiliao",
-            "name": "黑料资源",
+            "name": "黑料资源(免)",
             "type": 1,
             "api": "https://heiliaozyapi.com/api.php/provide/vod",
             "playUrl": "",
@@ -579,7 +579,7 @@
         },
         {
             "key": "xiaoji",
-            "name": "小鸡资源",
+            "name": "小鸡资源(免)",
             "type": 1,
             "api": "https://api.xjzyapi.xyz/provide/vod",
             "playUrl": "",
@@ -609,7 +609,7 @@
         },
         {
             "key": "naixiangxiang",
-            "name": "奶香香资源",
+            "name": "奶香香资源(免)",
             "type": 1,
             "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
             "playUrl": "",
@@ -639,7 +639,7 @@
         },
         {
             "key": "cklunli",
-            "name": "CK伦理资源",
+            "name": "CK伦理资源(免)",
             "type": 1,
             "api": "https://www.ckzy1.com/api.php/provide/vod/at/json/",
             "playUrl": "",
@@ -649,7 +649,7 @@
         },
         {
             "key": "danai",
-            "name": "大奶子资源",
+            "name": "大奶子资源(免)",
             "type": 1,
             "api": "https://apidanaizi.com/api.php/provide/vod/?ac=list",
             "playUrl": "",
@@ -839,7 +839,7 @@
         },
         {
             "key": "18+2",
-            "name": "18+(2)",
+            "name": "18+(2)(免)",
             "type": 1,
             "api": "https://lbapi9.com/api.php/provide/vod/",
             "playUrl": "",
@@ -869,7 +869,7 @@
         },
         {
             "key": "18+5",
-            "name": "18+(5)",
+            "name": "18+(5)(免)",
             "type": 1,
             "api": "https://Naixxzy.com/api.php/provide/vod/",
             "playUrl": "",
