@@ -34,7 +34,22 @@
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/i/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
-        }
+        },
+		{
+            "name": "麻豆",
+            "type": 0,
+            "url": "./live/madou.m3u"
+        },
+        {
+            "name": "atsushi",
+            "type": 0,
+            "url": "./live/Adult.m3u"
+        },
+        {
+            "name": "初秋语",
+            "type": 0,
+            "url": "./live/listx.m3u"
+        },
     ],
     "sites": [
         {
@@ -541,7 +556,7 @@
             "key": "91md",
             "name": "91MD",
             "type": 1,
-            "api": "https://91md.me/api.php/provide/vod/",
+            "api": "https://91md.me/api.php/provide/vod/", // https://md91.cc/api.php/provide/vod/
             "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
@@ -571,7 +586,7 @@
             "key": "huangse",
             "name": "黄色仓库",
             "type": 1,
-            "api": "https://hsckzy001.com/api.php/provide/vod/at/json/",
+            "api": "https://hsckzy001.com/api.php/provide/vod/at/json/", // https://hsckzy.vip/api.php/provide/vod/
             "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
@@ -666,6 +681,54 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{
+            "key": "滴滴",
+            "name": "滴滴采集",
+            "type": 1,
+            "api": "https://api.ddapi.cc/api.php/provide/vod/",
+            "quickSearch": 1,
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "proxy"
+        },
+		{
+            "key": "鸡坤",
+            "name": "鸡坤采集",
+            "type": 1,
+            "api": "https://jkunzyapi.com/api.php/provide/vod/",
+            "quickSearch": 1,
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "proxy"
+        },
+		{
+            "key": "辣椒",
+            "name": "辣椒采集",
+            "type": 1,
+            "api": "https://apilj.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "proxy"
+        },
+		{
+            "key": "鲨鱼",
+            "name": "鲨鱼采集",
+            "type": 1,
+            "api": "https://shayuapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "proxy"
+        },
+        {
+            "key": "dadiapi.com",
+            "name": "大地",
+            "type": 0,
+            "api": "http://dadiapi.com/api.php",
+            "searchable": 1
         },
         {
             "key": "aosika",
@@ -771,11 +834,20 @@
             "key": "lebo",
             "name": "乐播资源",
             "type": 1,
-            "api": "http://lebozy5.com/api.php/provide/vod/",
+            "api": "http://lebozy5.com/api.php/provide/vod/", // https://lbapi9.com/api.php/provide/vod/
             "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{
+            "key": "性细胞|AV",
+            "name": "性细胞",
+            "type": 1,
+            "api": "https://www.xxibaozyw.com/api.php/provide/vod/",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 0
         },
         {
             "key": "yutu",
@@ -826,6 +898,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{
+            "key": "155zy.com",
+            "name": "155(直连)",
+            "type": 1,
+            "api": "https://155api.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 0
         },
         {
             "key": "18+1",
