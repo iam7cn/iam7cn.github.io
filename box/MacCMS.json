@@ -38,17 +38,20 @@
 		{
             "name": "麻豆",
             "type": 0,
-            "url": "./live/madou.m3u"
+            "url": "./live/madou.m3u",
+			"playerType": 1
         },
         {
             "name": "atsushi",
             "type": 0,
-            "url": "./live/Adult.m3u"
+            "url": "./live/Adult.m3u",
+			"playerType": 1
         },
         {
             "name": "初秋语",
             "type": 0,
-            "url": "./live/listx.m3u"
+            "url": "./live/listx.m3u",
+			"playerType": 1
         },
     ],
     "sites": [
