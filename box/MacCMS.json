@@ -52,7 +52,7 @@
             "type": 0,
             "url": "./live/listx.m3u",
 			"playerType": 1
-        },
+        }
     ],
     "sites": [
         {
