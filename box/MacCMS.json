@@ -55,6 +55,36 @@
             "filterable": 1
         },
 		{
+            "key": "1080zyk",
+            "name": "1080资源库",
+            "type": 1,
+            "api": "https://api.1080zyku.com/inc/api_mac10_all.php", //https://api.1080zyku.com/inc/apijson.php
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+		   "key": "1080p-a",
+           "name": "1080P-A",
+		   "type": 1,
+           "api": "https://suoniapi.com/api.php/provide/vod/"
+		   "playUrl": "",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1
+        },    
+        {
+		   "key": "ikuan",
+           "name": "Ikun资源",
+		   "type": 1,
+           "api": "https://ikunzyapi.com/api.php/provide/vod/"
+		   "playUrl": "",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1
+        },
+		{
             "key": "piaolinzy",
             "name": "飘零资源",
             "type": 1,
@@ -134,7 +164,7 @@
             "key": "360zy",
             "name": "360资源",
             "type": 1,
-            "api": "https://360zyzz.com/api.php/provide/vod",
+            "api": "https://360zyzz.com/api.php/provide/vod", // https://360zy.com/api.php/provide/vod/
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -144,6 +174,15 @@
             "name": "最大资源",
             "type": 1,
             "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "hhzy",
+            "name": "火狐资源",
+            "type": 1,
+            "api": "https://hhzyapi.com/api.php/provide/vod",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -173,6 +212,16 @@
             "name": "光速资源",
             "type": 1,
             "api": "https://api.guangsuapi.com/api.php/provide/vod/josn",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "jingpinx",
+            "name": "精品资源",
+            "type": 1,
+            "api": "https://www.jingpinx.com/api.php/provide/vod/?ac=list",
             "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
@@ -488,6 +537,16 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		{
+            "key": "91md",
+            "name": "91MD",
+            "type": 1,
+            "api": "https://91md.me/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "fanqie",
             "name": "番茄资源",
@@ -738,6 +797,16 @@
             "quickSearch": 1,
             "filterable": 1
         },
+        {
+            "key": "fanhao",
+            "name": "番号资源",
+            "type": 1,
+            "api": "http://fhapi9.com/api.php/provide/vod/at/json/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
 		{
             "key": "aosika",
             "name": "奥斯卡资源",
@@ -748,15 +817,75 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key": "fanhao",
-            "name": "番号资源",
+		{
+            "key": "shenlin",
+            "name": "森林资源",
             "type": 1,
-            "api": "http://fhapi9.com/api.php/provide/vod/at/json/",
-            "playUrl": "",
+            "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
+            "playUrl": "https://slslplay.com/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{   
+	       "key": "18+1",
+           "name": "18+(1)",
+		   "type": 1,
+           "api": "https://aosikazy.com/api.php/provide/vod/"
+		   "playUrl": "",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1
+        },
+        {
+		   "key": "18+2",
+           "name": "18+(2)",
+		   "type": 1,
+           "api": "https://lbapi9.com/api.php/provide/vod/"
+		   "playUrl": "",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1		
+        },
+       {
+		   "key": "18+3",
+           "name": "18+(3)",
+		   "type": 1,
+           "api": "https://jkunzyapi.com/api.php/provide/vod/"
+	       "playUrl": "",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1
+       },
+       {
+		   "key": "18+4",
+           "name": "18+(4)",
+		   "type": 1,
+           "api": "https://155api.com/api.php/provide/vod/"
+	       "playUrl": "",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1
+       },
+       {
+	       "key": "18+5",
+           "name": "18+(5)",
+		   "type": 1,
+           "api": "https://Naixxzy.com/api.php/provide/vod/"
+	       "playUrl": "",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1
+       },
+       {
+		   "key": "18+6",
+           "name": "18+(6)",
+		   "type": 1,
+           "api": "https://apiyutu.com/api.php/provide/vod/"
+	       "playUrl": "",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1
         }
     ],
     "parses": [
