@@ -434,7 +434,11 @@
                 "主演": "相声明星",
                 "简介": "相声合集",
                 "分类url": "https://www.xsmp3.com/{cateId}/{catePg}.html;;av",
-                "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
+                "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj",
+				"header": {
+                    "Referer": "https://www.xsmp3.com/",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                    }
             }
         },
         {
