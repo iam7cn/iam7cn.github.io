@@ -120,15 +120,46 @@
             "ext": "./dr_py/js/孜然影视.js"
         },
         {
-            "key": "4k-av",
-            "name": "📟️|4k-av|[js]",
+            "key": "永乐",
+            "name": "🥇永乐｜影视",
             "type": 3,
-            "api": "./dr_py/libs/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": 2,
-            "ext": "./dr_py/js/4kav.js"
+            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/永乐视频.js"
+        },
+        {
+            "key": "金牌123",
+            "name": "🥇金牌｜影视",
+            "type": 3,
+            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/金牌影院.js"
+        },
+        {
+            "key": "海龟",
+            "name": "🥇海龟｜影视",
+            "type": 3,
+            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/海龟.js"
+        },
+        {
+            "key": "鬼片",
+            "name": "🥇鬼片｜影视",
+            "type": 3,
+            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/鬼片之家.js"
+        },
+        {
+            "key": "爱看机器1人",
+            "name": "🥇爱看┃影视",
+            "type": 3,
+            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/爱看机器人.js"
+        },
+        {
+            "key": "月光影视",
+            "name": "🥇月光┃影视",
+            "type": 3,
+            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/月光影视.js"
+        },
+        {
+            "key": "星辰影院",
+            "name": "🥇星辰┃影视",
+            "type": 3,
+            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/星辰影院.js"
         },
         {
             "key": "哔滴影视",
@@ -1246,6 +1277,15 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{
+            "key": "天涯资源",
+            "name": "天涯资源",
+            "type": 1,
+            "api": "https://tyyszyapi.com/api.php/provide/vod/at/?ac=list",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "yayazy",
