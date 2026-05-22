@@ -123,43 +123,71 @@
             "key": "永乐",
             "name": "🥇永乐｜影视",
             "type": 3,
-            "api": "./js/永乐视频.js"
+            "api": "./js/永乐视频.js",
+			"searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2
         },
         {
             "key": "金牌123",
             "name": "🥇金牌｜影视",
             "type": 3,
-            "api": "./js/金牌影院.js"
+            "api": "./js/金牌影院.js",
+			"searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2
         },
         {
             "key": "海龟",
             "name": "🥇海龟｜影视",
             "type": 3,
-            "api": "./js/海龟.js"
+            "api": "./js/海龟.js",
+			"searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2
         },
         {
             "key": "鬼片",
             "name": "🥇鬼片｜影视",
             "type": 3,
-            "api": "./js/鬼片之家.js"
+            "api": "./js/鬼片之家.js",
+			"searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2
         },
         {
             "key": "爱看机器1人",
             "name": "🥇爱看┃影视",
             "type": 3,
-            "api": "./js/爱看机器人.js"
+            "api": "./js/爱看机器人.js",
+			"searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2
         },
         {
             "key": "月光影视",
             "name": "🥇月光┃影视",
             "type": 3,
-            "api": "./js/月光影视.js"
+            "api": "./js/月光影视.js",
+			"searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2
         },
         {
             "key": "星辰影院",
             "name": "🥇星辰┃影视",
             "type": 3,
-            "api": "./js/星辰影院.js"
+            "api": "./js/星辰影院.js",
+			"searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2
         },
         {
             "key": "哔滴影视",
