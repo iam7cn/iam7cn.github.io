@@ -100,7 +100,7 @@ function getVodList(khtml, sch = false) {
         if (!khtml) {throw new Error('源码为空');}  
         let kvods = [];
         let listArr = sch ? cutStr(khtml, 'media">', '</h5>', '', false, 0, true) : cutStr(khtml, '<a', '/a>', '', false, 0, true).filter(flt => flt.includes('alt='));
-        let picProxy = 'https://img-p.aikanbot.com/proxy?url=';
+        let picProxy = 'https://img-p.aikanbot.com/i/968957?u=';
         for (let it of listArr) {
             let kname = sch ? cutStr(it, 'title-text">', '<', '名称') : cutStr(it, 'alt="', '"', '名称');
             let kpic = `${picProxy}${cutStr(it, 'data-src="', '"', '图片')}`;
