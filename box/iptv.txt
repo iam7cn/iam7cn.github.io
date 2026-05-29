@@ -1,5 +1,5 @@
 本地台,#genre#
-浙江卫视,http://jianyun.juzyz.com/cztv.php?id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86
+浙江卫视,http://jianyun.juzyz.com/ztv.php?id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86
 浙江钱江都市,http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 浙江钱江都市,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233005/1/index.m3u8?fmt=ts2hls
 浙江经济生活,http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
@@ -29,6 +29,7 @@
 CHC家庭影院,http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub
 CHC影迷电影,http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
 CHC动作电影,http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
+
 
 央视台,#genre#
 CCTV-1,http://jianyun.juzyz.com/IPTV/migu.php?id=cctv1
